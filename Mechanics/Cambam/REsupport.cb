@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.9.8.0" Name="REsupport">
+  <layers>
+    <layer name="Default" color="127,255,0">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <circle id="2" c="19,7,0" d="3">
+          <ModificationCount>184</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="3" c="19,24,0" d="3">
+          <ModificationCount>149</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="4" c="11,13,0" d="8">
+          <ModificationCount>114</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="8" Closed="true">
+          <ModificationCount>39</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>30,25,0</p>
+            <p>27,25,0</p>
+            <p>27,18,0</p>
+            <p>30,18,0</p>
+            <p>30,11,0</p>
+            <p>27,11,0</p>
+            <p>27,5,0</p>
+            <p>30,5,0</p>
+            <p>30,0,0</p>
+            <p>52,0,0</p>
+            <p>52,30,0</p>
+            <p>30,30,0</p>
+          </pts>
+        </pline>
+        <pline id="15" Closed="true">
+          <ModificationCount>31</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>13,-18,0</p>
+            <p>10,-18,0</p>
+            <p>10,-25,0</p>
+            <p>13,-25,0</p>
+            <p>13,-32,0</p>
+            <p>10,-32,0</p>
+            <p>10,-38,0</p>
+            <p>13,-38,0</p>
+            <p>13,-43,0</p>
+            <p>35,-43,0</p>
+            <p>35,-13,0</p>
+            <p>13,-13,0</p>
+          </pts>
+        </pline>
+        <circle id="1" c="38,13,0" d="8">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <rect id="5" Closed="true" p="0,-52,0" w="60" h="50">
+          <ModificationCount>41</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0,-52,0</p>
+            <p>60,-52,0</p>
+            <p>60,-2,0</p>
+            <p>0,-2,0</p>
+          </pts>
+        </rect>
+        <rect id="6" Closed="true" p="6,-25,0" w="3" h="7">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>6,-25,0</p>
+            <p>9,-25,0</p>
+            <p>9,-18,0</p>
+            <p>6,-18,0</p>
+          </pts>
+        </rect>
+        <rect id="7" Closed="true" p="6,-38,0" w="3" h="6">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>6,-38,0</p>
+            <p>9,-38,0</p>
+            <p>9,-32,0</p>
+            <p>6,-32,0</p>
+          </pts>
+        </rect>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts />
+  <ActiveLayer>Default</ActiveLayer>
+</CADFile>
