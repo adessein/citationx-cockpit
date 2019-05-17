@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="136.54071mm"
+   height="107.058mm"
+   viewBox="0 0 136.54071 107.058"
    version="1.1"
    id="svg14601"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="panel5.svg">
   <sodipodi:namedview
      id="base"
@@ -23,18 +23,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="122.82077"
-     inkscape:cy="586.90244"
+     inkscape:zoom="0.7"
+     inkscape:cx="64.652121"
+     inkscape:cy="130.78132"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="1680"
+     inkscape:window-height="1171"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs14595" />
   <metadata
@@ -45,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,7 +58,8 @@
      inkscape:groupmode="layer"
      inkscape:label="Calque 1"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-15.752453,-97.41629)">
     <path
        d="m 152.13725,159.93607 v 13.28153 15.66392 15.27871 0.003 0"
        id="path826"
@@ -518,7 +523,8 @@
   <g
      inkscape:label="Calque 2"
      id="layer28"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     transform="translate(-15.752453,-97.41629)">
     <g
        id="g16556-9"
        transform="matrix(0.10909091,0,0,0.10909091,83.754147,195.38966)"
@@ -821,7 +827,7 @@
        id="circle8293-6-7-6-7-4-9-3-65"
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.29999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 15.962002,97.566291 65.61419,5.29e-4 v 62.45764 h 70.566978 v 44.29983 H 15.902537 Z"
        id="path985"
        inkscape:connector-curvature="0" />
@@ -1342,7 +1348,7 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.23293164;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 28.196304,112.06342 49.633241,4.4e-4 -0.314989,54.62873 60.095394,0 -0.18899,33.32282 -109.345882,0.0954 z"
+       d="m 28.196304,112.06342 49.633241,4.4e-4 -0.314989,54.62873 h 60.095394 l -0.18899,33.32282 -109.345882,0.0954 z"
        id="path985-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
