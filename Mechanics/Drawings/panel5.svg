@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="64.652121"
-     inkscape:cy="130.78132"
+     inkscape:zoom="1.979899"
+     inkscape:cx="290.74618"
+     inkscape:cy="231.63818"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer28"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1171"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,7 +57,7 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Calque 1"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      transform="translate(-15.752453,-97.41629)">
     <path
@@ -1346,11 +1346,18 @@
            id="path6619" />
       </g>
     </g>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.23293164;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 28.196304,112.06342 49.633241,4.4e-4 -0.314989,54.62873 h 60.095394 l -0.18899,33.32282 -109.345882,0.0954 z"
-       id="path985-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+    <circle
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.09999999;stroke-miterlimit:4;stroke-dasharray:0.3, 0.1;stroke-dashoffset:0;stroke-opacity:0.92574259"
+       id="circle5640-3"
+       cx="66.486633"
+       cy="150.26933"
+       r="7.4499998" />
+    <ellipse
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92574259"
+       id="ellipse7039-6"
+       cx="66.486633"
+       cy="150.26933"
+       rx="3.9499998"
+       ry="3.9500005" />
   </g>
 </svg>
