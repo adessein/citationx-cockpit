@@ -7,9 +7,9 @@ The Citation X that I use is the outstanding version developped by the PAF team 
  - forum (in french) : http://equipe-flightgear.forumactif.com/  
  - repository : https://sourceforge.net/projects/pafteam/  
 
-Below are screenshots from flightgear and from a Youtube video showing the cockpit.  
+Below are screenshots from flightgear and from a [Youtube video](https://youtu.be/rzMN0wDuVSo?t=93) showing the cockpit.  
 ![Screenshot from flightgear](https://github.com/adessein/citationx-cockpit/blob/master/Mechanics/Screenshots/overview800.jpg)  
-![Screenshot from youtube video](https://github.com/adessein/citationx-cockpit/blob/master/Mechanics/Screenshots/cockpitYoutube.png)  
+![Screenshot from youtube video](https://github.com/adessein/citationx-cockpit/blob/master/Mechanics/Screenshots/cockpitYoutube.jpg)  
 
 My project covers :  
  - the drawings used for cutting the MDF sheets and build the cockpit,  
