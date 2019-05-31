@@ -1,3 +1,6 @@
+# DXF converted from SVG for CamBam
+*.dxf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
