@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -88,13 +88,13 @@
      scale-x="0.17947"
      inkscape:measure-end="2702.55,606.939"
      inkscape:measure-start="2630.06,608.255"
-     inkscape:current-layer="layer27"
+     inkscape:current-layer="layer15"
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="1920"
-     inkscape:cy="896.73569"
-     inkscape:cx="3992.621"
-     inkscape:zoom="2.067682"
+     inkscape:cy="1062.1173"
+     inkscape:cx="3611.5273"
+     inkscape:zoom="1.0610557"
      showgrid="true"
      id="namedview10826"
      inkscape:window-height="1171"
@@ -114,7 +114,12 @@
      inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
-       id="grid7817" />
+       id="grid7817"
+       units="px"
+       spacingx="1.7947"
+       spacingy="1.7947"
+       dotted="false"
+       visible="false" />
     <sodipodi:guide
        inkscape:locked="false"
        id="guide35896"
@@ -155,17 +160,29 @@
        id="guide35910"
        orientation="0,1"
        position="663.13427,174.89733" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5846"
+       units="mm"
+       spacingx="0.67831181"
+       spacingy="0.67831181"
+       color="#d73fff"
+       opacity="0.1254902"
+       empcolor="#601c73"
+       empopacity="0.1254902" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="Backups"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
        id="layer9"
        inkscape:label="Original"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          inkscape:label="Panel original"
          id="g21361"
@@ -3923,7 +3940,8 @@
          inkscape:groupmode="layer"
          inkscape:label="Front original"
          transform="translate(193.1959,-12.89869)"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <path
            d="m 343.746,99.616 -9.995,0.294 -9.996,0.294 -5.298,0.156 -9.987,0.513 -9.986,0.513 -9.987,0.513 -9.987,0.513 -2.903,0.149 -9.973,0.727 -9.974,0.728 -3.051,0.223 -9.963,0.855 -10.091,0.866 -9.848,1.738 -9.847,1.738 -0.742,0.131 -9.608,2.773 -9.608,2.773 -9.608,2.773 -9.608,2.773 -4.83,1.394 -8.829,4.695 -8.829,4.695 -8.83,4.695 -8.829,4.695 -8.355,4.443 -6.295,7.77 -6.295,7.77 -6.295,7.77 -6.295,7.77 -6.295,7.77 -6.295,7.77 -0.436,0.537 0.315,9.995 0.157,4.982 -7.824,6.228 -7.825,6.227 -7.824,6.227 -7.825,6.227 -2.216,1.763 -6.502,7.598 -6.502,7.597 -6.502,7.598 -2.215,2.588 -4.751,8.297 -4.671,8.843 -4.67,8.842 -4.67,8.843 -0.461,0.873 -2.539,9.672 -2.539,9.672 -2.172,8.273 -0.419,9.991 -0.419,9.991 -0.42,9.992 -0.419,9.991 -0.359,8.541 h 0.148 8.533 10 10 10 10 10 10 10 4.725 0.012 0.005 10 10 10 10 10 3.231 10 10 7.603 10 10 10 10 10 10 10 10 8.858 82.173 10 10 6.434 10 10 10 10 10 2.766 10 10 10 10 10 10 10 10 10 10 10 10 9.402 10 10 10 10 10 10 10 10 4.413 4.359 0.011 10 10 10 10 0.572 10 10 10 10 10 10 10 10 10 10 10 11.031 10 10 10 10 10 10 1.519 7.705 10 10 10 10 10 10 10 10 7.313 0.848 l -0.418,-9.991 -0.417,-9.992 -0.417,-9.991 -0.417,-9.991 -0.368,-8.806 -2.562,-9.666 -2.561,-9.666 -2.126,-8.021 -4.671,-8.842 -4.67,-8.843 -4.67,-8.842 -0.461,-0.872 -4.548,-8.298 -6.502,-7.598 -6.502,-7.598 -6.502,-7.597 -2.214,-2.588 -7.82,-6.233 -7.82,-6.232 -7.82,-6.233 -7.82,-6.232 -2.185,-1.742 v -10 -4.977 l -6.038,-7.971 -6.038,-7.972 -6.038,-7.971 -6.038,-7.971 -6.039,-7.972 -5.53,-7.3 -8.711,-4.912 -8.71,-4.911 -8.711,-4.912 -8.711,-4.911 -6.344,-3.577 -9.607,-2.773 -9.608,-2.773 -9.608,-2.773 -9.608,-2.773 -4.83,-1.394 -9.848,-1.738 -9.847,-1.738 -0.742,-0.131 -9.964,-0.855 -10.091,-0.866 -9.978,-0.654 -9.979,-0.653 -5.667,-0.371 -9.987,-0.513 -9.986,-0.513 -9.987,-0.513 -9.987,-0.513 -2.902,-0.149 -9.995,-0.307 -9.995,-0.307 -4.212,-0.13"
            id="path8074"
@@ -8689,12 +8707,14 @@
        style="display:inline"
        inkscape:label="Backup All panels"
        id="g12745"
-       inkscape:groupmode="layer">
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
       <g
          style="display:inline"
          inkscape:label="Panel limits"
          id="g11349"
-         inkscape:groupmode="layer">
+         inkscape:groupmode="layer"
+         sodipodi:insensitive="true">
         <circle
            r="5.0534229"
            cy="397.64664"
@@ -8778,7 +8798,8 @@
          style="display:inline"
          inkscape:label="Panel decoration"
          id="g11665"
-         inkscape:groupmode="layer">
+         inkscape:groupmode="layer"
+         sodipodi:insensitive="true">
         <text
            id="text11353"
            y="404.7804"
@@ -12359,7 +12380,8 @@
        inkscape:groupmode="layer"
        id="layer8"
        inkscape:label="Screen cuts for 1 screen"
-       style="display:inline;opacity:1">
+       style="display:inline;opacity:1"
+       sodipodi:insensitive="true">
       <rect
          transform="translate(193.1959,-12.89869)"
          style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.06783118;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92574259"
@@ -12526,7 +12548,8 @@
        inkscape:groupmode="layer"
        id="layer29"
        inkscape:label="Panel 7"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.06783581;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0"
@@ -13082,17 +13105,20 @@
        inkscape:groupmode="layer"
        id="g14165"
        inkscape:label="Panel 6"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          inkscape:groupmode="layer"
          id="g12769"
          inkscape:label="Panel limits"
-         style="display:inline" />
+         style="display:inline"
+         sodipodi:insensitive="true" />
       <g
          inkscape:groupmode="layer"
          id="g13085"
          inkscape:label="Panel decoration"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:7.17880011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17947"
@@ -13993,7 +14019,8 @@
        inkscape:groupmode="layer"
        id="layer7"
        inkscape:label="Panel 5"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          style="display:inline"
          id="g7633"
@@ -15219,12 +15246,14 @@
        style="display:inline"
        inkscape:label="Panel 4"
        id="g8481"
-       inkscape:groupmode="layer">
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
       <g
          style="display:inline"
          inkscape:label="Panel limits"
          id="g7083"
-         inkscape:groupmode="layer">
+         inkscape:groupmode="layer"
+         sodipodi:insensitive="true">
         <rect
            style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.20349355;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92574259"
            id="rect8716"
@@ -16326,7 +16355,8 @@
        inkscape:groupmode="layer"
        id="layer23"
        inkscape:label="Panel 3"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          id="g49093"
          transform="translate(34.062351,6.7997134)">
@@ -16539,7 +16569,8 @@
        style="display:inline"
        inkscape:label="Panel 2"
        id="g5638"
-       inkscape:groupmode="layer">
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
       <g
          style="display:inline"
          id="g36924"
@@ -18386,7 +18417,8 @@
        style="display:inline"
        inkscape:label="Panel 1"
        id="g7059"
-       inkscape:groupmode="layer">
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
       <g
          id="g47325"
          transform="translate(3.2080841,111.24944)">
@@ -19804,7 +19836,65 @@
        inkscape:groupmode="layer"
        id="layer27"
        inkscape:label="Speeds"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
+      <g
+         transform="translate(30.187702,31.662364)"
+         style="display:inline"
+         id="g5353-9">
+        <rect
+           y="124.50021"
+           x="675.98206"
+           height="14.852749"
+           width="29.747679"
+           id="rect35722-5-9-7-3-5-36"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="126.99658"
+           x="682.35303"
+           height="9.7640915"
+           width="20.277924"
+           id="rect5308-06"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.07142998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(0,31.662364)"
+         style="display:inline"
+         id="g5353-1">
+        <rect
+           y="124.50021"
+           x="675.98206"
+           height="14.852749"
+           width="29.747679"
+           id="rect35722-5-9-7-3-5-27"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="126.99658"
+           x="682.35303"
+           height="9.7640915"
+           width="20.277924"
+           id="rect5308-0"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.07142998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(30.187702)"
+         style="display:inline"
+         id="g5353-3">
+        <rect
+           y="124.50021"
+           x="675.98206"
+           height="14.852749"
+           width="29.747679"
+           id="rect35722-5-9-7-3-5-6"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="126.99658"
+           x="682.35303"
+           height="9.7640915"
+           width="20.277924"
+           id="rect5308-7"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.07142998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
       <path
          transform="translate(193.1959,-12.89869)"
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.17947px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -19812,130 +19902,6 @@
          id="path35894"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccccc" />
-      <g
-         style="display:inline"
-         id="g35892"
-         transform="translate(0.67583836)">
-        <g
-           transform="translate(-12.939142,35.141199)"
-           id="g35821-6-1"
-           style="display:inline">
-          <rect
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05332409;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-2-2"
-             width="20.266193"
-             height="9.4291172"
-             x="725.21582"
-             y="124.25974" />
-          <rect
-             style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-5-9-7"
-             width="29.747679"
-             height="14.852749"
-             x="718.83899"
-             y="121.59589" />
-        </g>
-        <g
-           transform="translate(-43.409292,35.20893)"
-           id="g35821-6-1-0"
-           style="display:inline">
-          <rect
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05332409;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-2-2-9"
-             width="20.266193"
-             height="9.4291172"
-             x="725.21582"
-             y="124.25974" />
-          <rect
-             style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-5-9-7-3"
-             width="29.747679"
-             height="14.852749"
-             x="718.83899"
-             y="121.59589" />
-        </g>
-      </g>
-      <g
-         style="display:inline"
-         id="g35821-6-1-06"
-         transform="translate(-12.386796,18.988899)">
-        <rect
-           y="124.25974"
-           x="725.21582"
-           height="9.4291172"
-           width="20.266193"
-           id="rect35722-2-2-2"
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05332409;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <rect
-           y="121.59589"
-           x="718.83899"
-           height="14.852749"
-           width="29.747679"
-           id="rect35722-5-9-7-6"
-           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      </g>
-      <g
-         style="display:inline"
-         id="g35821-6-1-0-1"
-         transform="translate(-42.856946,19.05663)">
-        <rect
-           y="124.25974"
-           x="725.21582"
-           height="9.4291172"
-           width="20.266193"
-           id="rect35722-2-2-9-8"
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05332409;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <rect
-           y="121.59589"
-           x="718.83899"
-           height="14.852749"
-           width="29.747679"
-           id="rect35722-5-9-7-3-7"
-           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      </g>
-      <g
-         style="display:inline"
-         id="g35892-9"
-         transform="translate(0.55234574,-32.3046)">
-        <g
-           transform="translate(-12.939142,35.141199)"
-           id="g35821-6-1-2"
-           style="display:inline">
-          <rect
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05332409;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-2-2-0"
-             width="20.266193"
-             height="9.4291172"
-             x="725.21582"
-             y="124.25974" />
-          <rect
-             style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-5-9-7-2"
-             width="29.747679"
-             height="14.852749"
-             x="718.83899"
-             y="121.59589" />
-        </g>
-        <g
-           transform="translate(-43.409292,35.20893)"
-           id="g35821-6-1-0-3"
-           style="display:inline">
-          <rect
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05332409;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-2-2-9-7"
-             width="20.266193"
-             height="9.4291172"
-             x="725.21582"
-             y="124.25974" />
-          <rect
-             style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect35722-5-9-7-3-5"
-             width="29.747679"
-             height="14.852749"
-             x="718.83899"
-             y="121.59589" />
-        </g>
-      </g>
       <g
          id="g39727"
          transform="matrix(0.11855539,0,0,0.11855539,703.46932,132.11247)"
@@ -20018,13 +19984,69 @@
            id="path49286"
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.06783118;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       </g>
+      <g
+         transform="translate(0,15.950738)"
+         style="display:inline"
+         id="g5353-6">
+        <rect
+           y="124.50021"
+           x="675.98206"
+           height="14.852749"
+           width="29.747679"
+           id="rect35722-5-9-7-3-5-2"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="126.99658"
+           x="682.35303"
+           height="9.7640915"
+           width="20.277924"
+           id="rect5308-9"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.07142998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         id="g5353">
+        <rect
+           y="124.50021"
+           x="675.98206"
+           height="14.852749"
+           width="29.747679"
+           id="rect35722-5-9-7-3-5"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="126.99658"
+           x="682.35303"
+           height="9.7640915"
+           width="20.277924"
+           id="rect5308"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.07142998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(30.187703,15.950738)"
+         style="display:inline"
+         id="g5353-5">
+        <rect
+           y="124.50021"
+           x="675.98206"
+           height="14.852749"
+           width="29.747679"
+           id="rect35722-5-9-7-3-5-3"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.08108339;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="126.99658"
+           x="682.35303"
+           height="9.7640915"
+           width="20.277924"
+           id="rect5308-5"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.07142998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="layer28"
        inkscape:label="Right side"
        transform="translate(-193.1959,12.89869)"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <path
          transform="translate(193.1959,-12.89869)"
          inkscape:connector-curvature="0"
@@ -20428,7 +20450,8 @@
        inkscape:groupmode="layer"
        id="layer1"
        inkscape:label="LaserCutter limits"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <rect
          style="opacity:1;fill:none;fill-opacity:1;stroke:#6e6e6e;stroke-width:1.35301495;stroke-miterlimit:4;stroke-dasharray:1.35301493, 1.35301493;stroke-dashoffset:0;stroke-opacity:0.98062014"
          id="rect5443"
@@ -20451,7 +20474,8 @@
        id="layer6"
        inkscape:label="Front decoration"
        style="display:inline"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
       <path
          transform="translate(193.1959,-12.89869)"
          inkscape:connector-curvature="0"
@@ -20464,12 +20488,14 @@
        id="layer5"
        inkscape:label="LCD screens"
        style="display:none"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
       <g
          inkscape:groupmode="layer"
          id="layer10"
          inkscape:label="7-inch screens"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <image
            style="display:inline"
            y="235.30168"
@@ -20493,7 +20519,8 @@
          inkscape:groupmode="layer"
          id="layer2"
          inkscape:label="Big screens"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <rect
            style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.67831182;stroke-miterlimit:4;stroke-dasharray:2.71324731, 0.67831183;stroke-dashoffset:0;stroke-opacity:0.92574259"
            id="rect6212"
@@ -20576,13 +20603,15 @@
        inkscape:label="Screen 5"
        id="g16414"
        inkscape:groupmode="layer"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
       <g
          style="display:inline"
          transform="translate(193.1959,-12.89869)"
          inkscape:label="Decoration"
          id="g16384"
-         inkscape:groupmode="layer">
+         inkscape:groupmode="layer"
+         sodipodi:insensitive="true">
         <g
            id="g22060"
            transform="matrix(0.08157727,0,0,0.08157727,269.15799,339.89323)"
@@ -20619,7 +20648,8 @@
          transform="translate(193.1959,-12.89869)"
          inkscape:label="Limits"
          id="g16390"
-         inkscape:groupmode="layer" />
+         inkscape:groupmode="layer"
+         sodipodi:insensitive="true" />
       <g
          id="g22060-3"
          transform="matrix(0.08157727,0,0,0.08157727,978.72107,326.88242)"
@@ -20867,7 +20897,8 @@
        inkscape:groupmode="layer"
        id="layer22"
        inkscape:label="Screen 4-"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <path
          transform="translate(-193.1959,12.89869)"
          inkscape:connector-curvature="0"
@@ -20992,7 +21023,8 @@
        id="layer21"
        inkscape:label="Screen 3-"
        style="display:inline"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
       <path
          inkscape:connector-curvature="0"
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.06783118;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -21109,7 +21141,8 @@
        id="layer20"
        inkscape:label="Screen 2-"
        style="display:inline"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
       <path
          transform="translate(193.1959,-12.89869)"
          inkscape:connector-curvature="0"
@@ -21228,19 +21261,22 @@
        id="layer19"
        inkscape:label="Screen 1"
        style="display:inline"
-       transform="translate(-193.1959,12.89869)">
+       transform="translate(-193.1959,12.89869)"
+       sodipodi:insensitive="true">
       <g
          inkscape:groupmode="layer"
          id="layer26"
          inkscape:label="Decoration"
          transform="translate(193.1959,-12.89869)"
-         style="display:inline" />
+         style="display:inline"
+         sodipodi:insensitive="true" />
       <g
          inkscape:groupmode="layer"
          id="layer25"
          inkscape:label="Limits"
          transform="translate(193.1959,-12.89869)"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <circle
            transform="translate(-193.1959,12.89869)"
            style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.06787901;stroke-miterlimit:4;stroke-dasharray:0.06787901, 0.06787901;stroke-dashoffset:0;stroke-opacity:0.92574259"
@@ -21464,7 +21500,8 @@
        id="layer3"
        inkscape:label="Front pilot"
        transform="translate(-193.1959,12.89869)"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <path
          transform="translate(193.1959,-12.89869)"
          inkscape:connector-curvature="0"
@@ -21894,7 +21931,8 @@
        id="layer24"
        inkscape:label="Left side"
        transform="translate(-193.1959,12.89869)"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <path
          transform="translate(193.1959,-12.89869)"
          inkscape:connector-curvature="0"
@@ -23296,7 +23334,8 @@
          inkscape:groupmode="layer"
          id="layer18"
          inkscape:label="Limits"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <rect
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.06746481;stroke-miterlimit:4;stroke-dasharray:0.0674648, 0.0674648;stroke-dashoffset:0;stroke-opacity:0.91025636"
            id="rect6249-6"
@@ -23430,7 +23469,8 @@
          inkscape:groupmode="layer"
          id="layer16"
          inkscape:label="AP panel decorations"
-         style="display:inline">
+         style="display:inline"
+         sodipodi:insensitive="true">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:7.17880011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17947"
@@ -23822,6 +23862,1469 @@
          x="688.94305"
          y="76.551064" />
     </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer30"
+       inkscape:label="AP Panel"
+       style="display:inline">
+      <g
+         inkscape:groupmode="layer"
+         id="layer31"
+         inkscape:label="PCB"
+         style="display:inline">
+        <g
+           id="g6622"
+           transform="translate(-19.188132,0.65798154)">
+          <title
+             id="title6631">PCB</title>
+          <g
+             c_origin="3890,3555"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge321"
+             id="gge321"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="270"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3897.08,3554.12"
+               c_rotation="90"
+               c_mirror=""
+               id="gge322"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED1"
+                 d="m 3894.63,3554.118 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -3.48,-4.22 -0.2,-0.41 -0.61,-0.61 h 4.29"
+                 c_note="note_pre"
+                 id="path13"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3902.58,3554.12"
+               c_rotation="270"
+               c_mirror=""
+               id="gge323"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 3904.01,3554.318 h 0.21 l 0.41,0.21 0.2,0.2 0.2,0.41 v 0.82 l -0.2,0.41 -0.2,0.2 -0.41,0.21 h -0.41 l -0.41,-0.21 -0.62,-0.4 -2.04,-2.05 v 2.86 m 4.29,2.99 -4.29,-1.64 m 4.29,1.64 -4.29,1.64 m 1.43,-2.66 v 2.04 m 2.86,4.42 v -2.04 l -1.84,-0.21 0.21,0.21 0.2,0.61 v 0.61 l -0.2,0.62 -0.41,0.41 -0.61,0.2 h -0.41 l -0.62,-0.2 -0.41,-0.41 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.21,-0.21 0.41,-0.2 m 3.47,4.21 -2.04,1.64 h -2.25 m 4.29,1.63 -2.04,-1.63 m 2.04,3.39 v 2.25 l -1.63,-1.23 v 0.62 l -0.21,0.41 -0.2,0.2 -0.61,0.21 h -0.41 l -0.62,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.21,-0.2 0.41,-0.21 m 3.47,4.22 h -3.06 l -0.62,0.2 -0.41,0.41 -0.2,0.61 v 0.41 l 0.2,0.62 0.41,0.41 0.62,0.2 h 3.06 m 0,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43 m 4.29,5.44 -0.2,-0.61 -0.61,-0.41 -1.03,-0.21 h -0.61 l -1.02,0.21 -0.62,0.41 -0.2,0.61 v 0.41 l 0.2,0.61 0.62,0.41 1.02,0.21 h 0.61 l 1.03,-0.21 0.61,-0.41 0.2,-0.61 v -0.41 m -1.43,5.65 -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.61,-0.2 h 0.21 l 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.82,0.21 h -1.02 l -1.02,-0.21 -0.62,-0.41 -0.2,-0.61 v -0.41 l 0.2,-0.61 0.41,-0.21 m 3.68,6.96 h -4.29 m 0,0 v 2.45 m 4.29,1.35 h -4.29 m 4.29,0 v 2.66 m -2.04,-2.66 v 1.64 m -2.25,-1.64 v 2.66 m 4.29,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43"
+                 id="path16"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3892.362 3554.331 3890 3555.905 3887.638 3554.331 3892.362 3554.331"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge324"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3894.24 3545.228 3894.24 3564.908 3885.58 3564.908 3885.58 3545.228 3894.24 3545.228"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge325"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3990,3555"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge328"
+             id="gge328"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="270"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3997.08,3554.12"
+               c_rotation="90"
+               c_mirror=""
+               id="gge329"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED2"
+                 d="m 3994.63,3554.118 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -3.27,-4.42 h -0.21 l -0.41,-0.21 -0.2,-0.2 -0.2,-0.41 v -0.82 l 0.2,-0.41 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.62,0.41 2.04,2.04 v -2.86"
+                 c_note="note_pre"
+                 id="path22"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="4002.58,3554.12"
+               c_rotation="270"
+               c_mirror=""
+               id="gge330"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 4004.01,3554.318 h 0.21 l 0.41,0.21 0.2,0.2 0.2,0.41 v 0.82 l -0.2,0.41 -0.2,0.2 -0.41,0.21 h -0.41 l -0.41,-0.21 -0.62,-0.4 -2.04,-2.05 v 2.86 m 4.29,2.99 -4.29,-1.64 m 4.29,1.64 -4.29,1.64 m 1.43,-2.66 v 2.04 m 2.86,4.42 v -2.04 l -1.84,-0.21 0.21,0.21 0.2,0.61 v 0.61 l -0.2,0.62 -0.41,0.41 -0.61,0.2 h -0.41 l -0.62,-0.2 -0.41,-0.41 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.21,-0.21 0.41,-0.2 m 3.47,4.21 -2.04,1.64 h -2.25 m 4.29,1.63 -2.04,-1.63 m 2.04,3.39 v 2.25 l -1.63,-1.23 v 0.62 l -0.21,0.41 -0.2,0.2 -0.61,0.21 h -0.41 l -0.62,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.21,-0.2 0.41,-0.21 m 3.47,4.22 h -3.06 l -0.62,0.2 -0.41,0.41 -0.2,0.61 v 0.41 l 0.2,0.62 0.41,0.41 0.62,0.2 h 3.06 m 0,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43 m 4.29,5.44 -0.2,-0.61 -0.61,-0.41 -1.03,-0.21 h -0.61 l -1.02,0.21 -0.62,0.41 -0.2,0.61 v 0.41 l 0.2,0.61 0.62,0.41 1.02,0.21 h 0.61 l 1.03,-0.21 0.61,-0.41 0.2,-0.61 v -0.41 m -1.43,5.65 -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.61,-0.2 h 0.21 l 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.82,0.21 h -1.02 l -1.02,-0.21 -0.62,-0.41 -0.2,-0.61 v -0.41 l 0.2,-0.61 0.41,-0.21 m 3.68,6.96 h -4.29 m 0,0 v 2.45 m 4.29,1.35 h -4.29 m 4.29,0 v 2.66 m -2.04,-2.66 v 1.64 m -2.25,-1.64 v 2.66 m 4.29,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43"
+                 id="path25"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3992.362 3554.331 3990 3555.905 3987.638 3554.331 3992.362 3554.331"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge331"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3994.24 3545.228 3994.24 3564.908 3985.58 3564.908 3985.58 3545.228 3994.24 3545.228"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge332"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3890,3495"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge335"
+             id="gge335"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="270"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3897.08,3494.12"
+               c_rotation="90"
+               c_mirror=""
+               id="gge336"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED3"
+                 d="m 3894.63,3494.118 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -4.29,-4.63 v -2.25 l 1.63,1.23 v -0.61 l 0.21,-0.41 0.2,-0.21 0.61,-0.2 h 0.41 l 0.62,0.2 0.41,0.41 0.2,0.62 v 0.61 l -0.2,0.61 -0.21,0.21 -0.41,0.2"
+                 c_note="note_pre"
+                 id="path31"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3902.58,3494.12"
+               c_rotation="270"
+               c_mirror=""
+               id="gge337"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 3904.01,3494.318 h 0.21 l 0.41,0.21 0.2,0.2 0.2,0.41 v 0.82 l -0.2,0.41 -0.2,0.2 -0.41,0.21 h -0.41 l -0.41,-0.21 -0.62,-0.4 -2.04,-2.05 v 2.86 m 4.29,2.99 -4.29,-1.64 m 4.29,1.64 -4.29,1.64 m 1.43,-2.66 v 2.04 m 2.86,4.42 v -2.04 l -1.84,-0.21 0.21,0.21 0.2,0.61 v 0.61 l -0.2,0.62 -0.41,0.41 -0.61,0.2 h -0.41 l -0.62,-0.2 -0.41,-0.41 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.21,-0.21 0.41,-0.2 m 3.47,4.21 -2.04,1.64 h -2.25 m 4.29,1.63 -2.04,-1.63 m 2.04,3.39 v 2.25 l -1.63,-1.23 v 0.62 l -0.21,0.41 -0.2,0.2 -0.61,0.21 h -0.41 l -0.62,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.21,-0.2 0.41,-0.21 m 3.47,4.22 h -3.06 l -0.62,0.2 -0.41,0.41 -0.2,0.61 v 0.41 l 0.2,0.62 0.41,0.41 0.62,0.2 h 3.06 m 0,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43 m 4.29,5.44 -0.2,-0.61 -0.61,-0.41 -1.03,-0.21 h -0.61 l -1.02,0.21 -0.62,0.41 -0.2,0.61 v 0.41 l 0.2,0.61 0.62,0.41 1.02,0.21 h 0.61 l 1.03,-0.21 0.61,-0.41 0.2,-0.61 v -0.41 m -1.43,5.65 -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.61,-0.2 h 0.21 l 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.82,0.21 h -1.02 l -1.02,-0.21 -0.62,-0.41 -0.2,-0.61 v -0.41 l 0.2,-0.61 0.41,-0.21 m 3.68,6.96 h -4.29 m 0,0 v 2.45 m 4.29,1.35 h -4.29 m 4.29,0 v 2.66 m -2.04,-2.66 v 1.64 m -2.25,-1.64 v 2.66 m 4.29,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43"
+                 id="path34"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3892.362 3494.331 3890 3495.905 3887.638 3494.331 3892.362 3494.331"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge338"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3894.24 3485.228 3894.24 3504.908 3885.58 3504.908 3885.58 3485.228 3894.24 3485.228"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge339"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3990,3495"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge342"
+             id="gge342"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3982.92,3495.88"
+               c_rotation="90"
+               c_mirror=""
+               id="gge343"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED4"
+                 d="m 3980.47,3495.882 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -4.29,-6.26 2.86,2.04 v -3.07 m -2.86,1.03 h 4.29"
+                 c_note="note_pre"
+                 id="path40"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3977.42,3495.88"
+               c_rotation="90"
+               c_mirror=""
+               id="gge344"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 3975.99,3495.682 h -0.21 l -0.41,-0.21 -0.2,-0.2 -0.2,-0.41 v -0.82 l 0.2,-0.41 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.62,0.4 2.04,2.05 v -2.86 m -4.29,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.64 m -1.43,2.66 v -2.04 m -2.86,-4.42 v 2.04 l 1.84,0.21 -0.21,-0.21 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.41,-0.41 0.61,-0.2 h 0.41 l 0.62,0.2 0.41,0.41 0.2,0.62 v 0.61 l -0.2,0.61 -0.21,0.21 -0.41,0.2 m -3.47,-4.21 2.04,-1.64 h 2.25 m -4.29,-1.63 2.04,1.63 m -2.04,-3.39 v -2.25 l 1.63,1.23 v -0.62 l 0.21,-0.41 0.2,-0.2 0.61,-0.21 h 0.41 l 0.62,0.21 0.41,0.41 0.2,0.61 v 0.61 l -0.2,0.62 -0.21,0.2 -0.41,0.21 m -3.47,-4.22 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.61 v -0.41 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-1.35 h 4.29 m -4.29,0 v -1.43 l 0.2,-0.62 0.41,-0.4 0.41,-0.21 0.61,-0.2 h 1.02 l 0.62,0.2 0.41,0.21 0.41,0.4 0.2,0.62 v 1.43 m -4.29,-5.44 0.2,0.61 0.61,0.41 1.03,0.21 h 0.61 l 1.02,-0.21 0.62,-0.41 0.2,-0.61 v -0.41 l -0.2,-0.61 -0.62,-0.41 -1.02,-0.21 h -0.61 l -1.03,0.21 -0.61,0.41 -0.2,0.61 v 0.41 m 1.43,-5.65 0.61,0.21 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.61,0.2 h -0.21 l -0.61,-0.2 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.82,-0.21 h 1.02 l 1.02,0.21 0.62,0.41 0.2,0.61 v 0.41 l -0.2,0.61 -0.41,0.21 m -3.68,-6.96 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.43 l 0.2,-0.62 0.41,-0.4 0.41,-0.21 0.61,-0.2 h 1.02 l 0.62,0.2 0.41,0.21 0.41,0.4 0.2,0.62 v 1.43"
+                 id="path43"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3987.638 3495.669 3990 3494.095 3992.362 3495.669 3987.638 3495.669"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge345"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3985.76 3504.772 3985.76 3485.092 3994.42 3485.092 3994.42 3504.772 3985.76 3504.772"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge346"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3890,3435"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge349"
+             id="gge349"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="270"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3897.08,3434.12"
+               c_rotation="90"
+               c_mirror=""
+               id="gge350"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED5"
+                 d="m 3894.63,3434.118 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -4.29,-6.67 v 2.04 l 1.84,0.21 -0.21,-0.21 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.41,-0.41 0.61,-0.2 h 0.41 l 0.62,0.2 0.41,0.41 0.2,0.62 v 0.61 l -0.2,0.61 -0.21,0.21 -0.41,0.2"
+                 c_note="note_pre"
+                 id="path49"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3902.58,3434.12"
+               c_rotation="270"
+               c_mirror=""
+               id="gge351"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 3904.01,3434.318 h 0.21 l 0.41,0.21 0.2,0.2 0.2,0.41 v 0.82 l -0.2,0.41 -0.2,0.2 -0.41,0.21 h -0.41 l -0.41,-0.21 -0.62,-0.4 -2.04,-2.05 v 2.86 m 4.29,2.99 -4.29,-1.64 m 4.29,1.64 -4.29,1.64 m 1.43,-2.66 v 2.04 m 2.86,4.42 v -2.04 l -1.84,-0.21 0.21,0.21 0.2,0.61 v 0.61 l -0.2,0.62 -0.41,0.41 -0.61,0.2 h -0.41 l -0.62,-0.2 -0.41,-0.41 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.21,-0.21 0.41,-0.2 m 3.47,4.21 -2.04,1.64 h -2.25 m 4.29,1.63 -2.04,-1.63 m 2.04,3.39 v 2.25 l -1.63,-1.23 v 0.62 l -0.21,0.41 -0.2,0.2 -0.61,0.21 h -0.41 l -0.62,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.21,-0.2 0.41,-0.21 m 3.47,4.22 h -3.06 l -0.62,0.2 -0.41,0.41 -0.2,0.61 v 0.41 l 0.2,0.62 0.41,0.41 0.62,0.2 h 3.06 m 0,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43 m 4.29,5.44 -0.2,-0.61 -0.61,-0.41 -1.03,-0.21 h -0.61 l -1.02,0.21 -0.62,0.41 -0.2,0.61 v 0.41 l 0.2,0.61 0.62,0.41 1.02,0.21 h 0.61 l 1.03,-0.21 0.61,-0.41 0.2,-0.61 v -0.41 m -1.43,5.65 -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.61,-0.2 h 0.21 l 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.82,0.21 h -1.02 l -1.02,-0.21 -0.62,-0.41 -0.2,-0.61 v -0.41 l 0.2,-0.61 0.41,-0.21 m 3.68,6.96 h -4.29 m 0,0 v 2.45 m 4.29,1.35 h -4.29 m 4.29,0 v 2.66 m -2.04,-2.66 v 1.64 m -2.25,-1.64 v 2.66 m 4.29,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43"
+                 id="path52"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3892.362 3434.331 3890 3435.905 3887.638 3434.331 3892.362 3434.331"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge352"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3894.24 3425.228 3894.24 3444.908 3885.58 3444.908 3885.58 3425.228 3894.24 3425.228"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge353"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3990,3435"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge356"
+             id="gge356"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3982.92,3435.88"
+               c_rotation="90"
+               c_mirror=""
+               id="gge357"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED6"
+                 d="m 3980.47,3435.882 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -3.68,-6.67 -0.41,0.2 -0.2,0.62 v 0.41 l 0.2,0.61 0.61,0.41 1.03,0.2 h 1.02 l 0.82,-0.2 0.41,-0.41 0.2,-0.61 v -0.21 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.21 h -0.2 l -0.61,0.21 -0.41,0.41 -0.21,0.61 v 0.21 l 0.21,0.61 0.41,0.41 0.61,0.2"
+                 c_note="note_pre"
+                 id="path58"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3977.42,3435.88"
+               c_rotation="90"
+               c_mirror=""
+               id="gge358"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 3975.99,3435.682 h -0.21 l -0.41,-0.21 -0.2,-0.2 -0.2,-0.41 v -0.82 l 0.2,-0.41 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.62,0.4 2.04,2.05 v -2.86 m -4.29,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.64 m -1.43,2.66 v -2.04 m -2.86,-4.42 v 2.04 l 1.84,0.21 -0.21,-0.21 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.41,-0.41 0.61,-0.2 h 0.41 l 0.62,0.2 0.41,0.41 0.2,0.62 v 0.61 l -0.2,0.61 -0.21,0.21 -0.41,0.2 m -3.47,-4.21 2.04,-1.64 h 2.25 m -4.29,-1.63 2.04,1.63 m -2.04,-3.39 v -2.25 l 1.63,1.23 v -0.62 l 0.21,-0.41 0.2,-0.2 0.61,-0.21 h 0.41 l 0.62,0.21 0.41,0.41 0.2,0.61 v 0.61 l -0.2,0.62 -0.21,0.2 -0.41,0.21 m -3.47,-4.22 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.61 v -0.41 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-1.35 h 4.29 m -4.29,0 v -1.43 l 0.2,-0.62 0.41,-0.4 0.41,-0.21 0.61,-0.2 h 1.02 l 0.62,0.2 0.41,0.21 0.41,0.4 0.2,0.62 v 1.43 m -4.29,-5.44 0.2,0.61 0.61,0.41 1.03,0.21 h 0.61 l 1.02,-0.21 0.62,-0.41 0.2,-0.61 v -0.41 l -0.2,-0.61 -0.62,-0.41 -1.02,-0.21 h -0.61 l -1.03,0.21 -0.61,0.41 -0.2,0.61 v 0.41 m 1.43,-5.65 0.61,0.21 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.61,0.2 h -0.21 l -0.61,-0.2 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.82,-0.21 h 1.02 l 1.02,0.21 0.62,0.41 0.2,0.61 v 0.41 l -0.2,0.61 -0.41,0.21 m -3.68,-6.96 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.43 l 0.2,-0.62 0.41,-0.4 0.41,-0.21 0.61,-0.2 h 1.02 l 0.62,0.2 0.41,0.21 0.41,0.4 0.2,0.62 v 1.43"
+                 id="path61"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3987.638 3435.669 3990 3434.095 3992.362 3435.669 3987.638 3435.669"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge359"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3985.76 3444.772 3985.76 3425.092 3994.42 3425.092 3994.42 3444.772 3985.76 3444.772"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge360"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3890,3375"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge363"
+             id="gge363"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="270"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3897.08,3374.12"
+               c_rotation="90"
+               c_mirror=""
+               id="gge364"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED7"
+                 d="m 3894.63,3374.118 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -4.29,-7.08 4.29,2.04 m -4.29,0.82 v -2.86"
+                 c_note="note_pre"
+                 id="path67"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3902.58,3374.12"
+               c_rotation="270"
+               c_mirror=""
+               id="gge365"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 3904.01,3374.318 h 0.21 l 0.41,0.21 0.2,0.2 0.2,0.41 v 0.82 l -0.2,0.41 -0.2,0.2 -0.41,0.21 h -0.41 l -0.41,-0.21 -0.62,-0.4 -2.04,-2.05 v 2.86 m 4.29,2.99 -4.29,-1.64 m 4.29,1.64 -4.29,1.64 m 1.43,-2.66 v 2.04 m 2.86,4.42 v -2.04 l -1.84,-0.21 0.21,0.21 0.2,0.61 v 0.61 l -0.2,0.62 -0.41,0.41 -0.61,0.2 h -0.41 l -0.62,-0.2 -0.41,-0.41 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.21,-0.21 0.41,-0.2 m 3.47,4.21 -2.04,1.64 h -2.25 m 4.29,1.63 -2.04,-1.63 m 2.04,3.39 v 2.25 l -1.63,-1.23 v 0.62 l -0.21,0.41 -0.2,0.2 -0.61,0.21 h -0.41 l -0.62,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.21,-0.2 0.41,-0.21 m 3.47,4.22 h -3.06 l -0.62,0.2 -0.41,0.41 -0.2,0.61 v 0.41 l 0.2,0.62 0.41,0.41 0.62,0.2 h 3.06 m 0,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43 m 4.29,5.44 -0.2,-0.61 -0.61,-0.41 -1.03,-0.21 h -0.61 l -1.02,0.21 -0.62,0.41 -0.2,0.61 v 0.41 l 0.2,0.61 0.62,0.41 1.02,0.21 h 0.61 l 1.03,-0.21 0.61,-0.41 0.2,-0.61 v -0.41 m -1.43,5.65 -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.61,-0.2 h 0.21 l 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.82,0.21 h -1.02 l -1.02,-0.21 -0.62,-0.41 -0.2,-0.61 v -0.41 l 0.2,-0.61 0.41,-0.21 m 3.68,6.96 h -4.29 m 0,0 v 2.45 m 4.29,1.35 h -4.29 m 4.29,0 v 2.66 m -2.04,-2.66 v 1.64 m -2.25,-1.64 v 2.66 m 4.29,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43"
+                 id="path70"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3892.362 3374.331 3890 3375.905 3887.638 3374.331 3892.362 3374.331"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge366"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3894.24 3365.228 3894.24 3384.908 3885.58 3384.908 3885.58 3365.228 3894.24 3365.228"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge367"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3990,3375"
+             c_para="package`LED-2*5*7`"
+             c_partid="part_import_gge370"
+             id="gge370"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="270"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3997.08,3374.12"
+               c_rotation="90"
+               c_mirror=""
+               id="gge371"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="LED8"
+                 d="m 3994.63,3374.118 h 4.29 m 0,0 v -2.45 m -4.29,-1.35 h 4.29 m -4.29,0 v -2.66 m 2.04,2.66 v -1.64 m 2.25,1.64 v -2.66 m -4.29,-1.35 h 4.29 m -4.29,0 v -1.44 l 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 h 1.02 l 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 v 1.44 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82"
+                 c_note="note_pre"
+                 id="path76"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="4002.58,3374.12"
+               c_rotation="270"
+               c_mirror=""
+               id="gge372"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="2A5Y3UD09 LED"
+                 d="m 4004.01,3374.318 h 0.21 l 0.41,0.21 0.2,0.2 0.2,0.41 v 0.82 l -0.2,0.41 -0.2,0.2 -0.41,0.21 h -0.41 l -0.41,-0.21 -0.62,-0.4 -2.04,-2.05 v 2.86 m 4.29,2.99 -4.29,-1.64 m 4.29,1.64 -4.29,1.64 m 1.43,-2.66 v 2.04 m 2.86,4.42 v -2.04 l -1.84,-0.21 0.21,0.21 0.2,0.61 v 0.61 l -0.2,0.62 -0.41,0.41 -0.61,0.2 h -0.41 l -0.62,-0.2 -0.41,-0.41 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.21,-0.21 0.41,-0.2 m 3.47,4.21 -2.04,1.64 h -2.25 m 4.29,1.63 -2.04,-1.63 m 2.04,3.39 v 2.25 l -1.63,-1.23 v 0.62 l -0.21,0.41 -0.2,0.2 -0.61,0.21 h -0.41 l -0.62,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.21,-0.2 0.41,-0.21 m 3.47,4.22 h -3.06 l -0.62,0.2 -0.41,0.41 -0.2,0.61 v 0.41 l 0.2,0.62 0.41,0.41 0.62,0.2 h 3.06 m 0,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43 m 4.29,5.44 -0.2,-0.61 -0.61,-0.41 -1.03,-0.21 h -0.61 l -1.02,0.21 -0.62,0.41 -0.2,0.61 v 0.41 l 0.2,0.61 0.62,0.41 1.02,0.21 h 0.61 l 1.03,-0.21 0.61,-0.41 0.2,-0.61 v -0.41 m -1.43,5.65 -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.61,-0.2 h 0.21 l 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.82,0.21 h -1.02 l -1.02,-0.21 -0.62,-0.41 -0.2,-0.61 v -0.41 l 0.2,-0.61 0.41,-0.21 m 3.68,6.96 h -4.29 m 0,0 v 2.45 m 4.29,1.35 h -4.29 m 4.29,0 v 2.66 m -2.04,-2.66 v 1.64 m -2.25,-1.64 v 2.66 m 4.29,1.35 h -4.29 m 4.29,0 v 1.43 l -0.2,0.62 -0.41,0.4 -0.41,0.21 -0.61,0.2 h -1.02 l -0.62,-0.2 -0.41,-0.21 -0.41,-0.4 -0.2,-0.62 v -1.43"
+                 id="path79"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3992.362 3374.331 3990 3375.905 3987.638 3374.331 3992.362 3374.331"
+               c_shapetype="line"
+               layerid="3"
+               net="S$12"
+               id="gge373"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            <polyline
+               points="3994.24 3365.228 3994.24 3384.908 3985.58 3384.908 3985.58 3365.228 3994.24 3365.228"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge374"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3615,3380"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge377"
+             id="gge377"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge378"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U1"
+                 d="m 3599.71,3375 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 c_note="note_pre"
+                 id="path85"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge379"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3594.21,3375 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path88"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3601 3400 3601 3350 3669 3350 3669 3400 3601 3400"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge380"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3615,3440"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge411"
+             id="gge411"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3435"
+               c_rotation="90"
+               c_mirror=""
+               id="gge412"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U2"
+                 d="m 3599.71,3435 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 1.02,-1.56 h -0.21 l -0.41,-0.2 -0.2,-0.21 -0.2,-0.41 v -0.81 l 0.2,-0.41 0.2,-0.21 0.41,-0.2 h 0.41 l 0.41,0.2 0.62,0.41 2.04,2.05 v -2.87"
+                 c_note="note_pre"
+                 id="path93"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3435"
+               c_rotation="90"
+               c_mirror=""
+               id="gge413"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3594.21,3435 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path96"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3601 3460 3601 3410 3669 3410 3669 3460 3601 3460"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge414"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3615,3500"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge445"
+             id="gge445"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3495"
+               c_rotation="90"
+               c_mirror=""
+               id="gge446"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U3"
+                 d="m 3599.71,3495 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-1.76 v -2.25 l 1.63,1.22 v -0.61 l 0.21,-0.41 0.2,-0.2 0.61,-0.21 h 0.41 l 0.62,0.21 0.41,0.41 0.2,0.61 v 0.61 l -0.2,0.62 -0.21,0.2 -0.41,0.21"
+                 c_note="note_pre"
+                 id="path101"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3495"
+               c_rotation="90"
+               c_mirror=""
+               id="gge447"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3594.21,3495 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path104"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3601 3520 3601 3470 3669 3470 3669 3520 3601 3520"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge448"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3615,3560"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge479"
+             id="gge479"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge480"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U4"
+                 d="m 3599.71,3555 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-3.4 2.86,2.05 v -3.07 m -2.86,1.02 h 4.29"
+                 c_note="note_pre"
+                 id="path109"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3602.16,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge481"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3594.21,3555 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path112"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3601 3580 3601 3530 3669 3530 3669 3580 3601 3580"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge482"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3695,3380"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge513"
+             id="gge513"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3682.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge514"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U5"
+                 d="m 3679.71,3375 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-3.81 v 2.05 l 1.84,0.2 -0.21,-0.2 -0.2,-0.62 v -0.61 l 0.2,-0.61 0.41,-0.41 0.61,-0.21 h 0.41 l 0.62,0.21 0.41,0.41 0.2,0.61 v 0.61 l -0.2,0.62 -0.21,0.2 -0.41,0.21"
+                 c_note="note_pre"
+                 id="path117"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3682.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge515"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3674.21,3375 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path120"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3681 3400 3681 3350 3749 3350 3749 3400 3681 3400"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge516"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3695,3440.5"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge547"
+             id="gge547"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3682.16,3435.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge548"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U6"
+                 d="m 3679.71,3435.5 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.61,-3.81 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.61 0.61,0.41 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.41 0.2,-0.61 v -0.21 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.61 v 0.21 l 0.21,0.61 0.41,0.41 0.61,0.21"
+                 c_note="note_pre"
+                 id="path125"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3682.16,3435.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge549"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3674.21,3435.5 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path128"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3681 3460.5 3681 3410.5 3749 3410.5 3749 3460.5 3681 3460.5"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge550"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3695.25,3500.5"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge581"
+             id="gge581"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3682.41,3495.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge582"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U7"
+                 d="m 3679.96,3495.5 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-4.22 4.29,2.05 m -4.29,0.82 v -2.87"
+                 c_note="note_pre"
+                 id="path133"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3682.41,3495.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge583"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3674.46,3495.5 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path136"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3681.25 3520.5 3681.25 3470.5 3749.25 3470.5 3749.25 3520.5 3681.25 3520.5"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge584"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3694.5,3560"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge615"
+             id="gge615"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3681.66,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge616"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U8"
+                 d="m 3679.21,3555 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0,-2.38 0.2,0.62 0.41,0.2 h 0.41 l 0.41,-0.2 0.2,-0.41 0.21,-0.82 0.2,-0.61 0.41,-0.41 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 0.81 l -0.2,0.62 -0.21,0.2 -0.41,0.21 h -0.61 l -0.41,-0.21 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.2 h -0.41 l -0.41,0.2 -0.2,0.62 v 0.81"
+                 c_note="note_pre"
+                 id="path141"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3681.66,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge617"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3673.71,3555 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path144"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3680.5 3580 3680.5 3530 3748.5 3530 3748.5 3580 3680.5 3580"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge618"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3775,3380"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge649"
+             id="gge649"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3762.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge650"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U9"
+                 d="m 3759.71,3375 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 1.43,-4.01 0.61,0.2 0.41,0.41 0.2,0.61 v 0.21 l -0.2,0.61 -0.41,0.41 -0.61,0.21 h -0.21 l -0.61,-0.21 -0.41,-0.41 -0.2,-0.61 v -0.21 l 0.2,-0.61 0.41,-0.41 0.82,-0.2 h 1.02 l 1.02,0.2 0.62,0.41 0.2,0.61 v 0.41 l -0.2,0.62 -0.41,0.2"
+                 c_note="note_pre"
+                 id="path149"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3762.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge651"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3754.21,3375 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path152"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3761 3400 3761 3350 3829 3350 3829 3400 3761 3400"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge652"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3775,3440.5"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge683"
+             id="gge683"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3762.16,3435.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge684"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U10"
+                 d="m 3759.71,3435.5 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -4.29,-2.57 0.2,0.61 0.61,0.41 1.03,0.2 h 0.61 l 1.02,-0.2 0.62,-0.41 0.2,-0.61 v -0.41 l -0.2,-0.62 -0.62,-0.41 -1.02,-0.2 h -0.61 l -1.03,0.2 -0.61,0.41 -0.2,0.62 v 0.41"
+                 c_note="note_pre"
+                 id="path157"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3762.16,3435.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge685"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3754.21,3435.5 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path160"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3761 3460.5 3761 3410.5 3829 3410.5 3829 3460.5 3761 3460.5"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge686"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3775.25,3500.5"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge717"
+             id="gge717"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3762.41,3495.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge718"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U11"
+                 d="m 3759.96,3495.5 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -3.48,-1.35 -0.2,-0.41 -0.61,-0.61 h 4.29"
+                 c_note="note_pre"
+                 id="path165"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3762.41,3495.5"
+               c_rotation="90"
+               c_mirror=""
+               id="gge719"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3754.46,3495.5 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path168"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3761.25 3520.5 3761.25 3470.5 3829.25 3470.5 3829.25 3520.5 3761.25 3520.5"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge720"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3774.5,3560"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge751"
+             id="gge751"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3761.66,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge752"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U12"
+                 d="m 3759.21,3555 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -3.27,-1.55 h -0.21 l -0.41,-0.21 -0.2,-0.2 -0.2,-0.41 v -0.82 l 0.2,-0.41 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.62,0.41 2.04,2.04 v -2.86"
+                 c_note="note_pre"
+                 id="path173"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3761.66,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge753"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3753.71,3555 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path176"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3760.5 3580 3760.5 3530 3828.5 3530 3828.5 3580 3760.5 3580"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge754"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3920,3380"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge785"
+             id="gge785"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge786"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U13"
+                 d="m 3904.71,3375 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -4.29,-1.76 v -2.25 l 1.63,1.23 v -0.61 l 0.21,-0.41 0.2,-0.21 0.61,-0.2 h 0.41 l 0.62,0.2 0.41,0.41 0.2,0.62 v 0.61 l -0.2,0.61 -0.21,0.21 -0.41,0.2"
+                 c_note="note_pre"
+                 id="path181"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3375"
+               c_rotation="90"
+               c_mirror=""
+               id="gge787"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3899.21,3375 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path184"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3906 3400 3906 3350 3974 3350 3974 3400 3906 3400"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge788"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3920,3440"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge819"
+             id="gge819"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3435"
+               c_rotation="90"
+               c_mirror=""
+               id="gge820"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U14"
+                 d="m 3904.71,3435 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -4.29,-3.39 2.86,2.04 v -3.06 m -2.86,1.02 h 4.29"
+                 c_note="note_pre"
+                 id="path189"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3435"
+               c_rotation="90"
+               c_mirror=""
+               id="gge821"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3899.21,3435 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path192"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3906 3460 3906 3410 3974 3410 3974 3460 3906 3460"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge822"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3920,3500"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge853"
+             id="gge853"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3495"
+               c_rotation="90"
+               c_mirror=""
+               id="gge854"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U15"
+                 d="m 3904.71,3495 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -4.29,-3.8 v 2.04 l 1.84,0.21 -0.21,-0.21 -0.2,-0.61 v -0.61 l 0.2,-0.62 0.41,-0.41 0.61,-0.2 h 0.41 l 0.62,0.2 0.41,0.41 0.2,0.62 v 0.61 l -0.2,0.61 -0.21,0.21 -0.41,0.2"
+                 c_note="note_pre"
+                 id="path197"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3495"
+               c_rotation="90"
+               c_mirror=""
+               id="gge855"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3899.21,3495 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path200"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3906 3520 3906 3470 3974 3470 3974 3520 3906 3520"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge856"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <g
+             c_origin="3920,3560"
+             c_para="package`PB86-A1`"
+             c_partid="part_import_gge887"
+             id="gge887"
+             c_shapetype="group"
+             c_etype="pinpart"
+             layerid="1"
+             c_rotation="90"
+             style="fill:#000000;stroke:#008000"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)">
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge888"
+               layerid="3"
+               c_shapetype="group"
+               style="fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="U16"
+                 d="m 3904.71,3555 h 3.06 l 0.62,-0.2 0.41,-0.41 0.2,-0.62 v -0.41 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 h -3.06 m 0.81,-1.35 -0.2,-0.41 -0.61,-0.62 h 4.29 m -3.68,-3.8 -0.41,0.2 -0.2,0.62 v 0.41 l 0.2,0.61 0.61,0.41 1.03,0.2 h 1.02 l 0.82,-0.2 0.41,-0.41 0.2,-0.61 v -0.21 l -0.2,-0.61 -0.41,-0.41 -0.62,-0.21 h -0.2 l -0.61,0.21 -0.41,0.41 -0.21,0.61 v 0.21 l 0.21,0.61 0.41,0.41 0.61,0.2"
+                 c_note="note_pre"
+                 id="path205"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <g
+               c_partid="part_pcbtext"
+               c_origin="3907.16,3555"
+               c_rotation="90"
+               c_mirror=""
+               id="gge889"
+               layerid="3"
+               c_shapetype="group"
+               display="none"
+               style="display:none;fill:#000000;stroke:#008000">
+              <path
+                 c_fontSize="4.5"
+                 c_fontFamily=""
+                 c_text="PB86-A1"
+                 d="m 3899.21,3555 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.61 0.2,-0.21 0.41,-0.2 h 0.62 l 0.41,0.2 0.2,0.21 0.21,0.61 v 1.84 m -2.25,-4.21 h 4.29 m -4.29,0 v -1.84 l 0.2,-0.62 0.2,-0.2 0.41,-0.21 h 0.41 l 0.41,0.21 0.21,0.2 0.2,0.62 m 0,1.84 v -1.84 l 0.21,-0.62 0.2,-0.2 0.41,-0.21 h 0.61 l 0.41,0.21 0.21,0.2 0.2,0.62 v 1.84 m -4.29,-5.24 0.2,0.61 0.41,0.21 h 0.41 l 0.41,-0.21 0.2,-0.41 0.21,-0.81 0.2,-0.62 0.41,-0.41 0.41,-0.2 h 0.61 l 0.41,0.2 0.21,0.21 0.2,0.61 v 0.82 l -0.2,0.61 -0.21,0.21 -0.41,0.2 h -0.61 l -0.41,-0.2 -0.41,-0.41 -0.2,-0.61 -0.21,-0.82 -0.2,-0.41 -0.41,-0.21 h -0.41 l -0.41,0.21 -0.2,0.61 v 0.82 m 0.61,-5.65 -0.41,0.21 -0.2,0.61 v 0.41 l 0.2,0.62 0.61,0.4 1.03,0.21 h 1.02 l 0.82,-0.21 0.41,-0.4 0.2,-0.62 v -0.2 l -0.2,-0.62 -0.41,-0.41 -0.62,-0.2 h -0.2 l -0.61,0.2 -0.41,0.41 -0.21,0.62 v 0.2 l 0.21,0.62 0.41,0.4 0.61,0.21 m -0.41,-4.01 v -3.68 m -2.45,-2.99 4.29,1.64 m -4.29,-1.64 4.29,-1.63 m -1.43,2.65 v -2.04 m -2.05,-1.96 -0.2,-0.41 -0.61,-0.62 h 4.29"
+                 id="path208"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#008000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+            </g>
+            <polyline
+               points="3906 3580 3906 3530 3974 3530 3974 3580 3906 3580"
+               c_shapetype="line"
+               layerid="3"
+               net=""
+               id="gge890"
+               style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+          </g>
+          <polyline
+             points="3555 3590 3555 3340 4035 3340 4035 3590 3555 3590"
+             c_shapetype="line"
+             layerid="10"
+             net=""
+             id="gge924"
+             style="fill:none;stroke:#008000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+             transform="matrix(0.1722907,0,0,0.1722907,39.700529,-512.08152)" />
+        </g>
+      </g>
+      <g
+         inkscape:groupmode="layer"
+         id="layer32"
+         inkscape:label="Front plate">
+        <path
+           inkscape:connector-curvature="0"
+           style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.19926573;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path6074-3"
+           d="m 626.76011,58.43188 -8.7e-4,12.020407 v 12.020407 l -9.2e-4,12.020412 v 12.020414 l -8.9e-4,6.1833 h 8.92342 8.92339 8.92338 8.92339 8.92341 8.92339 8.92339 8.9234 8.92429 8.92337 5.73151 v -12.02041 l -9.2e-4,-12.020402 V 76.635583 L 721.722,64.615176 V 58.43188 h -8.92328 -8.9234 -8.9234 -8.92338 -8.92338 -8.92339 -8.92342 -8.92338 -8.9234 -8.92339 -5.72793">
+          <title
+             id="title6629">Front plate for AP</title>
+        </path>
+      </g>
+    </g>
     <path
        id="path7206"
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.20349354;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -23913,11 +25416,6 @@
          x="586.99792"
          y="118.85162"
          style="font-size:3.82869339px;stroke-width:0.17947">DEPLOY</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.20349354;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path6074-3"
-       d="m 624.46912,57.918744 -9.5e-4,11.835454 v 11.835455 l -9.4e-4,11.83546 v 11.835457 l -9.5e-4,6.08817 h 9.45149 9.45149 9.45149 9.45148 9.45149 9.45148 9.45149 9.45148 9.45243 9.45148 6.0707 V 99.513267 l -9.5e-4,-11.835441 v -11.83547 l -9.4e-4,-11.835454 v -6.088158 h -9.45135 -9.45149 -9.45149 -9.45147 -9.45149 -9.45148 -9.45149 -9.45148 -9.45149 -9.45148 -6.06692" />
     <g
        style="display:inline"
        id="g6259-6-1-9"
@@ -24227,6 +25725,14 @@
          d="M -8,-12 V 9 M -8,-12 0,9 M 8,-12 0,9 M 8,-12 V 9"
          inkscape:connector-curvature="0" />
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.17589024;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6074-3-3"
+       d="m 630.83243,62.501751 -8.1e-4,10.217348 v 10.217348 l -8.3e-4,10.217352 v 10.217361 l -8.1e-4,5.25579 h 8.17955 8.17956 8.17953 8.17955 8.17954 8.17955 8.17954 8.17957 8.18037 8.17952 5.25374 V 98.409605 l -8.6e-4,-10.217341 V 77.974902 l -8.5e-4,-10.217348 v -5.255803 h -8.17937 -8.17955 -8.17955 -8.17952 -8.17954 -8.17955 -8.17956 -8.17955 -8.17954 -8.17954 -5.25047">
+      <title
+         id="title6627">Hole for AP</title>
+    </path>
   </g>
   <g
      id="RenderLayer_LineSet"
