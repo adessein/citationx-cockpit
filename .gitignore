@@ -1,5 +1,6 @@
 # DXF converted from SVG for CamBam
 *.dxf
+*.cb.b?
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -105,3 +106,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
