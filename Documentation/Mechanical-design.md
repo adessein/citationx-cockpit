@@ -35,7 +35,7 @@ To install the extension, I have not installed EggBot as suggested but :
 
 In the screenshot below (from CamBam), *LH GEN* is written with Hershey Text but *RESET* and *Off* are not.  
 
-![](images/image14.png)
+![](Images/image14.png)
 
 ### Add holes for mounting modules on the front panel
 The different panels needs to be attached to the cockpit. I have decided to use M2 screws with a 3 mm head. I leave a clearance area of 1.5x diam around the hole (therefore 3 mm from the centre).
@@ -69,7 +69,7 @@ The first time, a CAM style has to be created. Once it has been created, it beco
     - G-Code Options/Velocity Mode = Exact Stop
     - Tool/Tool Diameter = 0.15
 
-![](images/LaserDefault.png)
+![](Images/LaserDefault.png)
 ### Define the machining operations
 Different machining operations need to be created.
 The machining operations can be of two different types:  
@@ -79,7 +79,7 @@ The machining operations can be of two different types:
 
 On the picture below, COM1 and COM2 texts are engraved, while the holes for the button are profiled (see the dark green circle slightly smaller inside the light one: it is the path the laser will follow).
 
-![](images/machining.png)
+![](Images/machining.png)
 
 #### Engraving
  1. Select all the text and decoration (do not worry, if you forget any, you will be able to add them later).
@@ -127,7 +127,7 @@ Create a new part, a new machining operation and copy/paste the settings from an
 
 ## STEP 8 - Cut !
 ## Result
-![](images/IMG-20190207-WA0003.jpeg)
+![](Images/IMG-20190207-WA0003.jpeg)
 
 
 
@@ -141,20 +141,20 @@ I have therefore decided to split the front pamel into 2 and attach them.
 
 The control console (with all the buttons) comes forward with an angle of 45 deg, over 8 cm (it is 118 mm high).
 
-![](images/image5.png)
+![](Images/image5.png)
 
 # List of used controls
 Original buttons and controls are almost impossible to find, and if they are they cost a fortune (check out [simparts.de](https://www.simparts.de/en/homecockpit/general-aviation-en.html) as an example). I have therefor decided to buy cheap, to buy on eBay. I spent some time trying to find the best matches, but has do make compromises. In this section I present the controls that I have bought and their purpose. 
 
 What | Photo | Link | Used for | Notes
 ---- | ----- | ---- | -------- | -----
-Square push buttons|![Squared momentary push buttons on ebay](Documentation/Images/s-l300.jpg)|[Black 14 X 14mm Square 2Pin Momentary 1NO SPST Mini Push Button Switch](https://www.ebay.com/itm/153318952686)| EICAS buttons, radio buttons, PFD/MFD configuration panels pilot and copilot sides)|The vendor claims 14x14mm but I made a cutout of 13x11mm to make sure they do not move.
-7-segments displays|![](Documentation/Images/s-l1600.jpg)|[0.36" 7 Segment Display Tube 4-Bit LED TM1637 Module Red/Green/Blue/Yellow/White](https://www.ebay.com/itm/163018693389)|Engine speeds|The [7-segment block measures 30x14 mm](https://detail.1688.com/offer/558905007007.html) but [the size of the board is 40x24 mm](https://components101.com/displays/tm1637-grove-4-digit-display-module). Because of this constrain I had to increase the spacing between the displays.  
-Mini-joystick button|![](Documentation/Images/001.jpg)|[5 Way Momentary Push Button SMD SMT Mini Tactile Switch Thumb Joystick](https://www.ebay.com/itm/264112757766)
-Slide potentiometer|![](Documentation/Images/002.jpg)|[10K Linear Slide Potentiometer Module Dual Output Arduino AVR Electronic Block](https://www.ebay.com/itm/232387110303)|Flaps control|Continuous, no notches: will have to make some my self. No motor, otherwise it is too expensive.
-Rotary encoder|![](Documentation/Images/003.jpg)|[KY-040 Rotary Encoder Module for Arduino AVR PIC NEW XJ](https://www.ebay.com/itm/183406488017)|CRS, HDG, any rotary that can be turned indefinitely|I2C
-Toggle button|![](Documentation/Images/004.jpg)|[15x 3 Pin 3 Position ON-OFF-ON SPDT Mini Latching Toggle Switch AC 125V/6A FU](https://www.ebay.com/itm/312536579444)|So many :)|
-Square latching button + LED|![](Documentation/Images/005.jpg)|[16mm Square Latching Push Button Switch Self-reset LED Light 5-Pins](https://www.ebay.com/itm/142971213806)|Master warning/caution + Engine start|Different colours needed
+Square push buttons|![Squared momentary push buttons on ebay](Images/s-l300.jpg)|[Black 14 X 14mm Square 2Pin Momentary 1NO SPST Mini Push Button Switch](https://www.ebay.com/itm/153318952686)| EICAS buttons, radio buttons, PFD/MFD configuration panels pilot and copilot sides)|The vendor claims 14x14mm but I made a cutout of 13x11mm to make sure they do not move.
+7-segments displays|![](Images/s-l1600.jpg)|[0.36" 7 Segment Display Tube 4-Bit LED TM1637 Module Red/Green/Blue/Yellow/White](https://www.ebay.com/itm/163018693389)|Engine speeds|The [7-segment block measures 30x14 mm](https://detail.1688.com/offer/558905007007.html) but [the size of the board is 40x24 mm](https://components101.com/displays/tm1637-grove-4-digit-display-module). Because of this constrain I had to increase the spacing between the displays.  
+Mini-joystick button|![](Images/001.jpg)|[5 Way Momentary Push Button SMD SMT Mini Tactile Switch Thumb Joystick](https://www.ebay.com/itm/264112757766)
+Slide potentiometer|![](Images/002.jpg)|[10K Linear Slide Potentiometer Module Dual Output Arduino AVR Electronic Block](https://www.ebay.com/itm/232387110303)|Flaps control|Continuous, no notches: will have to make some my self. No motor, otherwise it is too expensive.
+Rotary encoder|![](Images/003.jpg)|[KY-040 Rotary Encoder Module for Arduino AVR PIC NEW XJ](https://www.ebay.com/itm/183406488017)|CRS, HDG, any rotary that can be turned indefinitely|I2C
+Toggle button|![](Images/004.jpg)|[15x 3 Pin 3 Position ON-OFF-ON SPDT Mini Latching Toggle Switch AC 125V/6A FU](https://www.ebay.com/itm/312536579444)|So many :)|
+Square latching button + LED|![](Images/005.jpg)|[16mm Square Latching Push Button Switch Self-reset LED Light 5-Pins](https://www.ebay.com/itm/142971213806)|Master warning/caution + Engine start|Different colours needed
 
 
 

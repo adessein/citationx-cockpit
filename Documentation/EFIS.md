@@ -10,9 +10,9 @@ There a plenty of small LCD screens on ebay. They cost approx. 20€ and have a 
 
 In conclusion, if I use these 7-inch LCD, the canvas will be (ridiculously) small and use only 2/3 of the screen. For me, it does not worth spending 100 € for that result.
 
-![7-inch LCD screen on ebay](Documentation/Images/s-l225.jpg)
+![7-inch LCD screen on ebay](Images/s-l225.jpg)
 
-![](Documentation/Images/EFIS.png)  
+![](Images/EFIS.png)  
 *On this picture, the PFD are full-size because displayed by a computer screen, and the EICAS is smaller because rendered on a 7-inch LCD screen. ND displayed are not shown*
 
 ### Computer screen
@@ -46,51 +46,5 @@ Here is what I did:
  1. And then
   ``qmake fgcanvas.pro && make``
 
-Because I was connecting from ss
-
-The mockup/configurations are saved as JSON files in the folder ``~/.local/share/FlightGear/FGCanvas``
-
-```
-{
-    "canvases": [
-        {
-            "path": "/canvas/by-index/texture[10]",
-            "rect": [
-                53,
-                21,
-                338,
-                508
-            ],
-            "url": "ws://localhost:8080/PropertyTreeMirror/canvas/by-index/texture[10]"
-        },
-        {
-            "path": "/canvas/by-index/texture[12]",
-            "rect": [
-                699,
-                620,
-                401,
-                555
-            ],
-            "url": "ws://localhost:8080/PropertyTreeMirror/canvas/by-index/texture[12]"
-        },
-        {
-            "path": "/canvas/by-index/texture[12]",
-            "rect": [
-                397,
-                21,
-                338,
-                437
-            ],
-            "url": "ws://localhost:8080/PropertyTreeMirror/canvas/by-index/texture[12]"
-        }
-    ],
-    "configName": "test",
-    "window-rect": [
-        2263,
-        518,
-        1397,
-        642
-    ],
-    "window-state": 0
-}
-```
+The mockup/configurations are saved as JSON files in the folder ``~/.local/share/FlightGear/FGCanvas``  
+Start the application using `./fgqcanvas your_config.json`

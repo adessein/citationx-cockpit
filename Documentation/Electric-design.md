@@ -11,7 +11,7 @@ I have decided to use a small Pro Micro to manage TM1637.
 
 The Pro Micro receives the values to display form the master ESP32 vie I2C.  
 
-![Module TM1637](Documentation/Images/item_XL_25709278_43262978.jpg)
+![Module TM1637](Images/item_XL_25709278_43262978.jpg)
 
 # Architecture
 ## The main board - [Overview on EasyEDA](https://easyeda.com/arnaud.dessein/CessnaCitationX_MainESP32)
