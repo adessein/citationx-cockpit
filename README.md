@@ -1,5 +1,7 @@
 ![In progress](https://img.shields.io/badge/status-in%20progress-orange.svg)
 
+# Presentation
+
 The purpose of this project is to build a 1:1 home cockpit for flying the Cessna Citation X aircraft in Flightgear.  
 Flightgear is an open-source software that you can download on http://home.flightgear.org.  
 
@@ -18,3 +20,16 @@ My project covers :
  - the code used in the Raspberry Pi Zero W for displaying the canvas on the screen.  
  
  In the folder Electronics, you can find the backup files from EasyEDA.com. The project is available on https://easyeda.com/arnaud.dessein
+
+# Documentation
+
+I have documented this project so you can find details about how I designed my home cockpit.
+My intention is to share my experience, explain my choices and show where I failed.  
+
+I hope that it will help you understanding the content of this repository, help you in your projects (home cockpit or others).
+
+# Contents
+[[Documentation/Mechanical-design|Mechanical design]] - How I build the cockpit from the 3D model  
+[[Documentation/Electric-design|Electric design]] - How I designed the electronics  
+[[Documentation/EFIS|EFIS]] - How I rendered the different screens of the EFIS (PFD, ND, EICAS)  
+
