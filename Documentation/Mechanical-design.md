@@ -72,6 +72,11 @@ The first time, a CAM style has to be created. Once it has been created, it beco
     - Tool/Tool Diameter = 0.15
 
 ![](Images/LaserDefault.png)
+
+#### Activating the style LaserDefault
+Right click on *Machining* and set Style = LaserDefault.  
+Creating the style is done once for all, but activating the style should be done for each project.  
+
 #### Define the machining operations
 Different machining operations need to be created.
 The machining operations can be of two different types:  
