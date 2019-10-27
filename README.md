@@ -39,7 +39,6 @@ My intention is to share my experience, explain my choices and show where I fail
 
 I hope that it will help you understanding the content of this repository, help you in your projects (home cockpit or others).
 
-# Contents
 [Mechanical design](Documentation/Mechanical-design.md) - How I build the cockpit from the 3D model  
 [Electric design](Documentation/Electric-design.md) - How I designed the electronics  
 [EFIS](Documentation/EFIS.md) - How I rendered the different screens of the EFIS (PFD, ND, EICAS)  

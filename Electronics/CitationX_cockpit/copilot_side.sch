@@ -1,0 +1,964 @@
+EESchema Schematic File Version 4
+LIBS:CitationX_cockpit-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 8 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 2150 2050 0    50   ~ 0
+PFD_HSI
+Text Label 2150 2150 0    50   ~ 0
+PFD_WXY
+Text Label 2150 2250 0    50   ~ 0
+ET
+Text Label 2150 2350 0    50   ~ 0
+TCAS
+Text Label 2150 2450 0    50   ~ 0
+ACFT_SYS
+Text Label 2150 2550 0    50   ~ 0
+MFD_MAP
+Text Label 2150 2650 0    50   ~ 0
+MFD_MX
+Text Label 2150 2750 0    50   ~ 0
+NORM
+Text HLabel 2800 1950 0    50   Input ~ 0
+ISR_IN
+$Comp
+L pkl_misc:74HC165 U?
+U 1 1 5DC02371
+P 3400 2550
+AR Path="/5DC02371" Ref="U?"  Part="1" 
+AR Path="/5DB5DCD1/5DC02371" Ref="U?"  Part="1" 
+AR Path="/5DB6029E/5DC02371" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5DC02371" Ref="U?"  Part="1" 
+F 0 "U?" H 3400 3447 60  0000 C CNN
+F 1 "74HC165" H 3400 3341 60  0000 C CNN
+F 2 "" H 5590 1330 60  0001 C CNN
+F 3 "" H 5590 1330 60  0001 C CNN
+	1    3400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02378
+P 2800 3050
+AR Path="/5DB6029E/5DC02378" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02378" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 2800 50  0001 C CNN
+F 1 "GND" V 2805 2922 50  0000 R CNN
+F 2 "" H 2800 3050 50  0001 C CNN
+F 3 "" H 2800 3050 50  0001 C CNN
+	1    2800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC0237E
+P 4000 3200
+AR Path="/5DB6029E/5DC0237E" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0237E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 2950 50  0001 C CNN
+F 1 "GND" V 4005 3072 50  0000 R CNN
+F 2 "" H 4000 3200 50  0001 C CNN
+F 3 "" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4000 2950
+Wire Wire Line
+	4450 2750 4450 3450
+Wire Wire Line
+	4000 2750 4450 2750
+$Comp
+L Device:C_Small C?
+U 1 1 5DC02387
+P 4000 2000
+AR Path="/5DB6029E/5DC02387" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC02387" Ref="C?"  Part="1" 
+F 0 "C?" H 4092 2046 50  0000 L CNN
+F 1 "0.1u" H 4092 1955 50  0000 L CNN
+F 2 "" H 4000 2000 50  0001 C CNN
+F 3 "~" H 4000 2000 50  0001 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC0238E
+P 4000 2100
+AR Path="/5DB6029E/5DC0238E" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0238E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 1850 50  0001 C CNN
+F 1 "GND" H 4005 1927 50  0000 C CNN
+F 2 "" H 4000 2100 50  0001 C CNN
+F 3 "" H 4000 2100 50  0001 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1900 4200 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC02395
+P 4200 1900
+AR Path="/5DB6029E/5DC02395" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02395" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 1750 50  0001 C CNN
+F 1 "+3.3V" V 4215 2028 50  0000 L CNN
+F 2 "" H 4200 1900 50  0001 C CNN
+F 3 "" H 4200 1900 50  0001 C CNN
+	1    4200 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 5DC0239B
+P 1900 2350
+AR Path="/5DB6029E/5DC0239B" Ref="RN?"  Part="1" 
+AR Path="/5DC174D4/5DC0239B" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2417 2350 50  0000 C CNN
+F 1 "R_Network08" V 2326 2350 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 2375 2350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 2350 50  0001 C CNN
+	1    1900 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 2050 2800 2050
+Wire Wire Line
+	2100 2150 2800 2150
+Wire Wire Line
+	2100 2250 2800 2250
+Wire Wire Line
+	2100 2350 2800 2350
+Wire Wire Line
+	2100 2450 2800 2450
+Wire Wire Line
+	2100 2550 2800 2550
+Wire Wire Line
+	2100 2650 2800 2650
+Wire Wire Line
+	2100 2750 2800 2750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC023AA
+P 1600 2750
+AR Path="/5DB6029E/5DC023AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC023AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 2600 50  0001 C CNN
+F 1 "+3.3V" V 1615 2878 50  0000 L CNN
+F 2 "" H 1600 2750 50  0001 C CNN
+F 3 "" H 1600 2750 50  0001 C CNN
+	1    1600 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2750 1600 2750
+Text Label 2150 3950 0    50   ~ 0
+ABN
+Text Label 2150 4050 0    50   ~ 0
+EMER
+Text Label 2150 4550 0    50   ~ 0
+SKP
+Text Label 2150 4650 0    50   ~ 0
+PAG
+Text Label 2150 5900 0    50   ~ 0
+RCL
+Text Label 2150 6000 0    50   ~ 0
+ENT
+$Comp
+L pkl_misc:74HC165 U?
+U 1 1 5DC023B7
+P 3400 4450
+AR Path="/5DC023B7" Ref="U?"  Part="1" 
+AR Path="/5DB5DCD1/5DC023B7" Ref="U?"  Part="1" 
+AR Path="/5DB6029E/5DC023B7" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5DC023B7" Ref="U?"  Part="1" 
+F 0 "U?" H 3400 5347 60  0000 C CNN
+F 1 "74HC165" H 3400 5241 60  0000 C CNN
+F 2 "" H 5590 3230 60  0001 C CNN
+F 3 "" H 5590 3230 60  0001 C CNN
+	1    3400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC023BE
+P 2800 4950
+AR Path="/5DB6029E/5DC023BE" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC023BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 4700 50  0001 C CNN
+F 1 "GND" V 2805 4822 50  0000 R CNN
+F 2 "" H 2800 4950 50  0001 C CNN
+F 3 "" H 2800 4950 50  0001 C CNN
+	1    2800 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC023C4
+P 4000 5100
+AR Path="/5DB6029E/5DC023C4" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC023C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 4850 50  0001 C CNN
+F 1 "GND" V 4005 4972 50  0000 R CNN
+F 2 "" H 4000 5100 50  0001 C CNN
+F 3 "" H 4000 5100 50  0001 C CNN
+	1    4000 5100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4000 4850
+Wire Wire Line
+	4000 4650 4450 4650
+$Comp
+L Device:C_Small C?
+U 1 1 5DC023CC
+P 4000 3900
+AR Path="/5DB6029E/5DC023CC" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC023CC" Ref="C?"  Part="1" 
+F 0 "C?" H 4092 3946 50  0000 L CNN
+F 1 "0.1u" H 4092 3855 50  0000 L CNN
+F 2 "" H 4000 3900 50  0001 C CNN
+F 3 "~" H 4000 3900 50  0001 C CNN
+	1    4000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC023D3
+P 4000 4000
+AR Path="/5DB6029E/5DC023D3" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC023D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 3750 50  0001 C CNN
+F 1 "GND" H 4005 3827 50  0000 C CNN
+F 2 "" H 4000 4000 50  0001 C CNN
+F 3 "" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3800 4200 3800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC023DA
+P 4200 3800
+AR Path="/5DB6029E/5DC023DA" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC023DA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 3650 50  0001 C CNN
+F 1 "+3.3V" V 4215 3928 50  0000 L CNN
+F 2 "" H 4200 3800 50  0001 C CNN
+F 3 "" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 5DC023E0
+P 1900 4250
+AR Path="/5DB6029E/5DC023E0" Ref="RN?"  Part="1" 
+AR Path="/5DC174D4/5DC023E0" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2417 4250 50  0000 C CNN
+F 1 "R_Network08" V 2326 4250 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 2375 4250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 4250 50  0001 C CNN
+	1    1900 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 3950 2800 3950
+Wire Wire Line
+	2100 4550 2800 4550
+Wire Wire Line
+	2100 4650 2800 4650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC023EA
+P 1600 4650
+AR Path="/5DB6029E/5DC023EA" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC023EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 4500 50  0001 C CNN
+F 1 "+3.3V" V 1615 4778 50  0000 L CNN
+F 2 "" H 1600 4650 50  0001 C CNN
+F 3 "" H 1600 4650 50  0001 C CNN
+	1    1600 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 4650 1600 4650
+Wire Wire Line
+	2800 3850 2650 3850
+Wire Wire Line
+	2650 3850 2650 3450
+Wire Wire Line
+	2650 3450 4450 3450
+Connection ~ 4000 1900
+Connection ~ 4000 3800
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5DC023F6
+P 6100 4850
+AR Path="/5DB5DCD1/5DC023F6" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5DC023F6" Ref="U?"  Part="1" 
+F 0 "U?" H 6150 5528 50  0000 C CNN
+F 1 "74HC4051" H 6150 5437 50  0000 C CNN
+F 2 "" H 6100 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 6100 4450 50  0001 C CNN
+	1    6100 4850
+	1    0    0    -1  
+$EndComp
+Text Label 6700 2300 0    50   ~ 0
+PFD_DIM
+Text Label 6700 2400 0    50   ~ 0
+MFD_DIM
+Text Label 6700 2500 0    50   ~ 0
+COM1_HP
+Text Label 6700 3100 0    50   ~ 0
+COM1_LSPK
+Wire Wire Line
+	6100 5450 6150 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02402
+P 6150 5450
+AR Path="/5DB5DCD1/5DC02402" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02402" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 5200 50  0001 C CNN
+F 1 "GND" H 6155 5277 50  0000 C CNN
+F 2 "" H 6150 5450 50  0001 C CNN
+F 3 "" H 6150 5450 50  0001 C CNN
+	1    6150 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 5450
+Wire Wire Line
+	6150 5450 6200 5450
+$Comp
+L Device:C_Small C?
+U 1 1 5DC0240A
+P 6550 4350
+AR Path="/5DB5DCD1/5DC0240A" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC0240A" Ref="C?"  Part="1" 
+F 0 "C?" V 6779 4350 50  0000 C CNN
+F 1 "0.1u" V 6688 4350 50  0000 C CNN
+F 2 "" H 6550 4350 50  0001 C CNN
+F 3 "~" H 6550 4350 50  0001 C CNN
+	1    6550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 4350 6450 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02412
+P 6650 4350
+AR Path="/5DB5DCD1/5DC02412" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02412" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 4100 50  0001 C CNN
+F 1 "GND" V 6655 4222 50  0000 R CNN
+F 2 "" H 6650 4350 50  0001 C CNN
+F 3 "" H 6650 4350 50  0001 C CNN
+	1    6650 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC02418
+P 5900 4350
+AR Path="/5DB5DCD1/5DC02418" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02418" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 4200 50  0001 C CNN
+F 1 "+3.3V" V 5915 4478 50  0000 L CNN
+F 2 "" H 5900 4350 50  0001 C CNN
+F 3 "" H 5900 4350 50  0001 C CNN
+	1    5900 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6100 4350
+Wire Wire Line
+	5900 4350 6100 4350
+Text HLabel 5800 4550 0    50   Output ~ 0
+ADC
+Text HLabel 5800 5150 0    50   Input ~ 0
+ADC_E_1
+Text Label 6700 2600 0    50   ~ 0
+COM2_HP
+Text Label 6700 3200 0    50   ~ 0
+COM2_LSPK
+Text HLabel 5500 2500 0    50   Input ~ 0
+ADC_E_0
+Text GLabel 5500 3200 0    50   Input ~ 0
+A3
+Text GLabel 5500 3000 0    50   Input ~ 0
+A1
+Text GLabel 5500 3100 0    50   Input ~ 0
+A2
+Text GLabel 5500 2900 0    50   Input ~ 0
+A0
+Text HLabel 5500 3600 0    50   Output ~ 0
+ADC
+$Comp
+L Device:C_Small C?
+U 1 1 5DC0242A
+P 6500 2150
+AR Path="/5DB5DCD1/5DC0242A" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC0242A" Ref="C?"  Part="1" 
+F 0 "C?" V 6729 2150 50  0000 C CNN
+F 1 "0.1u" V 6638 2150 50  0000 C CNN
+F 2 "" H 6500 2150 50  0001 C CNN
+F 3 "~" H 6500 2150 50  0001 C CNN
+	1    6500 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02431
+P 6600 2150
+AR Path="/5DB5DCD1/5DC02431" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02431" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 1900 50  0001 C CNN
+F 1 "GND" V 6605 2022 50  0000 R CNN
+F 2 "" H 6600 2150 50  0001 C CNN
+F 3 "" H 6600 2150 50  0001 C CNN
+	1    6600 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC02437
+P 5850 2150
+AR Path="/5DB5DCD1/5DC02437" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02437" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5850 2000 50  0001 C CNN
+F 1 "+3.3V" V 5865 2278 50  0000 L CNN
+F 2 "" H 5850 2150 50  0001 C CNN
+F 3 "" H 5850 2150 50  0001 C CNN
+	1    5850 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2150 6100 2150
+Wire Wire Line
+	6100 2250 6100 2150
+Connection ~ 6100 2150
+Wire Wire Line
+	6100 2150 6400 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02441
+P 6100 3900
+AR Path="/5DB5DCD1/5DC02441" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02441" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6100 3650 50  0001 C CNN
+F 1 "GND" H 6105 3727 50  0000 C CNN
+F 2 "" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3900 6100 3850
+$Comp
+L adessein:4067 U?
+U 1 1 5DC02448
+P 6100 3050
+F 0 "U?" H 6100 4066 50  0000 C CNN
+F 1 "4067" H 6100 3975 50  0000 C CNN
+F 2 "" H 6100 3050 50  0001 C CNN
+F 3 "" H 6100 3050 50  0001 C CNN
+	1    6100 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 2950 0    50   Input ~ 0
+CLK
+Text GLabel 2800 3150 0    50   Input ~ 0
+ISR_LATCH
+Text GLabel 2800 4850 0    50   Input ~ 0
+CLK
+Text GLabel 2800 5050 0    50   Input ~ 0
+ISR_LATCH
+$Comp
+L pkl_misc:74HC165 U?
+U 1 1 5DC02453
+P 3400 6400
+AR Path="/5DC02453" Ref="U?"  Part="1" 
+AR Path="/5DB5DCD1/5DC02453" Ref="U?"  Part="1" 
+AR Path="/5DB6029E/5DC02453" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5DC02453" Ref="U?"  Part="1" 
+F 0 "U?" H 3400 7297 60  0000 C CNN
+F 1 "74HC165" H 3400 7191 60  0000 C CNN
+F 2 "" H 5590 5180 60  0001 C CNN
+F 3 "" H 5590 5180 60  0001 C CNN
+	1    3400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC0245A
+P 2800 6900
+AR Path="/5DB6029E/5DC0245A" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0245A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 6650 50  0001 C CNN
+F 1 "GND" V 2805 6772 50  0000 R CNN
+F 2 "" H 2800 6900 50  0001 C CNN
+F 3 "" H 2800 6900 50  0001 C CNN
+	1    2800 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02460
+P 4000 7050
+AR Path="/5DB6029E/5DC02460" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02460" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 6800 50  0001 C CNN
+F 1 "GND" V 4005 6922 50  0000 R CNN
+F 2 "" H 4000 7050 50  0001 C CNN
+F 3 "" H 4000 7050 50  0001 C CNN
+	1    4000 7050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4000 6800
+$Comp
+L Device:C_Small C?
+U 1 1 5DC02467
+P 4000 5850
+AR Path="/5DB6029E/5DC02467" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC02467" Ref="C?"  Part="1" 
+F 0 "C?" H 4092 5896 50  0000 L CNN
+F 1 "0.1u" H 4092 5805 50  0000 L CNN
+F 2 "" H 4000 5850 50  0001 C CNN
+F 3 "~" H 4000 5850 50  0001 C CNN
+	1    4000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC0246E
+P 4000 5950
+AR Path="/5DB6029E/5DC0246E" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0246E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 5700 50  0001 C CNN
+F 1 "GND" H 4005 5777 50  0000 C CNN
+F 2 "" H 4000 5950 50  0001 C CNN
+F 3 "" H 4000 5950 50  0001 C CNN
+	1    4000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5750 4200 5750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC02475
+P 4200 5750
+AR Path="/5DB6029E/5DC02475" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02475" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 5600 50  0001 C CNN
+F 1 "+3.3V" V 4215 5878 50  0000 L CNN
+F 2 "" H 4200 5750 50  0001 C CNN
+F 3 "" H 4200 5750 50  0001 C CNN
+	1    4200 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 5DC0247B
+P 1900 6200
+AR Path="/5DB6029E/5DC0247B" Ref="RN?"  Part="1" 
+AR Path="/5DC174D4/5DC0247B" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2417 6200 50  0000 C CNN
+F 1 "R_Network08" V 2326 6200 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 2375 6200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 6200 50  0001 C CNN
+	1    1900 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 5900 2800 5900
+Wire Wire Line
+	2100 6000 2800 6000
+Wire Wire Line
+	2100 6100 2800 6100
+Wire Wire Line
+	2100 6200 2800 6200
+Wire Wire Line
+	2100 6300 2800 6300
+Wire Wire Line
+	2100 6400 2800 6400
+Wire Wire Line
+	2100 6500 2800 6500
+Wire Wire Line
+	2100 6600 2800 6600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC0248A
+P 1600 6600
+AR Path="/5DB6029E/5DC0248A" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0248A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 6450 50  0001 C CNN
+F 1 "+3.3V" V 1615 6728 50  0000 L CNN
+F 2 "" H 1600 6600 50  0001 C CNN
+F 3 "" H 1600 6600 50  0001 C CNN
+	1    1600 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 6600 1600 6600
+Wire Wire Line
+	2800 5800 2650 5800
+Wire Wire Line
+	2650 5800 2650 5400
+Connection ~ 4000 5750
+Text GLabel 2800 6800 0    50   Input ~ 0
+CLK
+Text GLabel 2800 7000 0    50   Input ~ 0
+ISR_LATCH
+Wire Wire Line
+	4450 4650 4450 5400
+Wire Wire Line
+	4450 5400 2650 5400
+Wire Wire Line
+	2800 4050 2100 4050
+Wire Wire Line
+	2100 4150 2800 4150
+Wire Wire Line
+	2800 4250 2100 4250
+Wire Wire Line
+	2100 4350 2800 4350
+Wire Wire Line
+	2800 4450 2100 4450
+Text Label 2150 4150 0    50   ~ 0
+LEFT
+Text Label 2150 4250 0    50   ~ 0
+UP
+Text Label 2150 4350 0    50   ~ 0
+RIGHT
+Text Label 2150 4450 0    50   ~ 0
+DOWN
+Text HLabel 4050 8550 2    50   Output ~ 0
+ISR_OUT
+Text Label 6700 2700 0    50   ~ 0
+HF_1
+Text Label 6700 3300 0    50   ~ 0
+ADF_1
+Text Label 6700 3400 0    50   ~ 0
+ADF_2
+Text Label 6700 2800 0    50   ~ 0
+NAV_1
+Text Label 6700 3500 0    50   ~ 0
+DME_1
+Text Label 6700 2900 0    50   ~ 0
+NAV_2
+Text Label 6700 3600 0    50   ~ 0
+DME_2
+Text Label 6700 3000 0    50   ~ 0
+INPH
+Text Label 6700 3700 0    50   ~ 0
+MIXER
+Text Label 6700 3800 0    50   ~ 0
+SPKR
+Text Label 6500 4550 0    50   ~ 0
+MLS_1
+Text Label 6500 4650 0    50   ~ 0
+MLS_2
+Text Label 6500 4750 0    50   ~ 0
+MKR
+Text Label 6500 4850 0    50   ~ 0
+HDPH
+Text GLabel 5800 4850 0    50   Input ~ 0
+A1
+Text GLabel 5800 4950 0    50   Input ~ 0
+A2
+Text GLabel 5800 4750 0    50   Input ~ 0
+A0
+$Comp
+L pkl_misc:74HC165 U?
+U 1 1 5DC024B3
+P 3400 8350
+AR Path="/5DC024B3" Ref="U?"  Part="1" 
+AR Path="/5DB5DCD1/5DC024B3" Ref="U?"  Part="1" 
+AR Path="/5DB6029E/5DC024B3" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5DC024B3" Ref="U?"  Part="1" 
+F 0 "U?" H 3400 9247 60  0000 C CNN
+F 1 "74HC165" H 3400 9141 60  0000 C CNN
+F 2 "" H 5590 7130 60  0001 C CNN
+F 3 "" H 5590 7130 60  0001 C CNN
+	1    3400 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC024BA
+P 2800 8850
+AR Path="/5DB6029E/5DC024BA" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC024BA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 8600 50  0001 C CNN
+F 1 "GND" V 2805 8722 50  0000 R CNN
+F 2 "" H 2800 8850 50  0001 C CNN
+F 3 "" H 2800 8850 50  0001 C CNN
+	1    2800 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC024C0
+P 4000 9000
+AR Path="/5DB6029E/5DC024C0" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC024C0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 8750 50  0001 C CNN
+F 1 "GND" V 4005 8872 50  0000 R CNN
+F 2 "" H 4000 9000 50  0001 C CNN
+F 3 "" H 4000 9000 50  0001 C CNN
+	1    4000 9000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4000 8750
+Wire Wire Line
+	4000 8550 4050 8550
+$Comp
+L Device:C_Small C?
+U 1 1 5DC024C8
+P 4000 7800
+AR Path="/5DB6029E/5DC024C8" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC024C8" Ref="C?"  Part="1" 
+F 0 "C?" H 4092 7846 50  0000 L CNN
+F 1 "0.1u" H 4092 7755 50  0000 L CNN
+F 2 "" H 4000 7800 50  0001 C CNN
+F 3 "~" H 4000 7800 50  0001 C CNN
+	1    4000 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC024CF
+P 4000 7900
+AR Path="/5DB6029E/5DC024CF" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC024CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 7650 50  0001 C CNN
+F 1 "GND" H 4005 7727 50  0000 C CNN
+F 2 "" H 4000 7900 50  0001 C CNN
+F 3 "" H 4000 7900 50  0001 C CNN
+	1    4000 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 7700 4200 7700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC024D6
+P 4200 7700
+AR Path="/5DB6029E/5DC024D6" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC024D6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 7550 50  0001 C CNN
+F 1 "+3.3V" V 4215 7828 50  0000 L CNN
+F 2 "" H 4200 7700 50  0001 C CNN
+F 3 "" H 4200 7700 50  0001 C CNN
+	1    4200 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 5DC024DC
+P 1900 8150
+AR Path="/5DB6029E/5DC024DC" Ref="RN?"  Part="1" 
+AR Path="/5DC174D4/5DC024DC" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2417 8150 50  0000 C CNN
+F 1 "R_Network08" V 2326 8150 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 2375 8150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 8150 50  0001 C CNN
+	1    1900 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 7850 2800 7850
+Wire Wire Line
+	2100 7950 2800 7950
+Wire Wire Line
+	2100 8050 2800 8050
+Wire Wire Line
+	2100 8150 2800 8150
+Wire Wire Line
+	2100 8250 2800 8250
+Wire Wire Line
+	2100 8350 2800 8350
+Wire Wire Line
+	2100 8450 2800 8450
+Wire Wire Line
+	2100 8550 2800 8550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC024EB
+P 1600 8550
+AR Path="/5DB6029E/5DC024EB" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC024EB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 8400 50  0001 C CNN
+F 1 "+3.3V" V 1615 8678 50  0000 L CNN
+F 2 "" H 1600 8550 50  0001 C CNN
+F 3 "" H 1600 8550 50  0001 C CNN
+	1    1600 8550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 8550 1600 8550
+Wire Wire Line
+	2800 7750 2650 7750
+Wire Wire Line
+	2650 7750 2650 7350
+Connection ~ 4000 7700
+Text GLabel 2800 8750 0    50   Input ~ 0
+CLK
+Text GLabel 2800 8950 0    50   Input ~ 0
+ISR_LATCH
+Wire Wire Line
+	4450 6600 4450 7350
+Wire Wire Line
+	4450 7350 2650 7350
+Wire Wire Line
+	4000 6600 4450 6600
+Text Label 2150 6100 0    50   ~ 0
+PB_COM_1
+Text Label 2150 6200 0    50   ~ 0
+PB_COM_2
+Text Label 2150 6300 0    50   ~ 0
+BP_HF_1
+Text Label 2150 6400 0    50   ~ 0
+BP_CABIN
+Text Label 2150 6500 0    50   ~ 0
+BP_EMER
+Text Label 2150 6600 0    50   ~ 0
+BP_MUTE
+Text Label 2150 7850 0    50   ~ 0
+PB_DG_TEST
+Text Label 2150 7950 0    50   ~ 0
+BP_ADC_REV
+Text Label 2150 8050 0    50   ~ 0
+BP_IRV_REV
+$Comp
+L Device:C_Small C?
+U 1 1 5DC02503
+P 6200 6350
+AR Path="/5DB5DCD1/5DC02503" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5DC02503" Ref="C?"  Part="1" 
+F 0 "C?" H 6292 6396 50  0000 L CNN
+F 1 "0.1u" H 6292 6305 50  0000 L CNN
+F 2 "" H 6200 6350 50  0001 C CNN
+F 3 "~" H 6200 6350 50  0001 C CNN
+	1    6200 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC0250A
+P 6300 6350
+AR Path="/5DB5DCD1/5DC0250A" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0250A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6300 6100 50  0001 C CNN
+F 1 "GND" H 6305 6177 50  0000 C CNN
+F 2 "" H 6300 6350 50  0001 C CNN
+F 3 "" H 6300 6350 50  0001 C CNN
+	1    6300 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 6350 6100 6150
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5DC02511
+P 6100 6950
+AR Path="/5DB5DCD1/5DC02511" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5DC02511" Ref="U?"  Part="1" 
+F 0 "U?" H 6100 7728 50  0000 C CNN
+F 1 "74HC595" H 6100 7637 50  0000 C CNN
+F 2 "" H 6100 6950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6100 6950 50  0001 C CNN
+	1    6100 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 6350
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02519
+P 6100 7650
+AR Path="/5DB5DCD1/5DC02519" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02519" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6100 7400 50  0001 C CNN
+F 1 "GND" H 6105 7477 50  0000 C CNN
+F 2 "" H 6100 7650 50  0001 C CNN
+F 3 "" H 6100 7650 50  0001 C CNN
+	1    6100 7650
+	1    0    0    -1  
+$EndComp
+Text HLabel 5700 6550 0    50   Input ~ 0
+OSR_IN
+$Comp
+L power:GND #PWR?
+U 1 1 5DC02520
+P 5700 7150
+AR Path="/5DB5DCD1/5DC02520" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02520" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5700 6900 50  0001 C CNN
+F 1 "GND" H 5705 6977 50  0000 C CNN
+F 2 "" H 5700 7150 50  0001 C CNN
+F 3 "" H 5700 7150 50  0001 C CNN
+	1    5700 7150
+	1    0    0    -1  
+$EndComp
+Text HLabel 6500 7450 2    50   Output ~ 0
+OSR_OUT
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC02527
+P 6100 6150
+AR Path="/5DB5DCD1/5DC02527" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC02527" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6100 6000 50  0001 C CNN
+F 1 "+3.3V" H 6115 6323 50  0000 C CNN
+F 2 "" H 6100 6150 50  0001 C CNN
+F 3 "" H 6100 6150 50  0001 C CNN
+	1    6100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC0252D
+P 5700 6850
+AR Path="/5DB5DCD1/5DC0252D" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DC0252D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5700 6700 50  0001 C CNN
+F 1 "+3.3V" V 5715 6978 50  0000 L CNN
+F 2 "" H 5700 6850 50  0001 C CNN
+F 3 "" H 5700 6850 50  0001 C CNN
+	1    5700 6850
+	0    -1   -1   0   
+$EndComp
+Text Notes 5600 7950 0    50   ~ 0
+8-channel output shift register
+Wire Notes Line
+	7150 8000 5200 8000
+Wire Notes Line
+	5200 8000 5200 5900
+Wire Notes Line
+	5200 5900 7150 5900
+Text GLabel 5700 7050 0    50   Input ~ 0
+OSR_LATCH
+Text GLabel 5700 6750 0    50   Input ~ 0
+CLK
+Text Label 6500 6550 0    50   ~ 0
+COM_1
+Text Label 6500 6650 0    50   ~ 0
+COM_2
+Text Label 6500 6750 0    50   ~ 0
+HF_1
+Text Label 6500 6850 0    50   ~ 0
+CABIN
+Text Label 6500 6950 0    50   ~ 0
+EMER
+$EndSCHEMATC

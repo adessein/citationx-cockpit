@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name esp32_dev_kit)(type KiCad)(uri ${KIPRJMOD}/library/esp32_dev_kit/esp32_dev_kit.pretty)(options "")(descr ""))
+  (lib (name library)(type KiCad)(uri ${KIPRJMOD}/library/kicad-schlib/library)(options "")(descr ""))
+)
