@@ -21,6 +21,17 @@ My project covers :
  
  In the folder Electronics, you can find the backup files from EasyEDA.com. The project is available on https://easyeda.com/arnaud.dessein
 
+# How to clone the repository
+
+This repository includes Kicad libraries as git sub-modules.
+Therefore, you should get the modules after cloning the repo.
+
+```
+git clone git@github.com:adessein/citationx-cockpit.git
+cd citationx-cockpit
+git submodule update --init --recursive
+```
+
 # Documentation
 
 I have documented this project so you can find details about how I designed my home cockpit.
