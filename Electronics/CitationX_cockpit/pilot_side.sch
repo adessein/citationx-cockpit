@@ -828,19 +828,19 @@ PB_COM_1
 Text Label 1600 5250 0    50   ~ 0
 PB_COM_2
 Text Label 1600 5350 0    50   ~ 0
-BP_HF_1
+PB_HF_1
 Text Label 1600 5450 0    50   ~ 0
-BP_CABIN
+PB_CABIN
 Text Label 1600 5550 0    50   ~ 0
-BP_EMER
+PB_EMER
 Text Label 1600 5650 0    50   ~ 0
-BP_MUTE
+PB_MUTE
 Text Label 1600 6900 0    50   ~ 0
-PB_DG_TEST
+PB_SG_TEST
 Text Label 1600 7000 0    50   ~ 0
-BP_ADC_REV
+PB_ADC_REV
 Text Label 1600 7100 0    50   ~ 0
-BP_IRV_REV
+PB_IRS_REV
 $Comp
 L Device:C_Small C?
 U 1 1 5DBFBED4
