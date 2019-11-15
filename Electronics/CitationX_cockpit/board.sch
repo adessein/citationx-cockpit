@@ -1299,8 +1299,6 @@ Text Label 1750 7000 0    50   ~ 0
 P_MC_RESET_PB
 Text Label 1750 6800 0    50   ~ 0
 P_MW_RESET_PB
-Text Notes 7250 15000 0    50   ~ 0
-Todo : check all wires in screw terminal anc make sure they exist in I/O shift registers
 Text Label 1750 7100 0    50   ~ 0
 P_BRG_L_OFF
 Text Label 1750 7200 0    50   ~ 0
@@ -2224,7 +2222,6 @@ F 3 "" H 2950 6050 50  0001 C CNN
 	1    2950 6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 2950 6050
 $Comp
 L power:GND #PWR?
 U 1 1 5DF4F05E
@@ -2445,8 +2442,6 @@ Wire Wire Line
 NoConn ~ 3900 9050
 NoConn ~ 3900 9150
 NoConn ~ 1950 5500
-NoConn ~ 3950 6450
-NoConn ~ 3950 6550
 NoConn ~ 3950 6650
 NoConn ~ 3950 6750
 NoConn ~ 3950 6850
@@ -2459,4 +2454,30 @@ NoConn ~ 3950 7450
 NoConn ~ 3950 7550
 Text HLabel 3100 8950 0    50   Input ~ 0
 OSR_LATCH
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5DDEDB63
+P 3500 15750
+AR Path="/5DC33C09/5DDEDB63" Ref="J?"  Part="1" 
+AR Path="/5DB6029E/5DDEDB63" Ref="J?"  Part="1" 
+F 0 "J?" H 3580 15742 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3580 15651 50  0000 L CNN
+F 2 "" H 3500 15750 50  0001 C CNN
+F 3 "~" H 3500 15750 50  0001 C CNN
+	1    3500 15750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 6050
+Text Label 3950 6550 0    50   ~ 0
+AP_NOSE_DT
+Text Label 3950 6450 0    50   ~ 0
+AP_NOSE_CLK
+Wire Wire Line
+	3300 15850 2750 15850
+Text Label 2750 15850 0    50   ~ 0
+AP_NOSE_DT
+Wire Wire Line
+	3300 15750 2750 15750
+Text Label 2750 15750 0    50   ~ 0
+AP_NOSE_CLK
 $EndSCHEMATC
