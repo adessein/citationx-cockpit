@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CitationX_cockpit-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -300,7 +300,7 @@ Wire Wire Line
 	3900 4200 3900 4900
 Wire Wire Line
 	3450 4200 3900 4200
-Text HLabel 4850 4000 0    50   Input ~ 0
+Text HLabel 5100 3750 0    50   Input ~ 0
 OSR_LATCH
 $Comp
 L Device:C_Small C39
@@ -386,11 +386,176 @@ Wire Wire Line
 Text Label 2250 3800 2    50   ~ 0
 GND_IDLE_HIGH
 Text Label 2250 3900 2    50   ~ 0
-???_LIGHT
+TAXI_LIGHT
 Text Label 2250 4000 2    50   ~ 0
-??_LIGHT_LH
+LAND_LIGHT_LH
 Text Label 2250 4100 2    50   ~ 0
-??_LIGHT_RH
+LAND_LIGHT_RH
 Text Label 2250 4200 2    50   ~ 0
-WXO_RH_NORM
+LH_WING_DN
+Text Label 4800 2450 0    50   ~ 0
+RUD_TRIM_CLK
+Text Label 4800 2550 0    50   ~ 0
+RUD_TRIM_DT
+$Comp
+L LED:HDSP-4832_2 BAR?
+U 1 1 5DE317D1
+P 6750 4000
+F 0 "BAR?" H 6750 3233 50  0000 C CNN
+F 1 "HDSP-4832_2" H 6750 3324 50  0000 C CNN
+F 2 "Display:HDSP-4832" H 6750 3200 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 4750 4200 50  0001 C CNN
+	1    6750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L adessein:LM3914 U?
+U 1 1 5DE51E4E
+P 5950 3250
+F 0 "U?" H 5950 3265 50  0000 C CNN
+F 1 "LM3914" H 5950 3174 50  0000 C CNN
+F 2 "" H 5950 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/LM3914N-1-NOPB_C9408.pdf" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 6450 0    50   Input ~ 0
+ISR_LATCH
+$Comp
+L pkl_misc:74HC165 U?
+U 1 1 5DE562A1
+P 2850 5850
+AR Path="/5DE562A1" Ref="U?"  Part="1" 
+AR Path="/5DB5DCD1/5DE562A1" Ref="U?"  Part="1" 
+AR Path="/5DBF6FEB/5DE562A1" Ref="U?"  Part="1" 
+F 0 "U?" H 2850 6747 60  0000 C CNN
+F 1 "74HC165" H 2850 6641 60  0000 C CNN
+F 2 "" H 5040 4630 60  0001 C CNN
+F 3 "" H 5040 4630 60  0001 C CNN
+	1    2850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE562A7
+P 2250 6350
+F 0 "#PWR?" H 2250 6100 50  0001 C CNN
+F 1 "GND" V 2255 6222 50  0000 R CNN
+F 2 "" H 2250 6350 50  0001 C CNN
+F 3 "" H 2250 6350 50  0001 C CNN
+	1    2250 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE562AD
+P 3450 6500
+F 0 "#PWR?" H 3450 6250 50  0001 C CNN
+F 1 "GND" V 3455 6372 50  0000 R CNN
+F 2 "" H 3450 6500 50  0001 C CNN
+F 3 "" H 3450 6500 50  0001 C CNN
+	1    3450 6500
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2250 6250 0    50   Input ~ 0
+CLK
+NoConn ~ 3450 6250
+Wire Wire Line
+	3900 6050 3900 6750
+Wire Wire Line
+	3450 6050 3900 6050
+$Comp
+L Device:C_Small C?
+U 1 1 5DE562B7
+P 3450 5300
+F 0 "C?" H 3542 5346 50  0000 L CNN
+F 1 "0.1u" H 3542 5255 50  0000 L CNN
+F 2 "" H 3450 5300 50  0001 C CNN
+F 3 "~" H 3450 5300 50  0001 C CNN
+	1    3450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE562BD
+P 3450 5400
+F 0 "#PWR?" H 3450 5150 50  0001 C CNN
+F 1 "GND" H 3455 5227 50  0000 C CNN
+F 2 "" H 3450 5400 50  0001 C CNN
+F 3 "" H 3450 5400 50  0001 C CNN
+	1    3450 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5200 3650 5200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DE562C4
+P 3650 5200
+F 0 "#PWR?" H 3650 5050 50  0001 C CNN
+F 1 "+3.3V" V 3665 5328 50  0000 L CNN
+F 2 "" H 3650 5200 50  0001 C CNN
+F 3 "" H 3650 5200 50  0001 C CNN
+	1    3650 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 5DE562CA
+P 1350 5650
+F 0 "RN?" V 1867 5650 50  0000 C CNN
+F 1 "R_Network08" V 1776 5650 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 1825 5650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1350 5650 50  0001 C CNN
+	1    1350 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 5350 2250 5350
+Wire Wire Line
+	1550 5450 2250 5450
+Wire Wire Line
+	1550 5550 2250 5550
+Wire Wire Line
+	1550 5650 2250 5650
+Wire Wire Line
+	1550 5750 2250 5750
+Wire Wire Line
+	1550 5850 2250 5850
+Wire Wire Line
+	1550 5950 2250 5950
+Wire Wire Line
+	1550 6050 2250 6050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DE562D8
+P 1050 6050
+F 0 "#PWR?" H 1050 5900 50  0001 C CNN
+F 1 "+3.3V" V 1065 6178 50  0000 L CNN
+F 2 "" H 1050 6050 50  0001 C CNN
+F 3 "" H 1050 6050 50  0001 C CNN
+	1    1050 6050
+	0    -1   -1   0   
+$EndComp
+Text Label 2250 5450 2    50   ~ 0
+PARK_BREAK
+Wire Wire Line
+	1150 6050 1050 6050
+Wire Wire Line
+	3900 4900 2250 4900
+Wire Wire Line
+	2250 4900 2250 5250
+Text Label 2250 5350 2    50   ~ 0
+RH_WING_DN
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 5DE57A12
+P 8750 2450
+F 0 "U?" H 8750 2692 50  0000 C CNN
+F 1 "L7805" H 8750 2601 50  0000 C CNN
+F 2 "" H 8775 2300 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 8750 2400 50  0001 C CNN
+	1    8750 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
