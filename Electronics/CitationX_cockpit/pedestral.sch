@@ -395,17 +395,6 @@ Text Label 4800 2450 0    50   ~ 0
 RUD_TRIM_CLK
 Text Label 4800 2550 0    50   ~ 0
 RUD_TRIM_DT
-$Comp
-L LED:HDSP-4832_2 BAR?
-U 1 1 5DE317D1
-P 16900 9200
-F 0 "BAR?" H 16700 8450 50  0000 C CNN
-F 1 "HDSP-4832_2" H 16500 8550 50  0000 C CNN
-F 2 "Display:HDSP-4832" H 16900 8400 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 9400 50  0001 C CNN
-	1    16900 9200
-	-1   0    0    1   
-$EndComp
 Text HLabel 2250 6450 0    50   Input ~ 0
 ISR_LATCH
 $Comp
@@ -702,17 +691,6 @@ Wire Wire Line
 	16550 10100 16550 9500
 Wire Wire Line
 	16550 9500 16700 9500
-$Comp
-L LED:HDSP-4832_2 BAR?
-U 1 1 5DE755E9
-P 16900 10800
-F 0 "BAR?" H 16700 10050 50  0000 C CNN
-F 1 "HDSP-4832_2" H 16500 10150 50  0000 C CNN
-F 2 "Display:HDSP-4832" H 16900 10000 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 11000 50  0001 C CNN
-	1    16900 10800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	16300 10200 16600 10200
 Wire Wire Line
@@ -1451,134 +1429,17 @@ F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 6200 50  0001 C CNN
 	1    16900 6000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	17100 5500 17100 5600
-Wire Wire Line
-	17100 5600 17100 5700
-Connection ~ 17100 5600
-Wire Wire Line
-	17100 5700 17100 5800
-Connection ~ 17100 5700
-Wire Wire Line
-	17100 5800 17100 5900
-Connection ~ 17100 5800
-Wire Wire Line
-	17100 5900 17100 6000
-Connection ~ 17100 5900
-Wire Wire Line
-	17100 6000 17100 6100
-Connection ~ 17100 6000
-Wire Wire Line
-	17100 6100 17100 6200
-Connection ~ 17100 6100
-Wire Wire Line
-	17100 6200 17100 6300
-Connection ~ 17100 6200
-Wire Wire Line
-	17100 6300 17100 6400
-Connection ~ 17100 6300
-Wire Wire Line
-	17100 6400 17100 7100
-Connection ~ 17100 6400
-Wire Wire Line
-	17100 7100 17100 7200
-Connection ~ 17100 7100
-Wire Wire Line
-	17100 7200 17100 7300
-Connection ~ 17100 7200
-Wire Wire Line
-	17100 7300 17100 7400
-Connection ~ 17100 7300
-Wire Wire Line
-	17100 7400 17100 7500
-Connection ~ 17100 7400
-Wire Wire Line
-	17100 7500 17100 7600
-Connection ~ 17100 7500
-Wire Wire Line
-	17100 7600 17100 7700
-Connection ~ 17100 7600
-Wire Wire Line
-	17100 7700 17100 7800
-Connection ~ 17100 7700
-Wire Wire Line
-	17100 7800 17100 7900
-Connection ~ 17100 7800
-Wire Wire Line
-	17100 7900 17100 8000
-Connection ~ 17100 7900
-Wire Wire Line
-	17100 8700 17100 8800
-Wire Wire Line
-	17100 8800 17100 8900
-Connection ~ 17100 8800
-Wire Wire Line
-	17100 8900 17100 9000
-Connection ~ 17100 8900
-Wire Wire Line
-	17100 9000 17100 9100
-Connection ~ 17100 9000
-Wire Wire Line
-	17100 9100 17100 9200
-Connection ~ 17100 9100
-Wire Wire Line
-	17100 9200 17100 9300
-Connection ~ 17100 9200
-Wire Wire Line
-	17100 9300 17100 9400
-Connection ~ 17100 9300
-Wire Wire Line
-	17100 9400 17100 9500
-Connection ~ 17100 9400
-Wire Wire Line
-	17100 9500 17100 9600
-Connection ~ 17100 9500
-Wire Wire Line
-	17100 9600 17100 10300
-Connection ~ 17100 9600
-Wire Wire Line
-	17100 10300 17100 10400
-Connection ~ 17100 10300
-Wire Wire Line
-	17100 10400 17100 10500
-Connection ~ 17100 10400
-Wire Wire Line
-	17100 10500 17100 10600
-Connection ~ 17100 10500
-Wire Wire Line
-	17100 10600 17100 10700
-Connection ~ 17100 10600
-Wire Wire Line
-	17100 10700 17100 10800
-Connection ~ 17100 10700
-Wire Wire Line
-	17100 10800 17100 10900
-Connection ~ 17100 10800
-Wire Wire Line
-	17100 10900 17100 11000
-Connection ~ 17100 10900
-Wire Wire Line
-	17100 11000 17100 11100
-Connection ~ 17100 11000
-Wire Wire Line
-	17100 11100 17100 11200
-Connection ~ 17100 11100
-Wire Wire Line
-	17100 8000 17100 8700
-Connection ~ 17100 8000
-Connection ~ 17100 8700
 $Comp
 L power:+5V #PWR?
 U 1 1 5E457D40
-P 17100 5500
-F 0 "#PWR?" H 17100 5350 50  0001 C CNN
-F 1 "+5V" V 17115 5628 50  0000 L CNN
-F 2 "" H 17100 5500 50  0001 C CNN
-F 3 "" H 17100 5500 50  0001 C CNN
-	1    17100 5500
+P 17500 5500
+F 0 "#PWR?" H 17500 5350 50  0001 C CNN
+F 1 "+5V" V 17515 5628 50  0000 L CNN
+F 2 "" H 17500 5500 50  0001 C CNN
+F 3 "" H 17500 5500 50  0001 C CNN
+	1    17500 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 17100 5500
 Text Notes 11000 11750 0    50   ~ 0
 The LED bars are used for the trim and rudder position display
 Wire Notes Line
@@ -1589,4 +1450,108 @@ Wire Notes Line
 	10100 12500 17700 12500
 Wire Notes Line
 	17700 4700 10100 4700
+$Comp
+L Device:R_Network10 RN?
+U 1 1 5E57E6C3
+P 17300 6000
+F 0 "RN?" V 16583 6000 50  0000 C CNN
+F 1 "R_Network10" V 16674 6000 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP11" V 17875 6000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 6000 50  0001 C CNN
+	1    17300 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:HDSP-4832_2 BAR?
+U 1 1 5DE317D1
+P 16900 9200
+F 0 "BAR?" H 16700 8450 50  0000 C CNN
+F 1 "HDSP-4832_2" H 16500 8550 50  0000 C CNN
+F 2 "Display:HDSP-4832" H 16900 8400 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 9400 50  0001 C CNN
+	1    16900 9200
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:HDSP-4832_2 BAR?
+U 1 1 5DE755E9
+P 16900 10800
+F 0 "BAR?" H 16700 10050 50  0000 C CNN
+F 1 "HDSP-4832_2" H 16500 10150 50  0000 C CNN
+F 2 "Display:HDSP-4832" H 16900 10000 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 11000 50  0001 C CNN
+	1    16900 10800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Network10 RN?
+U 1 1 5E5A2B15
+P 17300 7600
+F 0 "RN?" V 16583 7600 50  0000 C CNN
+F 1 "R_Network10" V 16674 7600 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP11" V 17875 7600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 7600 50  0001 C CNN
+	1    17300 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network10 RN?
+U 1 1 5E5A3FC7
+P 17300 9200
+F 0 "RN?" V 16583 9200 50  0000 C CNN
+F 1 "R_Network10" V 16674 9200 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP11" V 17875 9200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 9200 50  0001 C CNN
+	1    17300 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network10 RN?
+U 1 1 5E5A556A
+P 17300 10800
+F 0 "RN?" V 16583 10800 50  0000 C CNN
+F 1 "R_Network10" V 16674 10800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP11" V 17875 10800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 10800 50  0001 C CNN
+	1    17300 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5AFFF6
+P 17500 7100
+F 0 "#PWR?" H 17500 6950 50  0001 C CNN
+F 1 "+5V" V 17515 7228 50  0000 L CNN
+F 2 "" H 17500 7100 50  0001 C CNN
+F 3 "" H 17500 7100 50  0001 C CNN
+	1    17500 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5B0594
+P 17500 8700
+F 0 "#PWR?" H 17500 8550 50  0001 C CNN
+F 1 "+5V" V 17515 8828 50  0000 L CNN
+F 2 "" H 17500 8700 50  0001 C CNN
+F 3 "" H 17500 8700 50  0001 C CNN
+	1    17500 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5B0A96
+P 17500 10300
+F 0 "#PWR?" H 17500 10150 50  0001 C CNN
+F 1 "+5V" V 17515 10428 50  0000 L CNN
+F 2 "" H 17500 10300 50  0001 C CNN
+F 3 "" H 17500 10300 50  0001 C CNN
+	1    17500 10300
+	0    1    1    0   
+$EndComp
+NoConn ~ 16300 11000
+NoConn ~ 16300 9600
+NoConn ~ 16300 8200
+NoConn ~ 16300 6800
+NoConn ~ 16300 5400
 $EndSCHEMATC
