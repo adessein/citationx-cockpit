@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CitationX_cockpit-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -56,7 +56,6 @@ F2 "ISR_IN" I L 3100 5850 50
 F3 "ISR_OUT" O R 5650 5850 50 
 F4 "OSR_IN" I L 3100 6100 50 
 F5 "OSR_OUT" O R 5650 6100 50 
-F6 "OSR_LATCH" I L 3100 6200 50 
 $EndSheet
 $Comp
 L 74xx:74HC4051 U?
@@ -931,10 +930,15 @@ S0
 Text Label 5500 2300 2    50   ~ 0
 LIGHT_E
 $Sheet
-S 4100 7650 650  850 
+S 4000 7650 850  850 
 U 5DBF6FEB
 F0 "pedestral" 50
 F1 "pedestral.sch" 50
+F2 "ADC_E" I L 4000 8400 50 
+F3 "ISR_IN" I L 4000 7750 50 
+F4 "OSR_IN" I L 4000 7850 50 
+F5 "OSR_OUT" I R 4850 7850 50 
+F6 "ISR_OUT" I R 4850 7750 50 
 $EndSheet
 $Sheet
 S 2200 5950 750  950 

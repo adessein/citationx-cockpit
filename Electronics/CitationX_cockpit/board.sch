@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CitationX_cockpit-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -319,8 +319,6 @@ F 3 "" H 950 5500 50  0001 C CNN
 	1    950  5500
 	0    1    1    0   
 $EndComp
-Text Label 950  4900 2    50   ~ 0
-INT
 $Comp
 L power:GND #PWR0197
 U 1 1 5DB82BC1
@@ -1220,8 +1218,6 @@ F 3 "" H 3000 5550 50  0001 C CNN
 	1    3000 5550
 	0    1    1    0   
 $EndComp
-Text Label 3000 4950 2    50   ~ 0
-INT
 $Comp
 L power:GND #PWR?
 U 1 1 5DC77CC2
@@ -2248,8 +2244,6 @@ F 3 "" H 2950 7550 50  0001 C CNN
 	1    2950 7550
 	0    1    1    0   
 $EndComp
-Text Label 2950 6950 2    50   ~ 0
-INT
 $Comp
 L power:GND #PWR?
 U 1 1 5DF4F071
@@ -2452,8 +2446,6 @@ NoConn ~ 3950 7250
 NoConn ~ 3950 7350
 NoConn ~ 3950 7450
 NoConn ~ 3950 7550
-Text HLabel 3100 8950 0    50   Input ~ 0
-OSR_LATCH
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 5DDEDB63
@@ -2480,4 +2472,12 @@ Wire Wire Line
 	3300 15750 2750 15750
 Text Label 2750 15750 0    50   ~ 0
 AP_NOSE_CLK
+Text GLabel 950  4900 0    50   Output ~ 0
+INT
+Text GLabel 3000 4950 0    50   Output ~ 0
+INT
+Text GLabel 2950 6950 0    50   Output ~ 0
+INT
+Text GLabel 3100 8950 0    50   Input ~ 0
+OSR_LATCH
 $EndSCHEMATC

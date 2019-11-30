@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CitationX_cockpit-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -321,15 +321,15 @@ Connection ~ 4000 3800
 $Comp
 L 74xx:74HC4051 U?
 U 1 1 5DC023F6
-P 6100 4850
+P 6100 5000
 AR Path="/5DB5DCD1/5DC023F6" Ref="U?"  Part="1" 
 AR Path="/5DC174D4/5DC023F6" Ref="U?"  Part="1" 
 AR Path="/5DC31399/5DC023F6" Ref="U55"  Part="1" 
-F 0 "U55" H 6150 5528 50  0000 C CNN
-F 1 "74HC4051" H 6150 5437 50  0000 C CNN
-F 2 "" H 6100 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 6100 4450 50  0001 C CNN
-	1    6100 4850
+F 0 "U55" H 6150 5678 50  0000 C CNN
+F 1 "74HC4051" H 6150 5587 50  0000 C CNN
+F 2 "" H 6100 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 6100 4600 50  0001 C CNN
+	1    6100 5000
 	1    0    0    -1  
 $EndComp
 Text Label 6700 2300 0    50   ~ 0
@@ -341,74 +341,74 @@ COM1_HP
 Text Label 6700 3100 0    50   ~ 0
 COM1_LSPK
 Wire Wire Line
-	6100 5450 6150 5450
+	6100 5600 6150 5600
 $Comp
 L power:GND #PWR?
 U 1 1 5DC02402
-P 6150 5450
+P 6150 5600
 AR Path="/5DB5DCD1/5DC02402" Ref="#PWR?"  Part="1" 
 AR Path="/5DC174D4/5DC02402" Ref="#PWR?"  Part="1" 
 AR Path="/5DC31399/5DC02402" Ref="#PWR0377"  Part="1" 
-F 0 "#PWR0377" H 6150 5200 50  0001 C CNN
-F 1 "GND" H 6155 5277 50  0000 C CNN
-F 2 "" H 6150 5450 50  0001 C CNN
-F 3 "" H 6150 5450 50  0001 C CNN
-	1    6150 5450
+F 0 "#PWR0377" H 6150 5350 50  0001 C CNN
+F 1 "GND" H 6155 5427 50  0000 C CNN
+F 2 "" H 6150 5600 50  0001 C CNN
+F 3 "" H 6150 5600 50  0001 C CNN
+	1    6150 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6150 5450
+Connection ~ 6150 5600
 Wire Wire Line
-	6150 5450 6200 5450
+	6150 5600 6200 5600
 $Comp
 L Device:C_Small C?
 U 1 1 5DC0240A
-P 6550 4350
+P 6550 4500
 AR Path="/5DB5DCD1/5DC0240A" Ref="C?"  Part="1" 
 AR Path="/5DC174D4/5DC0240A" Ref="C?"  Part="1" 
 AR Path="/5DC31399/5DC0240A" Ref="C63"  Part="1" 
-F 0 "C63" V 6779 4350 50  0000 C CNN
-F 1 "0.1u" V 6688 4350 50  0000 C CNN
-F 2 "" H 6550 4350 50  0001 C CNN
-F 3 "~" H 6550 4350 50  0001 C CNN
-	1    6550 4350
+F 0 "C63" V 6779 4500 50  0000 C CNN
+F 1 "0.1u" V 6688 4500 50  0000 C CNN
+F 2 "" H 6550 4500 50  0001 C CNN
+F 3 "~" H 6550 4500 50  0001 C CNN
+	1    6550 4500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6100 4350 6450 4350
+	6100 4500 6450 4500
 $Comp
 L power:GND #PWR?
 U 1 1 5DC02412
-P 6650 4350
+P 6650 4500
 AR Path="/5DB5DCD1/5DC02412" Ref="#PWR?"  Part="1" 
 AR Path="/5DC174D4/5DC02412" Ref="#PWR?"  Part="1" 
 AR Path="/5DC31399/5DC02412" Ref="#PWR0378"  Part="1" 
-F 0 "#PWR0378" H 6650 4100 50  0001 C CNN
-F 1 "GND" V 6655 4222 50  0000 R CNN
-F 2 "" H 6650 4350 50  0001 C CNN
-F 3 "" H 6650 4350 50  0001 C CNN
-	1    6650 4350
+F 0 "#PWR0378" H 6650 4250 50  0001 C CNN
+F 1 "GND" V 6655 4372 50  0000 R CNN
+F 2 "" H 6650 4500 50  0001 C CNN
+F 3 "" H 6650 4500 50  0001 C CNN
+	1    6650 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DC02418
-P 5900 4350
+P 5900 4500
 AR Path="/5DB5DCD1/5DC02418" Ref="#PWR?"  Part="1" 
 AR Path="/5DC174D4/5DC02418" Ref="#PWR?"  Part="1" 
 AR Path="/5DC31399/5DC02418" Ref="#PWR0379"  Part="1" 
-F 0 "#PWR0379" H 5900 4200 50  0001 C CNN
-F 1 "+3.3V" V 5915 4478 50  0000 L CNN
-F 2 "" H 5900 4350 50  0001 C CNN
-F 3 "" H 5900 4350 50  0001 C CNN
-	1    5900 4350
+F 0 "#PWR0379" H 5900 4350 50  0001 C CNN
+F 1 "+3.3V" V 5915 4628 50  0000 L CNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "" H 5900 4500 50  0001 C CNN
+	1    5900 4500
 	0    -1   -1   0   
 $EndComp
-Connection ~ 6100 4350
+Connection ~ 6100 4500
 Wire Wire Line
-	5900 4350 6100 4350
-Text HLabel 5800 4550 0    50   Output ~ 0
+	5900 4500 6100 4500
+Text HLabel 5800 4700 0    50   Output ~ 0
 ADC
-Text HLabel 5800 5150 0    50   Input ~ 0
+Text HLabel 5800 5300 0    50   Input ~ 0
 ADC_E_1
 Text Label 6700 2600 0    50   ~ 0
 COM2_HP
@@ -698,19 +698,19 @@ Text Label 6700 3700 0    50   ~ 0
 MIXER
 Text Label 6700 3800 0    50   ~ 0
 SPKR
-Text Label 6500 4550 0    50   ~ 0
+Text Label 6500 4700 0    50   ~ 0
 MLS_1
-Text Label 6500 4650 0    50   ~ 0
+Text Label 6500 4800 0    50   ~ 0
 MLS_2
-Text Label 6500 4750 0    50   ~ 0
+Text Label 6500 4900 0    50   ~ 0
 MKR
-Text Label 6500 4850 0    50   ~ 0
+Text Label 6500 5000 0    50   ~ 0
 HDPH
-Text GLabel 5800 4850 0    50   Input ~ 0
+Text GLabel 5800 5000 0    50   Input ~ 0
 A1
-Text GLabel 5800 4950 0    50   Input ~ 0
+Text GLabel 5800 5100 0    50   Input ~ 0
 A2
-Text GLabel 5800 4750 0    50   Input ~ 0
+Text GLabel 5800 4900 0    50   Input ~ 0
 A0
 $Comp
 L pkl_misc:74HC165 U?
@@ -957,7 +957,7 @@ F 3 "" H 5700 7150 50  0001 C CNN
 	1    5700 7150
 	1    0    0    -1  
 $EndComp
-Text HLabel 6500 7450 2    50   Output ~ 0
+Text HLabel 6500 7450 3    50   Output ~ 0
 OSR_OUT
 $Comp
 L power:+3.3V #PWR?
@@ -999,14 +999,42 @@ Text GLabel 5700 7050 0    50   Input ~ 0
 OSR_LATCH
 Text GLabel 5700 6750 0    50   Input ~ 0
 CLK
-Text Label 6500 6550 0    50   ~ 0
+Text Label 7300 6450 0    50   ~ 0
 COM_1
-Text Label 6500 6650 0    50   ~ 0
+Text Label 7300 6550 0    50   ~ 0
 COM_2
-Text Label 6500 6750 0    50   ~ 0
+Text Label 7300 6650 0    50   ~ 0
 HF_1
-Text Label 6500 6850 0    50   ~ 0
+Text Label 7300 6750 0    50   ~ 0
 CABIN
-Text Label 6500 6950 0    50   ~ 0
+Text Label 7300 6850 0    50   ~ 0
 EMER
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 5DEA06A1
+P 6900 6750
+AR Path="/5DBF6FEB/5DEA06A1" Ref="U?"  Part="1" 
+AR Path="/5DC33C09/5DEA06A1" Ref="U?"  Part="1" 
+AR Path="/5DC31399/5DEA06A1" Ref="U?"  Part="1" 
+F 0 "U?" H 6900 7317 50  0000 C CNN
+F 1 "ULN2803A" H 6900 7226 50  0000 C CNN
+F 2 "" H 6950 6100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 7000 6550 50  0001 C CNN
+	1    6900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA6F8F
+P 6900 7450
+AR Path="/5DB5DCD1/5DEA6F8F" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DEA6F8F" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5DEA6F8F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6900 7200 50  0001 C CNN
+F 1 "GND" H 6905 7277 50  0000 C CNN
+F 2 "" H 6900 7450 50  0001 C CNN
+F 3 "" H 6900 7450 50  0001 C CNN
+	1    6900 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

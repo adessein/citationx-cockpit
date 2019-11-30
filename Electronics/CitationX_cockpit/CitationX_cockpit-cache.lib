@@ -353,7 +353,7 @@ ENDDEF
 #
 # Device_R_Network08
 #
-DEF Device_R_Network08 RN 0 0 Y N 1 F N
+DEF Device_R_Network08 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "Device_R_Network08" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP9" 475 0 50 V I C CNN
@@ -400,7 +400,7 @@ ENDDEF
 #
 # Device_R_Network10
 #
-DEF Device_R_Network10 RN 0 0 Y N 1 F N
+DEF Device_R_Network10 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "Device_R_Network10" 500 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP11" 575 0 50 V I C CNN

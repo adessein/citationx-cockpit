@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CitationX_cockpit-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -166,13 +166,13 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 6500 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6900 1250 0    50   ~ 0
-SPOILERS
+SPEEDBRAKE
 Text Label 6900 1350 0    50   ~ 0
-THRUST_L
+THROTTLE_L
 Text Label 6900 1450 0    50   ~ 0
-THRUST_R
+THROTTLE_R
 Text Label 6900 1550 0    50   ~ 0
-DIO3
+FRICTION
 Text Label 6900 1650 0    50   ~ 0
 FLAPS
 Text Label 6900 1750 0    50   ~ 0
@@ -243,20 +243,10 @@ $EndComp
 Connection ~ 6500 1050
 Wire Wire Line
 	6300 1050 6500 1050
-Text HLabel 6200 1250 0    50   Output ~ 0
-ADC
 Text HLabel 6200 1850 0    50   Input ~ 0
 ADC_E
-Text HLabel 6200 1450 0    50   Input ~ 0
-S0
-Text HLabel 6200 1550 0    50   Input ~ 0
-S1
-Text HLabel 6200 1650 0    50   Input ~ 0
-S2
 Text HLabel 2250 3400 0    50   Input ~ 0
 ISR_IN
-Text HLabel 2250 4600 0    50   Input ~ 0
-ISR_LATCH
 $Comp
 L pkl_misc:74HC165 U?
 U 1 1 5DBEE708
@@ -293,8 +283,6 @@ F 3 "" H 3450 4650 50  0001 C CNN
 	1    3450 4650
 	0    -1   -1   0   
 $EndComp
-Text HLabel 2250 4400 0    50   Input ~ 0
-CLK
 NoConn ~ 3450 4400
 Wire Wire Line
 	3900 4200 3900 4900
@@ -381,22 +369,20 @@ Text Label 2250 3700 2    50   ~ 0
 SEC_TRIM_NOSE_DN
 Wire Wire Line
 	1150 4200 1050 4200
-Text Label 2250 3800 2    50   ~ 0
-GND_IDLE_HIGH
-Text Label 2250 3900 2    50   ~ 0
-TAXI_LIGHT
 Text Label 2250 4000 2    50   ~ 0
+GND_IDLE_HIGH
+Text Label 2250 5350 2    50   ~ 0
+TAXI_LIGHT
+Text Label 2250 5450 2    50   ~ 0
 LAND_LIGHT_LH
-Text Label 2250 4100 2    50   ~ 0
+Text Label 2250 5550 2    50   ~ 0
 LAND_LIGHT_RH
-Text Label 2250 4200 2    50   ~ 0
+Text Label 2250 5650 2    50   ~ 0
 LH_WING_DN
 Text Label 4800 2450 0    50   ~ 0
 RUD_TRIM_CLK
 Text Label 4800 2550 0    50   ~ 0
 RUD_TRIM_DT
-Text HLabel 2250 6450 0    50   Input ~ 0
-ISR_LATCH
 $Comp
 L pkl_misc:74HC165 U?
 U 1 1 5DE562A1
@@ -433,11 +419,7 @@ F 3 "" H 3450 6500 50  0001 C CNN
 	1    3450 6500
 	0    -1   -1   0   
 $EndComp
-Text HLabel 2250 6250 0    50   Input ~ 0
-CLK
 NoConn ~ 3450 6250
-Wire Wire Line
-	3450 6050 3900 6050
 $Comp
 L Device:C_Small C?
 U 1 1 5DE562B7
@@ -511,7 +493,7 @@ F 3 "" H 1050 6050 50  0001 C CNN
 	1    1050 6050
 	0    -1   -1   0   
 $EndComp
-Text Label 2250 5450 2    50   ~ 0
+Text Label 2250 5850 2    50   ~ 0
 PARK_BREAK
 Wire Wire Line
 	1150 6050 1050 6050
@@ -519,7 +501,7 @@ Wire Wire Line
 	3900 4900 2250 4900
 Wire Wire Line
 	2250 4900 2250 5250
-Text Label 2250 5350 2    50   ~ 0
+Text Label 2250 5750 2    50   ~ 0
 RH_WING_DN
 $Comp
 L Transistor_Array:ULN2803A U?
@@ -548,7 +530,7 @@ L LED:HDSP-4832_2 BAR?
 U 1 1 5DE34297
 P 16900 7600
 F 0 "BAR?" H 16800 6850 50  0000 C CNN
-F 1 "HDSP-4832_2" H 16600 6950 50  0000 C CNN
+F 1 "HDSP-4832_2" H 16950 6950 50  0000 C CNN
 F 2 "Display:HDSP-4832" H 16900 6800 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 7800 50  0001 C CNN
 	1    16900 7600
@@ -570,8 +552,6 @@ Wire Wire Line
 	16350 6300 16350 6900
 Wire Wire Line
 	16350 6900 16300 6900
-Wire Wire Line
-	16700 6400 16450 7000
 Wire Wire Line
 	16450 7000 16300 7000
 Wire Wire Line
@@ -664,8 +644,6 @@ Wire Wire Line
 Wire Wire Line
 	16450 8500 16300 8500
 Wire Wire Line
-	16700 8000 16500 8600
-Wire Wire Line
 	16500 8600 16300 8600
 Wire Wire Line
 	16300 8700 16700 8700
@@ -693,8 +671,6 @@ Wire Wire Line
 	16550 9500 16700 9500
 Wire Wire Line
 	16300 10200 16600 10200
-Wire Wire Line
-	16600 10200 16700 9600
 Wire Wire Line
 	16700 10300 16300 10300
 Wire Wire Line
@@ -1440,7 +1416,7 @@ F 3 "" H 17500 5500 50  0001 C CNN
 	1    17500 5500
 	0    1    1    0   
 $EndComp
-Text Notes 11000 11750 0    50   ~ 0
+Text Notes 12900 4900 0    50   ~ 0
 The LED bars are used for the trim and rudder position display
 Wire Notes Line
 	17700 12450 17700 4700
@@ -1455,7 +1431,7 @@ L Device:R_Network10 RN?
 U 1 1 5E57E6C3
 P 17300 6000
 F 0 "RN?" V 16583 6000 50  0000 C CNN
-F 1 "R_Network10" V 16674 6000 50  0000 C CNN
+F 1 "150" V 16674 6000 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP11" V 17875 6000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 6000 50  0001 C CNN
 	1    17300 6000
@@ -1465,8 +1441,8 @@ $Comp
 L LED:HDSP-4832_2 BAR?
 U 1 1 5DE317D1
 P 16900 9200
-F 0 "BAR?" H 16700 8450 50  0000 C CNN
-F 1 "HDSP-4832_2" H 16500 8550 50  0000 C CNN
+F 0 "BAR?" H 16900 8450 50  0000 C CNN
+F 1 "HDSP-4832_2" H 16850 8550 50  0000 C CNN
 F 2 "Display:HDSP-4832" H 16900 8400 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 9400 50  0001 C CNN
 	1    16900 9200
@@ -1476,8 +1452,8 @@ $Comp
 L LED:HDSP-4832_2 BAR?
 U 1 1 5DE755E9
 P 16900 10800
-F 0 "BAR?" H 16700 10050 50  0000 C CNN
-F 1 "HDSP-4832_2" H 16500 10150 50  0000 C CNN
+F 0 "BAR?" H 16900 10050 50  0000 C CNN
+F 1 "HDSP-4832_2" H 16900 10150 50  0000 C CNN
 F 2 "Display:HDSP-4832" H 16900 10000 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 14900 11000 50  0001 C CNN
 	1    16900 10800
@@ -1488,7 +1464,7 @@ L Device:R_Network10 RN?
 U 1 1 5E5A2B15
 P 17300 7600
 F 0 "RN?" V 16583 7600 50  0000 C CNN
-F 1 "R_Network10" V 16674 7600 50  0000 C CNN
+F 1 "150" V 16674 7600 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP11" V 17875 7600 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 7600 50  0001 C CNN
 	1    17300 7600
@@ -1499,7 +1475,7 @@ L Device:R_Network10 RN?
 U 1 1 5E5A3FC7
 P 17300 9200
 F 0 "RN?" V 16583 9200 50  0000 C CNN
-F 1 "R_Network10" V 16674 9200 50  0000 C CNN
+F 1 "150" V 16674 9200 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP11" V 17875 9200 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 9200 50  0001 C CNN
 	1    17300 9200
@@ -1510,7 +1486,7 @@ L Device:R_Network10 RN?
 U 1 1 5E5A556A
 P 17300 10800
 F 0 "RN?" V 16583 10800 50  0000 C CNN
-F 1 "R_Network10" V 16674 10800 50  0000 C CNN
+F 1 "150" V 16674 10800 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP11" V 17875 10800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17300 10800 50  0001 C CNN
 	1    17300 10800
@@ -1554,4 +1530,62 @@ NoConn ~ 16300 9600
 NoConn ~ 16300 8200
 NoConn ~ 16300 6800
 NoConn ~ 16300 5400
+Text Notes 18050 6000 0    50   ~ 0
+Blue LEDS have are 4V. -> I need 5V\nRest is 2V.\n2V is the worst case scenario I=(Vcc-Vd)/R\nMax I=20mA\nTherefore R = (5-2)/20m = 150 ohms
+Wire Wire Line
+	16450 7000 16450 6400
+Wire Wire Line
+	16450 6400 16700 6400
+Wire Wire Line
+	16500 8600 16500 8000
+Wire Wire Line
+	16500 8000 16700 8000
+Wire Wire Line
+	16600 10200 16600 9600
+Wire Wire Line
+	16600 9600 16700 9600
+$Comp
+L power:GND #PWR?
+U 1 1 5DE53801
+P 15900 12000
+AR Path="/5DB5DCD1/5DE53801" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5DE53801" Ref="#PWR?"  Part="1" 
+AR Path="/5DBF6FEB/5DE53801" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 15900 11750 50  0001 C CNN
+F 1 "GND" H 15905 11827 50  0000 C CNN
+F 2 "" H 15900 12000 50  0001 C CNN
+F 3 "" H 15900 12000 50  0001 C CNN
+	1    15900 12000
+	0    1    1    0   
+$EndComp
+Text Label 2250 4200 2    50   ~ 0
+ENG_SYNC_TURB
+Text Label 2250 4100 2    50   ~ 0
+ENG_SYNC_FAN
+Text Label 2250 3800 2    50   ~ 0
+REVERSE_LH
+Text Label 2250 3900 2    50   ~ 0
+REVERSE_RH
+Text Label 2250 5950 2    50   ~ 0
+OSR_X1
+Text Label 2250 6050 2    50   ~ 0
+OSR_X2
+Text HLabel 3450 6050 2    50   Input ~ 0
+ISR_OUT
+Text GLabel 6200 1250 0    50   Output ~ 0
+ADC
+Text GLabel 6200 1550 0    50   Input ~ 0
+A1
+Text GLabel 6200 1650 0    50   Input ~ 0
+A2
+Text GLabel 6200 1450 0    50   Input ~ 0
+A0
+Text GLabel 2250 4600 0    50   Input ~ 0
+ISR_LATCH
+Text GLabel 2250 6450 0    50   Input ~ 0
+ISR_LATCH
+Text GLabel 2250 6250 0    50   Input ~ 0
+CLK
+Text GLabel 2250 4400 0    50   Input ~ 0
+CLK
 $EndSCHEMATC

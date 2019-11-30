@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CitationX_cockpit-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -672,7 +672,7 @@ WSHLD_LH
 Text Label 2500 1950 2    50   ~ 0
 WSHLD_RH
 Text Label 2500 2050 2    50   ~ 0
-UNKN
+WS_AIR
 Text Label 5900 1550 0    50   ~ 0
 GEARS_LH
 Text Label 5900 1650 0    50   ~ 0
