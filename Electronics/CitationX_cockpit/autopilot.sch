@@ -285,25 +285,25 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 3350 50  0001 C CNN
 	1    1100 3350
 	0    -1   -1   0   
 $EndComp
-Text Label 5800 1850 0    50   ~ 0
+Text Label 6050 1850 0    50   ~ 0
 HDG_LED
-Text Label 5800 1950 0    50   ~ 0
+Text Label 6050 1950 0    50   ~ 0
 ALT_LED
-Text Label 5800 2050 0    50   ~ 0
+Text Label 6050 2050 0    50   ~ 0
 FLC_LED
 Wire Wire Line
 	900  2050 850  2050
-Text Label 5800 3350 0    50   ~ 0
+Text Label 6050 3350 0    50   ~ 0
 MAV_LED
-Text Label 5800 3450 0    50   ~ 0
+Text Label 6050 3450 0    50   ~ 0
 VNAV_LED
-Text Label 5800 3550 0    50   ~ 0
+Text Label 6050 3550 0    50   ~ 0
 CO_LED
-Text Label 5800 3650 0    50   ~ 0
+Text Label 6050 3650 0    50   ~ 0
 APP_LED
-Text Label 5800 3750 0    50   ~ 0
+Text Label 6050 3750 0    50   ~ 0
 BANK_LED
-Text Label 5800 3850 0    50   ~ 0
+Text Label 6050 3850 0    50   ~ 0
 VS_LED
 Text GLabel 1850 2250 0    50   Input ~ 0
 CLK
@@ -313,19 +313,19 @@ Text GLabel 4450 1850 0    50   Input ~ 0
 OSR_LATCH
 Text GLabel 4450 1550 0    50   Input ~ 0
 CLK
-Text Label 5800 3950 0    50   ~ 0
+Text Label 6050 3950 0    50   ~ 0
 BC_LED
-Text Label 5800 4050 0    50   ~ 0
+Text Label 6050 4050 0    50   ~ 0
 STBY_LED
-Text Label 5800 5450 0    50   ~ 0
+Text Label 6050 5450 0    50   ~ 0
 AP_A_LED
-Text Label 5800 5550 0    50   ~ 0
+Text Label 6050 5550 0    50   ~ 0
 AP_B_LED
-Text Label 5800 5650 0    50   ~ 0
+Text Label 6050 5650 0    50   ~ 0
 YD_A_LED
-Text Label 5800 5750 0    50   ~ 0
+Text Label 6050 5750 0    50   ~ 0
 YD_B_LED
-Text Label 5800 5350 0    50   ~ 0
+Text Label 6050 5350 0    50   ~ 0
 SPD_LED
 Text GLabel 1850 3950 0    50   Input ~ 0
 CLK
@@ -447,9 +447,9 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 5050 50  0001 C CNN
 	1    1100 5050
 	0    -1   -1   0   
 $EndComp
-Text Label 5800 5850 0    50   ~ 0
+Text Label 6050 5850 0    50   ~ 0
 MT_A_LED
-Text Label 5800 5950 0    50   ~ 0
+Text Label 6050 5950 0    50   ~ 0
 MT_B_LED
 Text GLabel 1850 5650 0    50   Input ~ 0
 CLK
@@ -1412,68 +1412,20 @@ Text Label 1300 1450 0    50   ~ 0
 FIRE_L
 Text Label 1300 1550 0    50   ~ 0
 BOTTLE_L
-Wire Wire Line
-	5800 1350 5250 1350
-Wire Wire Line
-	5250 1450 5800 1450
-Wire Wire Line
-	5800 1550 5250 1550
-Wire Wire Line
-	5250 1650 5800 1650
-Wire Wire Line
-	5800 1750 5250 1750
-Wire Wire Line
-	5250 1850 5800 1850
-Wire Wire Line
-	5800 1950 5250 1950
-Wire Wire Line
-	5250 2050 5800 2050
-Wire Wire Line
-	5800 3350 5250 3350
-Wire Wire Line
-	5250 3450 5800 3450
-Wire Wire Line
-	5800 3550 5250 3550
-Wire Wire Line
-	5250 3650 5800 3650
-Wire Wire Line
-	5800 3750 5250 3750
-Wire Wire Line
-	5250 3850 5800 3850
-Wire Wire Line
-	5800 3950 5250 3950
-Wire Wire Line
-	5250 4050 5800 4050
-Text Label 5800 1350 0    50   ~ 0
+Text Label 6050 1350 0    50   ~ 0
 ARM_L_LED
-Text Label 5800 1450 0    50   ~ 0
+Text Label 6050 1450 0    50   ~ 0
 UNLOCK_L_LED
-Text Label 5800 1550 0    50   ~ 0
+Text Label 6050 1550 0    50   ~ 0
 DEPLOY_L_LED
-Text Label 5800 1650 0    50   ~ 0
+Text Label 6050 1650 0    50   ~ 0
 ENG_FIRE_L_LED
-Text Label 5800 1750 0    50   ~ 0
+Text Label 6050 1750 0    50   ~ 0
 BOTTLE_L_LED
-Text Label 5800 7350 0    50   ~ 0
+Text Label 6600 7250 0    50   ~ 0
 PFD_R_LED
-Text Label 5800 6050 0    50   ~ 0
+Text Label 6050 6050 0    50   ~ 0
 PFD_L_LED
-Wire Wire Line
-	5800 5350 5250 5350
-Wire Wire Line
-	5250 5450 5800 5450
-Wire Wire Line
-	5800 5550 5250 5550
-Wire Wire Line
-	5250 5650 5800 5650
-Wire Wire Line
-	5800 5750 5250 5750
-Wire Wire Line
-	5250 5850 5800 5850
-Wire Wire Line
-	5800 5950 5250 5950
-Wire Wire Line
-	5250 6050 5800 6050
 $Comp
 L Device:C_Small C?
 U 1 1 5DD985CE
@@ -1582,31 +1534,15 @@ Wire Wire Line
 	4350 6700 5250 6700
 Wire Wire Line
 	5250 6700 5250 6250
-Wire Wire Line
-	5800 7350 5250 7350
-Wire Wire Line
-	5250 7450 5800 7450
-Wire Wire Line
-	5800 7550 5250 7550
-Wire Wire Line
-	5250 7650 5800 7650
-Wire Wire Line
-	5800 7750 5250 7750
-Wire Wire Line
-	5250 7850 5800 7850
-Wire Wire Line
-	5800 7950 5250 7950
-Wire Wire Line
-	5250 8050 5800 8050
-Text Label 5800 7450 0    50   ~ 0
+Text Label 6600 7350 0    50   ~ 0
 ARM_R_LED
-Text Label 5800 7550 0    50   ~ 0
+Text Label 6600 7450 0    50   ~ 0
 UNLOCK_L_LED
-Text Label 5800 7650 0    50   ~ 0
+Text Label 6600 7550 0    50   ~ 0
 DEPLOY_R_LED
-Text Label 5800 7750 0    50   ~ 0
+Text Label 6600 7650 0    50   ~ 0
 ENG_FIRE_R_LED
-Text Label 5800 7850 0    50   ~ 0
+Text Label 6600 7750 0    50   ~ 0
 BOTTLE_R_LED
 $Comp
 L Connector:Screw_Terminal_01x10 J?
@@ -1746,4 +1682,120 @@ Wire Wire Line
 	8700 2700 8150 2700
 Text HLabel 3050 5450 2    50   Output ~ 0
 ISR_OUT
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 5E5190F9
+P 6200 7550
+F 0 "U?" H 6200 8117 50  0000 C CNN
+F 1 "ULN2803A" H 6200 8026 50  0000 C CNN
+F 2 "" H 6250 6900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6300 7350 50  0001 C CNN
+	1    6200 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E51910F
+P 6200 8250
+AR Path="/5DB5DCD1/5E51910F" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E51910F" Ref="#PWR?"  Part="1" 
+AR Path="/5DBF6FEB/5E51910F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 8000 50  0001 C CNN
+F 1 "GND" H 6205 8077 50  0000 C CNN
+F 2 "" H 6200 8250 50  0001 C CNN
+F 3 "" H 6200 8250 50  0001 C CNN
+	1    6200 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 5E53E8B4
+P 5650 1550
+F 0 "U?" H 5650 2117 50  0000 C CNN
+F 1 "ULN2803A" H 5650 2026 50  0000 C CNN
+F 2 "" H 5700 900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5750 1350 50  0001 C CNN
+	1    5650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E53E8BA
+P 5650 2250
+AR Path="/5DB5DCD1/5E53E8BA" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E53E8BA" Ref="#PWR?"  Part="1" 
+AR Path="/5DBF6FEB/5E53E8BA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 2000 50  0001 C CNN
+F 1 "GND" H 5655 2077 50  0000 C CNN
+F 2 "" H 5650 2250 50  0001 C CNN
+F 3 "" H 5650 2250 50  0001 C CNN
+	1    5650 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 5E545A18
+P 5650 3550
+F 0 "U?" H 5650 4117 50  0000 C CNN
+F 1 "ULN2803A" H 5650 4026 50  0000 C CNN
+F 2 "" H 5700 2900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5750 3350 50  0001 C CNN
+	1    5650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E545A1E
+P 5650 4250
+AR Path="/5DB5DCD1/5E545A1E" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E545A1E" Ref="#PWR?"  Part="1" 
+AR Path="/5DBF6FEB/5E545A1E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 4000 50  0001 C CNN
+F 1 "GND" H 5655 4077 50  0000 C CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 5E555812
+P 5650 5550
+F 0 "U?" H 5650 6117 50  0000 C CNN
+F 1 "ULN2803A" H 5650 6026 50  0000 C CNN
+F 2 "" H 5700 4900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5750 5350 50  0001 C CNN
+	1    5650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E555818
+P 5650 6250
+AR Path="/5DB5DCD1/5E555818" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E555818" Ref="#PWR?"  Part="1" 
+AR Path="/5DBF6FEB/5E555818" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 6000 50  0001 C CNN
+F 1 "GND" H 5655 6077 50  0000 C CNN
+F 2 "" H 5650 6250 50  0001 C CNN
+F 3 "" H 5650 6250 50  0001 C CNN
+	1    5650 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 8050 5800 8050
+Wire Wire Line
+	5800 7950 5250 7950
+Wire Wire Line
+	5250 7850 5800 7850
+Wire Wire Line
+	5800 7750 5250 7750
+Wire Wire Line
+	5250 7650 5800 7650
+Wire Wire Line
+	5800 7550 5250 7550
+Wire Wire Line
+	5250 7450 5800 7450
+Wire Wire Line
+	5800 7350 5250 7350
 $EndSCHEMATC
