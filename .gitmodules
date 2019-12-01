@@ -1,9 +1,6 @@
 [submodule "Electronics/CitationX_cockpit/library/ProMicroKiCad"]
 	path = Electronics/library/ProMicroKiCad
 	url = https://github.com/adessein/ProMicroKiCad
-[submodule "Electronics/APU/library/ProMicroKiCad"]
-	path = Electronics/APU/library/ProMicroKiCad
-	url = https://github.com/adessein/ProMicroKiCad
 [submodule "Electronics/CitationX_cockpit/library/pretty-kicad-libs"]
 	path = Electronics/library/pretty-kicad-libs
 	url = https://github.com/esden/pretty-kicad-libs
