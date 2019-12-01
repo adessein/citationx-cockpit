@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -929,17 +929,6 @@ Text Label 5500 1900 2    50   ~ 0
 S0
 Text Label 5500 2300 2    50   ~ 0
 LIGHT_E
-$Sheet
-S 4000 7650 850  850 
-U 5DBF6FEB
-F0 "pedestral" 50
-F1 "pedestral.sch" 50
-F2 "ADC_E" I L 4000 8400 50 
-F3 "ISR_IN" I L 4000 7750 50 
-F4 "OSR_IN" I L 4000 7850 50 
-F5 "OSR_OUT" I R 4850 7850 50 
-F6 "ISR_OUT" I R 4850 7750 50 
-$EndSheet
 $Sheet
 S 2200 5950 750  950 
 U 5DC174D4
