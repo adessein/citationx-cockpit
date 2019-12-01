@@ -66,13 +66,10 @@ F 3 "" H 3550 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 3550 1200
-NoConn ~ 3550 1400
 NoConn ~ 3550 1600
 NoConn ~ 3550 1700
 NoConn ~ 2150 1500
 NoConn ~ 2150 1400
-NoConn ~ 2150 1300
-NoConn ~ 2150 1200
 $Comp
 L 74xx:74HC4051 U?
 U 1 1 5DC019EB
@@ -263,10 +260,6 @@ Wire Wire Line
 	6000 1150 6200 1150
 Text Label 5900 1350 2    50   ~ 0
 7SEG_CLK
-Text GLabel 2150 1600 0    50   Input ~ 0
-SCL
-Text GLabel 2150 1700 0    50   BiDi ~ 0
-SDA
 $Comp
 L Connector:Screw_Terminal_01x10 J?
 U 1 1 5DC01A51
@@ -313,115 +306,24 @@ F 3 "~" H 8700 1650 50  0001 C CNN
 $EndComp
 $Comp
 L power:+5V #PWR?
-U 1 1 5DC01A78
-P 8500 1850
-AR Path="/5DB6029E/5DC01A78" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01A78" Ref="#PWR0324"  Part="1" 
-F 0 "#PWR0324" H 8500 1700 50  0001 C CNN
-F 1 "+5V" V 8515 1978 50  0000 L CNN
-F 2 "" H 8500 1850 50  0001 C CNN
-F 3 "" H 8500 1850 50  0001 C CNN
-	1    8500 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5DC01A7E
-P 8500 1950
-AR Path="/5DB6029E/5DC01A7E" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01A7E" Ref="#PWR0325"  Part="1" 
-F 0 "#PWR0325" H 8500 1800 50  0001 C CNN
-F 1 "+5V" V 8515 2078 50  0000 L CNN
-F 2 "" H 8500 1950 50  0001 C CNN
-F 3 "" H 8500 1950 50  0001 C CNN
-	1    8500 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5DC01A84
-P 8500 2050
-AR Path="/5DB6029E/5DC01A84" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01A84" Ref="#PWR0326"  Part="1" 
-F 0 "#PWR0326" H 8500 1900 50  0001 C CNN
-F 1 "+5V" V 8515 2178 50  0000 L CNN
-F 2 "" H 8500 2050 50  0001 C CNN
-F 3 "" H 8500 2050 50  0001 C CNN
-	1    8500 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
 U 1 1 5DC01A8A
-P 8500 2150
+P 8500 1250
 AR Path="/5DB6029E/5DC01A8A" Ref="#PWR?"  Part="1" 
 AR Path="/5DC174D6/5DC01A8A" Ref="#PWR0327"  Part="1" 
-F 0 "#PWR0327" H 8500 2000 50  0001 C CNN
-F 1 "+5V" V 8515 2278 50  0000 L CNN
-F 2 "" H 8500 2150 50  0001 C CNN
-F 3 "" H 8500 2150 50  0001 C CNN
-	1    8500 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC01AA2
-P 8500 1250
-AR Path="/5DB6029E/5DC01AA2" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01AA2" Ref="#PWR0328"  Part="1" 
-F 0 "#PWR0328" H 8500 1000 50  0001 C CNN
-F 1 "GND" H 8505 1077 50  0000 C CNN
+F 0 "#PWR0327" H 8500 1100 50  0001 C CNN
+F 1 "+5V" V 8515 1378 50  0000 L CNN
 F 2 "" H 8500 1250 50  0001 C CNN
 F 3 "" H 8500 1250 50  0001 C CNN
 	1    8500 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DC01AA8
-P 8500 1350
+P 8500 1650
 AR Path="/5DB6029E/5DC01AA8" Ref="#PWR?"  Part="1" 
 AR Path="/5DC174D6/5DC01AA8" Ref="#PWR0329"  Part="1" 
-F 0 "#PWR0329" H 8500 1100 50  0001 C CNN
-F 1 "GND" H 8505 1177 50  0000 C CNN
-F 2 "" H 8500 1350 50  0001 C CNN
-F 3 "" H 8500 1350 50  0001 C CNN
-	1    8500 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC01AAE
-P 8500 1450
-AR Path="/5DB6029E/5DC01AAE" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01AAE" Ref="#PWR0330"  Part="1" 
-F 0 "#PWR0330" H 8500 1200 50  0001 C CNN
-F 1 "GND" H 8505 1277 50  0000 C CNN
-F 2 "" H 8500 1450 50  0001 C CNN
-F 3 "" H 8500 1450 50  0001 C CNN
-	1    8500 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC01AB4
-P 8500 1550
-AR Path="/5DB6029E/5DC01AB4" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01AB4" Ref="#PWR0331"  Part="1" 
-F 0 "#PWR0331" H 8500 1300 50  0001 C CNN
-F 1 "GND" H 8505 1377 50  0000 C CNN
-F 2 "" H 8500 1550 50  0001 C CNN
-F 3 "" H 8500 1550 50  0001 C CNN
-	1    8500 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC01ABA
-P 8500 1650
-AR Path="/5DB6029E/5DC01ABA" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01ABA" Ref="#PWR0332"  Part="1" 
-F 0 "#PWR0332" H 8500 1400 50  0001 C CNN
+F 0 "#PWR0329" H 8500 1400 50  0001 C CNN
 F 1 "GND" H 8505 1477 50  0000 C CNN
 F 2 "" H 8500 1650 50  0001 C CNN
 F 3 "" H 8500 1650 50  0001 C CNN
@@ -437,24 +339,11 @@ Wire Notes Line
 Wire Notes Line
 	7350 2450 7350 1000
 Text Notes 7450 2400 0    50   ~ 0
-Connectors for 7x 7-seg
+Connectors for 7x 7-seg and OLED\n
 Wire Notes Line
 	500  2600 11150 2600
 Text Notes 650  750  0    50   ~ 0
-The ProMicro will receive the values to be displayed on \nthe 7-segments via I2C. It will then take care of the diaplays.
-$Comp
-L power:+5V #PWR?
-U 1 1 5DC01BE0
-P 8550 1750
-AR Path="/5DB6029E/5DC01BE0" Ref="#PWR?"  Part="1" 
-AR Path="/5DC174D6/5DC01BE0" Ref="#PWR0333"  Part="1" 
-F 0 "#PWR0333" H 8550 1600 50  0001 C CNN
-F 1 "+5V" V 8565 1878 50  0000 L CNN
-F 2 "" H 8550 1750 50  0001 C CNN
-F 3 "" H 8550 1750 50  0001 C CNN
-	1    8550 1750
-	0    -1   -1   0   
-$EndComp
+This board will be separated from the rest.\nIw ill communicate with the master using USART (TTL level, no need for MAX232)
 $Comp
 L pkl_misc:74HC165 U?
 U 1 1 5DC04FDB
@@ -616,10 +505,6 @@ Text Label 3550 2100 0    50   ~ 0
 CLK
 Text Label 3550 2200 0    50   ~ 0
 ISR_LATCH
-Wire Wire Line
-	1800 4300 2200 4300
-Wire Wire Line
-	1800 4500 2200 4500
 Text Label 3550 2300 0    50   ~ 0
 ISR_OUT
 $Comp
@@ -675,15 +560,230 @@ NoConn ~ 6600 2050
 NoConn ~ 5100 1850
 NoConn ~ 5100 1950
 NoConn ~ 5100 2050
-Text HLabel 1800 4500 0    50   Input ~ 0
-ISR_LATCH
-Text HLabel 1800 4300 0    50   Input ~ 0
-CLK
-Text HLabel 3400 4100 2    50   Output ~ 0
-ISR_OUT
 Connection ~ 3400 3250
 NoConn ~ 5450 4050
 NoConn ~ 5450 4150
-Text HLabel 2200 3300 0    50   Input ~ 0
-ISR_IN
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DE45E65
+P 8500 1950
+AR Path="/5DB6029E/5DE45E65" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE45E65" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 1800 50  0001 C CNN
+F 1 "+3.3V" V 8515 2078 50  0000 L CNN
+F 2 "" H 8500 1950 50  0001 C CNN
+F 3 "" H 8500 1950 50  0001 C CNN
+	1    8500 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8500 2050 0    50   Input ~ 0
+SCL
+Text GLabel 8500 2150 0    50   BiDi ~ 0
+SDA
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE478A4
+P 8500 1350
+AR Path="/5DB6029E/5DE478A4" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE478A4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 1200 50  0001 C CNN
+F 1 "+5V" V 8515 1478 50  0000 L CNN
+F 2 "" H 8500 1350 50  0001 C CNN
+F 3 "" H 8500 1350 50  0001 C CNN
+	1    8500 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE478C5
+P 8500 1450
+AR Path="/5DB6029E/5DE478C5" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE478C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 1300 50  0001 C CNN
+F 1 "+5V" V 8515 1578 50  0000 L CNN
+F 2 "" H 8500 1450 50  0001 C CNN
+F 3 "" H 8500 1450 50  0001 C CNN
+	1    8500 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DE47907
+P 8500 1850
+AR Path="/5DB6029E/5DE47907" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE47907" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 1700 50  0001 C CNN
+F 1 "+3.3V" V 8515 1978 50  0000 L CNN
+F 2 "" H 8500 1850 50  0001 C CNN
+F 3 "" H 8500 1850 50  0001 C CNN
+	1    8500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DE47928
+P 8500 1750
+AR Path="/5DB6029E/5DE47928" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE47928" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 1600 50  0001 C CNN
+F 1 "+3.3V" V 8515 1878 50  0000 L CNN
+F 2 "" H 8500 1750 50  0001 C CNN
+F 3 "" H 8500 1750 50  0001 C CNN
+	1    8500 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE478E6
+P 8500 1550
+AR Path="/5DB6029E/5DE478E6" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE478E6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 1400 50  0001 C CNN
+F 1 "+5V" V 8515 1678 50  0000 L CNN
+F 2 "" H 8500 1550 50  0001 C CNN
+F 3 "" H 8500 1550 50  0001 C CNN
+	1    8500 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J?
+U 1 1 5DE47E65
+P 8200 3650
+F 0 "J?" H 8250 4167 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8250 4076 50  0000 C CNN
+F 2 "" H 8200 3650 50  0001 C CNN
+F 3 "~" H 8200 3650 50  0001 C CNN
+	1    8200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE47FD3
+P 8000 3350
+AR Path="/5DB6029E/5DE47FD3" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE47FD3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3200 50  0001 C CNN
+F 1 "+5V" V 8015 3478 50  0000 L CNN
+F 2 "" H 8000 3350 50  0001 C CNN
+F 3 "" H 8000 3350 50  0001 C CNN
+	1    8000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DE47FF6
+P 8500 3350
+AR Path="/5DB6029E/5DE47FF6" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE47FF6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 3200 50  0001 C CNN
+F 1 "+3.3V" V 8515 3478 50  0000 L CNN
+F 2 "" H 8500 3350 50  0001 C CNN
+F 3 "" H 8500 3350 50  0001 C CNN
+	1    8500 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE486A5
+P 8000 3450
+AR Path="/5DB6029E/5DE486A5" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE486A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3200 50  0001 C CNN
+F 1 "GND" H 8005 3277 50  0000 C CNN
+F 2 "" H 8000 3450 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE486C8
+P 8500 3450
+AR Path="/5DB6029E/5DE486C8" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE486C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 3200 50  0001 C CNN
+F 1 "GND" H 8505 3277 50  0000 C CNN
+F 2 "" H 8500 3450 50  0001 C CNN
+F 3 "" H 8500 3450 50  0001 C CNN
+	1    8500 3450
+	0    -1   -1   0   
+$EndComp
+Text Label 2150 1200 2    50   ~ 0
+RX
+Text Label 2150 1300 2    50   ~ 0
+TX
+Text Label 8000 3550 2    50   ~ 0
+RX
+Text Label 8000 3750 2    50   ~ 0
+TX
+$Comp
+L power:GND #PWR?
+U 1 1 5DE487EB
+P 2200 3300
+AR Path="/5DB6029E/5DE487EB" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE487EB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 3050 50  0001 C CNN
+F 1 "GND" H 2205 3127 50  0000 C CNN
+F 2 "" H 2200 3300 50  0001 C CNN
+F 3 "" H 2200 3300 50  0001 C CNN
+	1    2200 3300
+	0    1    1    0   
+$EndComp
+Text Label 3400 4100 0    50   ~ 0
+ISR_OUT
+Text Label 2200 4500 2    50   ~ 0
+ISR_LATCH
+Text Label 2200 4300 2    50   ~ 0
+CLK
+Text Label 3550 1400 0    50   ~ 0
+RST
+Text Label 8000 3950 2    50   ~ 0
+RST
+$Comp
+L power:GND #PWR?
+U 1 1 5DE48EF8
+P 8000 3650
+AR Path="/5DB6029E/5DE48EF8" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE48EF8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3400 50  0001 C CNN
+F 1 "GND" H 8005 3477 50  0000 C CNN
+F 2 "" H 8000 3650 50  0001 C CNN
+F 3 "" H 8000 3650 50  0001 C CNN
+	1    8000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE48F1B
+P 8000 3850
+AR Path="/5DB6029E/5DE48F1B" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE48F1B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3600 50  0001 C CNN
+F 1 "GND" H 8005 3677 50  0000 C CNN
+F 2 "" H 8000 3850 50  0001 C CNN
+F 3 "" H 8000 3850 50  0001 C CNN
+	1    8000 3850
+	0    1    1    0   
+$EndComp
+Text Notes 7200 4550 0    50   ~ 0
+RST can be used to restart the Pro Micro.\nThis pin is pulled high by a 10k resistor on the board, \nand is active-low, so it must be connected to ground to initiate a reset.\nThe Pro Micro will remain "off" until the reset line is pulled back to high.
+$Comp
+L power:GND #PWR?
+U 1 1 5DE48FB4
+P 8000 4050
+AR Path="/5DB6029E/5DE48FB4" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D6/5DE48FB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3800 50  0001 C CNN
+F 1 "GND" H 8005 3877 50  0000 C CNN
+F 2 "" H 8000 4050 50  0001 C CNN
+F 3 "" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	0    1    1    0   
+$EndComp
+Text Notes 8950 2100 0    50   ~ 0
+SCL and SDA are used for an OLED\n
+Text Label 2150 1600 2    50   ~ 0
+SCL
+Text Label 2150 1700 2    50   ~ 0
+SDA
 $EndSCHEMATC
