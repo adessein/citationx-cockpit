@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:CitationX_cockpit-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 4 8
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -17,230 +16,228 @@ $EndDescr
 $Comp
 L Connector:Screw_Terminal_01x10 J29
 U 1 1 5DC06D8D
-P 1600 1250
-F 0 "J29" H 1680 1242 50  0000 L CNN
-F 1 "Screw_Terminal_01x10" H 1680 1151 50  0000 L CNN
-F 2 "" H 1600 1250 50  0001 C CNN
-F 3 "~" H 1600 1250 50  0001 C CNN
-	1    1600 1250
+P 2350 8050
+F 0 "J29" H 2430 8042 50  0000 L CNN
+F 1 "Screw_Terminal_01x10" H 2430 7951 50  0000 L CNN
+F 2 "" H 2350 8050 50  0001 C CNN
+F 3 "~" H 2350 8050 50  0001 C CNN
+	1    2350 8050
 	1    0    0    -1  
 $EndComp
 $Comp
 L NXP:PCF8575 U32
 U 1 1 5DC072AD
-P 4300 1050
-F 0 "U32" H 4300 1407 50  0000 C CNN
-F 1 "PCF8575" H 4300 1316 50  0000 C CNN
-F 2 "IPC7351-Nominal:SOP65P775X200-24" H 4300 -650 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCF8575.pdf" H 4300 -750 50  0001 C CNN
-F 4 "NXP" H 4300 -950 50  0001 C CNN "Manuf"
-F 5 "PCF8575TS/1,112" H 4300 -1050 50  0001 C CNN "MPN"
-F 6 "NXP PCF8575TS/1,112" H 4300 -850 50  0001 C CNN "BOM"
-F 7 "0x40" H 4300 1225 50  0000 C CNN "I2C adress"
-	1    4300 1050
+P 6900 1000
+F 0 "U32" H 6900 1357 50  0000 C CNN
+F 1 "PCF8575" H 6900 1266 50  0000 C CNN
+F 2 "IPC7351-Nominal:SOP65P775X200-24" H 6900 -700 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8575.pdf" H 6900 -800 50  0001 C CNN
+F 4 "NXP" H 6900 -1000 50  0001 C CNN "Manuf"
+F 5 "PCF8575TS/1,112" H 6900 -1100 50  0001 C CNN "MPN"
+F 6 "NXP PCF8575TS/1,112" H 6900 -900 50  0001 C CNN "BOM"
+F 7 "0x40" H 6900 1175 50  0000 C CNN "I2C adress"
+	1    6900 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C40
 U 1 1 5DC072B4
-P 3700 1050
-F 0 "C40" V 3929 1050 50  0000 C CNN
-F 1 "0.1u" V 3838 1050 50  0000 C CNN
-F 2 "" H 3700 1050 50  0001 C CNN
-F 3 "~" H 3700 1050 50  0001 C CNN
-	1    3700 1050
+P 6300 1000
+F 0 "C40" V 6529 1000 50  0000 C CNN
+F 1 "0.1u" V 6438 1000 50  0000 C CNN
+F 2 "" H 6300 1000 50  0001 C CNN
+F 3 "~" H 6300 1000 50  0001 C CNN
+	1    6300 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0271
 U 1 1 5DC072BB
-P 3800 1050
-F 0 "#PWR0271" H 3800 900 50  0001 C CNN
-F 1 "+3.3V" V 3815 1178 50  0000 L CNN
-F 2 "" H 3800 1050 50  0001 C CNN
-F 3 "" H 3800 1050 50  0001 C CNN
-	1    3800 1050
+P 6400 1000
+F 0 "#PWR0271" H 6400 850 50  0001 C CNN
+F 1 "+3.3V" V 6415 1128 50  0000 L CNN
+F 2 "" H 6400 1000 50  0001 C CNN
+F 3 "" H 6400 1000 50  0001 C CNN
+	1    6400 1000
 	1    0    0    -1  
 $EndComp
-Connection ~ 3800 1050
+Connection ~ 6400 1000
 $Comp
 L power:GND #PWR0272
 U 1 1 5DC072C2
-P 3600 1050
-F 0 "#PWR0272" H 3600 800 50  0001 C CNN
-F 1 "GND" V 3605 922 50  0000 R CNN
-F 2 "" H 3600 1050 50  0001 C CNN
-F 3 "" H 3600 1050 50  0001 C CNN
-	1    3600 1050
+P 6200 1000
+F 0 "#PWR0272" H 6200 750 50  0001 C CNN
+F 1 "GND" V 6205 872 50  0000 R CNN
+F 2 "" H 6200 1000 50  0001 C CNN
+F 3 "" H 6200 1000 50  0001 C CNN
+	1    6200 1000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0273
 U 1 1 5DC072C8
-P 3800 2550
-F 0 "#PWR0273" H 3800 2300 50  0001 C CNN
-F 1 "GND" V 3805 2422 50  0000 R CNN
-F 2 "" H 3800 2550 50  0001 C CNN
-F 3 "" H 3800 2550 50  0001 C CNN
-	1    3800 2550
+P 6400 2500
+F 0 "#PWR0273" H 6400 2250 50  0001 C CNN
+F 1 "GND" V 6405 2372 50  0000 R CNN
+F 2 "" H 6400 2500 50  0001 C CNN
+F 3 "" H 6400 2500 50  0001 C CNN
+	1    6400 2500
 	0    1    1    0   
 $EndComp
-Text Label 3800 1950 2    50   ~ 0
+Text Label 6400 1900 2    50   ~ 0
 INT
 $Comp
 L power:GND #PWR0274
 U 1 1 5DC072CF
-P 3800 1250
-F 0 "#PWR0274" H 3800 1000 50  0001 C CNN
-F 1 "GND" V 3805 1122 50  0000 R CNN
-F 2 "" H 3800 1250 50  0001 C CNN
-F 3 "" H 3800 1250 50  0001 C CNN
-	1    3800 1250
+P 6400 1200
+F 0 "#PWR0274" H 6400 950 50  0001 C CNN
+F 1 "GND" V 6405 1072 50  0000 R CNN
+F 2 "" H 6400 1200 50  0001 C CNN
+F 3 "" H 6400 1200 50  0001 C CNN
+	1    6400 1200
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0275
 U 1 1 5DC072D5
-P 3800 1350
-F 0 "#PWR0275" H 3800 1100 50  0001 C CNN
-F 1 "GND" V 3805 1222 50  0000 R CNN
-F 2 "" H 3800 1350 50  0001 C CNN
-F 3 "" H 3800 1350 50  0001 C CNN
-	1    3800 1350
+P 6400 1300
+F 0 "#PWR0275" H 6400 1050 50  0001 C CNN
+F 1 "GND" V 6405 1172 50  0000 R CNN
+F 2 "" H 6400 1300 50  0001 C CNN
+F 3 "" H 6400 1300 50  0001 C CNN
+	1    6400 1300
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0276
 U 1 1 5DC072DB
-P 3800 1450
-F 0 "#PWR0276" H 3800 1200 50  0001 C CNN
-F 1 "GND" V 3805 1322 50  0000 R CNN
-F 2 "" H 3800 1450 50  0001 C CNN
-F 3 "" H 3800 1450 50  0001 C CNN
-	1    3800 1450
+P 6400 1400
+F 0 "#PWR0276" H 6400 1150 50  0001 C CNN
+F 1 "GND" V 6405 1272 50  0000 R CNN
+F 2 "" H 6400 1400 50  0001 C CNN
+F 3 "" H 6400 1400 50  0001 C CNN
+	1    6400 1400
 	0    1    1    0   
 $EndComp
-Text Label 4800 1050 0    50   ~ 0
+Text Label 7400 1000 0    50   ~ 0
 NOSE_CLK
-Text Label 4800 1150 0    50   ~ 0
+Text Label 7400 1100 0    50   ~ 0
 NOSE_DT
-Text Label 4800 1250 0    50   ~ 0
+Text Label 7400 1200 0    50   ~ 0
 CRS1_CLK
-Text Label 4800 1350 0    50   ~ 0
+Text Label 7400 1300 0    50   ~ 0
 CRS1_DT
-Text Label 4800 1450 0    50   ~ 0
+Text Label 7400 1400 0    50   ~ 0
 P_ALT_SEL_CLK
-Text Label 4800 1550 0    50   ~ 0
+Text Label 7400 1500 0    50   ~ 0
 P_ALT_SEL_DT
-Text Label 4800 1650 0    50   ~ 0
+Text Label 7400 1600 0    50   ~ 0
 P_HDG_CLK
-Text Label 4800 1750 0    50   ~ 0
+Text Label 7400 1700 0    50   ~ 0
 P_HDG_DT
-Text Label 4800 1850 0    50   ~ 0
+Text Label 7400 1800 0    50   ~ 0
 CRS2_CLK
-Text Label 4800 1950 0    50   ~ 0
+Text Label 7400 1900 0    50   ~ 0
 CRS2_DT
-Text Label 4800 2050 0    50   ~ 0
+Text Label 7400 2000 0    50   ~ 0
 C_ALT_SEL_CLK
-Text Label 4800 2150 0    50   ~ 0
+Text Label 7400 2100 0    50   ~ 0
 C_ALT_SEL_DT
-Text Label 4800 2250 0    50   ~ 0
+Text Label 7400 2200 0    50   ~ 0
 C_HDG_CLK
-Text Label 4800 2350 0    50   ~ 0
+Text Label 7400 2300 0    50   ~ 0
 C_HDG_DT
 $Comp
 L 74xx:74HC4051 U?
 U 1 1 5DBEE2D9
-P 6500 1550
+P 9100 1500
 AR Path="/5DB5DCD1/5DBEE2D9" Ref="U?"  Part="1" 
 AR Path="/5DBF6FEB/5DBEE2D9" Ref="U33"  Part="1" 
-F 0 "U33" H 6550 2228 50  0000 C CNN
-F 1 "74HC4051" H 6550 2137 50  0000 C CNN
-F 2 "" H 6500 1150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 6500 1150 50  0001 C CNN
-	1    6500 1550
+F 0 "U33" H 9150 2178 50  0000 C CNN
+F 1 "74HC4051" H 9150 2087 50  0000 C CNN
+F 2 "" H 9100 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 9100 1100 50  0001 C CNN
+	1    9100 1500
 	1    0    0    -1  
 $EndComp
-Text Label 6900 1250 0    50   ~ 0
+Text Label 9500 1200 0    50   ~ 0
 SPEEDBRAKE
-Text Label 6900 1350 0    50   ~ 0
+Text Label 9500 1300 0    50   ~ 0
 THROTTLE_L
-Text Label 6900 1450 0    50   ~ 0
+Text Label 9500 1400 0    50   ~ 0
 THROTTLE_R
-Text Label 6900 1550 0    50   ~ 0
+Text Label 9500 1500 0    50   ~ 0
 FRICTION
-Text Label 6900 1650 0    50   ~ 0
+Text Label 9500 1600 0    50   ~ 0
 FLAPS
-Text Label 6900 1750 0    50   ~ 0
+Text Label 9500 1700 0    50   ~ 0
 DIO5
-Text Label 6900 1850 0    50   ~ 0
+Text Label 9500 1800 0    50   ~ 0
 DIO6
-Text Label 6900 1950 0    50   ~ 0
+Text Label 9500 1900 0    50   ~ 0
 DIO7
 Wire Wire Line
-	6500 2150 6550 2150
+	9100 2100 9150 2100
 $Comp
 L power:GND #PWR?
 U 1 1 5DBEE2E9
-P 6550 2150
+P 9150 2100
 AR Path="/5DB5DCD1/5DBEE2E9" Ref="#PWR?"  Part="1" 
 AR Path="/5DBF6FEB/5DBEE2E9" Ref="#PWR0277"  Part="1" 
-F 0 "#PWR0277" H 6550 1900 50  0001 C CNN
-F 1 "GND" H 6555 1977 50  0000 C CNN
-F 2 "" H 6550 2150 50  0001 C CNN
-F 3 "" H 6550 2150 50  0001 C CNN
-	1    6550 2150
+F 0 "#PWR0277" H 9150 1850 50  0001 C CNN
+F 1 "GND" H 9155 1927 50  0000 C CNN
+F 2 "" H 9150 2100 50  0001 C CNN
+F 3 "" H 9150 2100 50  0001 C CNN
+	1    9150 2100
 	1    0    0    -1  
 $EndComp
-Connection ~ 6550 2150
+Connection ~ 9150 2100
 Wire Wire Line
-	6550 2150 6600 2150
+	9150 2100 9200 2100
 $Comp
 L Device:C_Small C?
 U 1 1 5DBEE2F1
-P 6950 1050
+P 9550 1000
 AR Path="/5DB5DCD1/5DBEE2F1" Ref="C?"  Part="1" 
 AR Path="/5DBF6FEB/5DBEE2F1" Ref="C41"  Part="1" 
-F 0 "C41" V 7179 1050 50  0000 C CNN
-F 1 "0.1u" V 7088 1050 50  0000 C CNN
-F 2 "" H 6950 1050 50  0001 C CNN
-F 3 "~" H 6950 1050 50  0001 C CNN
-	1    6950 1050
+F 0 "C41" V 9779 1000 50  0000 C CNN
+F 1 "0.1u" V 9688 1000 50  0000 C CNN
+F 2 "" H 9550 1000 50  0001 C CNN
+F 3 "~" H 9550 1000 50  0001 C CNN
+	1    9550 1000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6500 1050 6850 1050
+	9100 1000 9450 1000
 $Comp
 L power:GND #PWR?
 U 1 1 5DBEE2F9
-P 7050 1050
+P 9650 1000
 AR Path="/5DB5DCD1/5DBEE2F9" Ref="#PWR?"  Part="1" 
 AR Path="/5DBF6FEB/5DBEE2F9" Ref="#PWR0278"  Part="1" 
-F 0 "#PWR0278" H 7050 800 50  0001 C CNN
-F 1 "GND" V 7055 922 50  0000 R CNN
-F 2 "" H 7050 1050 50  0001 C CNN
-F 3 "" H 7050 1050 50  0001 C CNN
-	1    7050 1050
+F 0 "#PWR0278" H 9650 750 50  0001 C CNN
+F 1 "GND" V 9655 872 50  0000 R CNN
+F 2 "" H 9650 1000 50  0001 C CNN
+F 3 "" H 9650 1000 50  0001 C CNN
+	1    9650 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DBEE2FF
-P 6300 1050
+P 8900 1000
 AR Path="/5DB5DCD1/5DBEE2FF" Ref="#PWR?"  Part="1" 
 AR Path="/5DBF6FEB/5DBEE2FF" Ref="#PWR0279"  Part="1" 
-F 0 "#PWR0279" H 6300 900 50  0001 C CNN
-F 1 "+3.3V" V 6315 1178 50  0000 L CNN
-F 2 "" H 6300 1050 50  0001 C CNN
-F 3 "" H 6300 1050 50  0001 C CNN
-	1    6300 1050
+F 0 "#PWR0279" H 8900 850 50  0001 C CNN
+F 1 "+3.3V" V 8915 1128 50  0000 L CNN
+F 2 "" H 8900 1000 50  0001 C CNN
+F 3 "" H 8900 1000 50  0001 C CNN
+	1    8900 1000
 	0    -1   -1   0   
 $EndComp
-Connection ~ 6500 1050
+Connection ~ 9100 1000
 Wire Wire Line
-	6300 1050 6500 1050
-Text HLabel 2250 3400 0    50   Input ~ 0
-ISR_IN
+	8900 1000 9100 1000
 $Comp
 L pkl_misc:74HC165 U?
 U 1 1 5DBEE708
@@ -373,9 +370,9 @@ Text Label 2250 5550 2    50   ~ 0
 LAND_LIGHT_RH
 Text Label 2250 5650 2    50   ~ 0
 LH_WING_DN
-Text Label 4800 2450 0    50   ~ 0
+Text Label 7400 2400 0    50   ~ 0
 RUD_TRIM_CLK
-Text Label 4800 2550 0    50   ~ 0
+Text Label 7400 2500 0    50   ~ 0
 RUD_TRIM_DT
 $Comp
 L pkl_misc:74HC165 U?
@@ -390,17 +387,6 @@ F 2 "" H 5040 4630 60  0001 C CNN
 F 3 "" H 5040 4630 60  0001 C CNN
 	1    2850 5850
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE562A7
-P 2250 6350
-F 0 "#PWR?" H 2250 6100 50  0001 C CNN
-F 1 "GND" V 2255 6222 50  0000 R CNN
-F 2 "" H 2250 6350 50  0001 C CNN
-F 3 "" H 2250 6350 50  0001 C CNN
-	1    2250 6350
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -747,8 +733,6 @@ F 3 "" H 6600 5400 50  0001 C CNN
 	1    6600 5400
 	1    0    0    -1  
 $EndComp
-Text HLabel 6200 4300 0    50   Input ~ 0
-OSR_IN
 $Comp
 L power:GND #PWR?
 U 1 1 5DF462A2
@@ -756,6 +740,7 @@ P 6200 4900
 AR Path="/5DB5DCD1/5DF462A2" Ref="#PWR?"  Part="1" 
 AR Path="/5DC174D4/5DF462A2" Ref="#PWR?"  Part="1" 
 AR Path="/5DBF6FEB/5DF462A2" Ref="#PWR?"  Part="1" 
+AR Path="/5DF462A2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6200 4650 50  0001 C CNN
 F 1 "GND" H 6205 4727 50  0000 C CNN
 F 2 "" H 6200 4900 50  0001 C CNN
@@ -791,10 +776,6 @@ F 3 "" H 6200 4600 50  0001 C CNN
 	1    6200 4600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6200 4800 0    50   Input ~ 0
-OSR_LATCH
-Text GLabel 6200 4500 0    50   Input ~ 0
-CLK
 Wire Wire Line
 	7000 5200 7000 5700
 Wire Wire Line
@@ -900,10 +881,6 @@ F 3 "" H 8700 8800 50  0001 C CNN
 	1    8700 8800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8700 9000 0    50   Input ~ 0
-OSR_LATCH
-Text GLabel 8700 8700 0    50   Input ~ 0
-CLK
 $Comp
 L Device:C_Small C?
 U 1 1 5DFDCD62
@@ -990,10 +967,6 @@ F 3 "" H 9550 10200 50  0001 C CNN
 	1    9550 10200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9550 10400 0    50   Input ~ 0
-OSR_LATCH
-Text GLabel 9550 10100 0    50   Input ~ 0
-CLK
 Wire Wire Line
 	10700 10000 10350 10000
 Wire Wire Line
@@ -1018,6 +991,7 @@ P 6600 4700
 AR Path="/5DB5DCD1/5DF46294" Ref="U?"  Part="1" 
 AR Path="/5DC174D4/5DF46294" Ref="U?"  Part="1" 
 AR Path="/5DBF6FEB/5DF46294" Ref="U?"  Part="1" 
+AR Path="/5DF46294" Ref="U?"  Part="1" 
 F 0 "U?" H 6600 5478 50  0000 C CNN
 F 1 "74HC595" H 6600 5387 50  0000 C CNN
 F 2 "" H 6600 4700 50  0001 C CNN
@@ -1111,10 +1085,6 @@ F 3 "" H 7050 6000 50  0001 C CNN
 	1    7050 6000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7050 6200 0    50   Input ~ 0
-OSR_LATCH
-Text GLabel 7050 5900 0    50   Input ~ 0
-CLK
 $Comp
 L Device:C_Small C?
 U 1 1 5E07F9B1
@@ -1216,10 +1186,6 @@ F 3 "" H 7900 7400 50  0001 C CNN
 	1    7900 7400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7900 7600 0    50   Input ~ 0
-OSR_LATCH
-Text GLabel 7900 7300 0    50   Input ~ 0
-CLK
 Wire Wire Line
 	8700 8000 8700 8500
 Connection ~ 7450 5500
@@ -1313,8 +1279,6 @@ Wire Wire Line
 	11900 4400 11500 4400
 Wire Wire Line
 	11500 4500 11900 4500
-Text HLabel 10350 10800 2    50   Input ~ 0
-OSR_OUT
 Connection ~ 9950 9700
 Wire Wire Line
 	10350 10300 10700 10300
@@ -1564,59 +1528,233 @@ Text Label 2250 5950 2    50   ~ 0
 OSR_X1
 Text Label 2250 6050 2    50   ~ 0
 OSR_X2
-Text HLabel 3450 6050 2    50   Input ~ 0
-ISR_OUT
-Text GLabel 2250 4600 0    50   Input ~ 0
-ISR_LATCH
-Text GLabel 2250 6450 0    50   Input ~ 0
-ISR_LATCH
-Text GLabel 2250 6250 0    50   Input ~ 0
-CLK
-Text GLabel 2250 4400 0    50   Input ~ 0
-CLK
 $Comp
 L promicro:ProMicro U?
 U 1 1 5DE71941
-P 9600 2000
-F 0 "U?" H 9600 3037 60  0000 C CNN
-F 1 "ProMicro" H 9600 2931 60  0000 C CNN
-F 2 "" H 9700 950 60  0000 C CNN
-F 3 "" H 9700 950 60  0000 C CNN
-	1    9600 2000
+P 1750 1950
+F 0 "U?" H 1750 2987 60  0000 C CNN
+F 1 "ProMicro" H 1750 2881 60  0000 C CNN
+F 2 "" H 1850 900 60  0000 C CNN
+F 3 "" H 1850 900 60  0000 C CNN
+	1    1750 1950
 	1    0    0    -1  
 $EndComp
-Text Label 8900 1250 2    50   ~ 0
+Text Label 1050 1300 2    50   ~ 0
 RX
-Text Label 8900 1350 2    50   ~ 0
+Text Label 1050 1200 2    50   ~ 0
 TX
-NoConn ~ 8900 1450
-NoConn ~ 8900 1550
-Text Label 3800 1650 2    50   ~ 0
+NoConn ~ 1050 1400
+NoConn ~ 1050 1500
+Text Label 6400 1600 2    50   ~ 0
 SCL
-Text Label 3800 1750 2    50   ~ 0
+Text Label 6400 1700 2    50   ~ 0
 SDA
-Text Label 8900 1750 2    50   ~ 0
+Text Label 1050 1700 2    50   ~ 0
 SCL
-Text Label 8900 1650 2    50   ~ 0
+Text Label 1050 1600 2    50   ~ 0
 SDA
-Text Label 6200 1450 2    50   ~ 0
+Text Label 8800 1400 2    50   ~ 0
 A0
-Text Label 6200 1550 2    50   ~ 0
+Text Label 8800 1500 2    50   ~ 0
 A1
-Text Label 6200 1650 2    50   ~ 0
+Text Label 8800 1600 2    50   ~ 0
 A2
-Text Label 8900 1850 2    50   ~ 0
+Text Label 1050 1800 2    50   ~ 0
 A0
-Text Label 8900 1950 2    50   ~ 0
+Text Label 1050 1900 2    50   ~ 0
 A1
-Text Label 8900 2050 2    50   ~ 0
+Text Label 1050 2000 2    50   ~ 0
 A2
-Text Label 6200 1850 2    50   ~ 0
+Text Label 8800 1800 2    50   ~ 0
 ADC_E
-Text Label 8900 2150 2    50   ~ 0
+Text Label 1050 2100 2    50   ~ 0
 ADC_E
-Text Label 6200 1250 2    50   ~ 0
+Text Label 8800 1200 2    50   ~ 0
 ADC
-Text Label 8900 2250 2    50   ~ 0
+Text Label 1050 2200 2    50   ~ 0
 INT
+$Comp
+L power:GND #PWR?
+U 1 1 5DE5E804
+P 2450 1300
+F 0 "#PWR?" H 2450 1050 50  0001 C CNN
+F 1 "GND" V 2455 1172 50  0000 R CNN
+F 2 "" H 2450 1300 50  0001 C CNN
+F 3 "" H 2450 1300 50  0001 C CNN
+	1    2450 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 2450 1400 0    50   ~ 0
+RST
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE67E36
+P 2450 1500
+F 0 "#PWR?" H 2450 1350 50  0001 C CNN
+F 1 "+5V" V 2465 1628 50  0000 L CNN
+F 2 "" H 2450 1500 50  0001 C CNN
+F 3 "" H 2450 1500 50  0001 C CNN
+	1    2450 1500
+	0    1    1    0   
+$EndComp
+Text Label 1050 2300 2    50   ~ 0
+ADC
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J?
+U 1 1 5DE69014
+P 4000 1850
+F 0 "J?" H 4050 2367 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4050 2276 50  0000 C CNN
+F 2 "" H 4000 1850 50  0001 C CNN
+F 3 "~" H 4000 1850 50  0001 C CNN
+	1    4000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE691DE
+P 3800 1550
+F 0 "#PWR?" H 3800 1400 50  0001 C CNN
+F 1 "+5V" V 3815 1678 50  0000 L CNN
+F 2 "" H 3800 1550 50  0001 C CNN
+F 3 "" H 3800 1550 50  0001 C CNN
+	1    3800 1550
+	0    -1   -1   0   
+$EndComp
+Text Label 3800 1950 2    50   ~ 0
+TX
+Text Label 3800 1750 2    50   ~ 0
+RX
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA03E7
+P 3800 1650
+F 0 "#PWR?" H 3800 1400 50  0001 C CNN
+F 1 "GND" V 3805 1522 50  0000 R CNN
+F 2 "" H 3800 1650 50  0001 C CNN
+F 3 "" H 3800 1650 50  0001 C CNN
+	1    3800 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA0482
+P 3800 1850
+F 0 "#PWR?" H 3800 1600 50  0001 C CNN
+F 1 "GND" V 3805 1722 50  0000 R CNN
+F 2 "" H 3800 1850 50  0001 C CNN
+F 3 "" H 3800 1850 50  0001 C CNN
+	1    3800 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA04D5
+P 3800 2050
+F 0 "#PWR?" H 3800 1800 50  0001 C CNN
+F 1 "GND" V 3805 1922 50  0000 R CNN
+F 2 "" H 3800 2050 50  0001 C CNN
+F 3 "" H 3800 2050 50  0001 C CNN
+	1    3800 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA0528
+P 3800 2250
+F 0 "#PWR?" H 3800 2000 50  0001 C CNN
+F 1 "GND" V 3805 2122 50  0000 R CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	0    1    1    0   
+$EndComp
+Text Label 3800 2150 2    50   ~ 0
+RST
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DEA060D
+P 4300 1550
+F 0 "#PWR?" H 4300 1400 50  0001 C CNN
+F 1 "+3.3V" V 4315 1678 50  0000 L CNN
+F 2 "" H 4300 1550 50  0001 C CNN
+F 3 "" H 4300 1550 50  0001 C CNN
+	1    4300 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA0660
+P 4300 1650
+F 0 "#PWR?" H 4300 1400 50  0001 C CNN
+F 1 "GND" V 4305 1522 50  0000 R CNN
+F 2 "" H 4300 1650 50  0001 C CNN
+F 3 "" H 4300 1650 50  0001 C CNN
+	1    4300 1650
+	0    -1   -1   0   
+$EndComp
+Text Label 6200 4300 2    50   ~ 0
+OSR_IN
+Text Label 2450 1600 0    50   ~ 0
+OSR_IN
+Text Label 6200 4800 2    50   ~ 0
+OSR_LATCH
+Text Label 2450 1700 0    50   ~ 0
+OSR_LATCH
+Text Label 2250 4400 2    50   ~ 0
+CLK
+Text Label 2250 4600 2    50   ~ 0
+ISR_LATCH
+Text Label 2450 1800 0    50   ~ 0
+CLK
+Text Label 2450 2000 0    50   ~ 0
+ISR_LATCH
+$Comp
+L power:GND #PWR?
+U 1 1 5DEAC64E
+P 2250 3400
+F 0 "#PWR?" H 2250 3150 50  0001 C CNN
+F 1 "GND" H 2255 3227 50  0000 C CNN
+F 2 "" H 2250 3400 50  0001 C CNN
+F 3 "" H 2250 3400 50  0001 C CNN
+	1    2250 3400
+	-1   0    0    1   
+$EndComp
+Text Label 3450 6050 0    50   ~ 0
+ISR_OUT
+Text Label 2450 1900 0    50   ~ 0
+ISR_OUT
+$Comp
+L power:GND #PWR?
+U 1 1 5DE562A7
+P 2250 6350
+F 0 "#PWR?" H 2250 6100 50  0001 C CNN
+F 1 "GND" V 2255 6222 50  0000 R CNN
+F 2 "" H 2250 6350 50  0001 C CNN
+F 3 "" H 2250 6350 50  0001 C CNN
+	1    2250 6350
+	0    1    1    0   
+$EndComp
+Text Label 2250 6250 2    50   ~ 0
+CLK
+Text Label 2250 6450 2    50   ~ 0
+ISR_LATCH
+Text Label 7050 6200 2    50   ~ 0
+OSR_LATCH
+Text Label 7900 7600 2    50   ~ 0
+OSR_LATCH
+Text Label 8700 9000 2    50   ~ 0
+OSR_LATCH
+Text Label 9550 10400 2    50   ~ 0
+OSR_LATCH
+Text Label 6200 4500 2    50   ~ 0
+CLK
+Text Label 7050 5900 2    50   ~ 0
+CLK
+Text Label 7900 7300 2    50   ~ 0
+CLK
+Text Label 8700 8700 2    50   ~ 0
+CLK
+Text Label 9550 10100 2    50   ~ 0
+CLK
 $EndSCHEMATC

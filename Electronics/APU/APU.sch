@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:CitationX_cockpit-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -297,6 +296,7 @@ U 1 1 5DC01A64
 P 8700 1650
 AR Path="/5DB6029E/5DC01A64" Ref="J?"  Part="1" 
 AR Path="/5DC174D6/5DC01A64" Ref="J32"  Part="1" 
+AR Path="/5DC01A64" Ref="J32"  Part="1" 
 F 0 "J32" H 8620 1017 50  0000 C CNN
 F 1 "Screw_Terminal_01x10" H 8620 1016 50  0001 C CNN
 F 2 "" H 8700 1650 50  0001 C CNN
@@ -576,10 +576,6 @@ F 3 "" H 8500 1950 50  0001 C CNN
 	1    8500 1950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8500 2050 0    50   Input ~ 0
-SCL
-Text GLabel 8500 2150 0    50   BiDi ~ 0
-SDA
 $Comp
 L power:+5V #PWR?
 U 1 1 5DE478A4
@@ -708,9 +704,9 @@ F 3 "" H 8500 3450 50  0001 C CNN
 	1    8500 3450
 	0    -1   -1   0   
 $EndComp
-Text Label 2150 1200 2    50   ~ 0
-RX
 Text Label 2150 1300 2    50   ~ 0
+RX
+Text Label 2150 1200 2    50   ~ 0
 TX
 Text Label 8000 3550 2    50   ~ 0
 RX
@@ -785,5 +781,9 @@ SCL and SDA are used for an OLED\n
 Text Label 2150 1600 2    50   ~ 0
 SCL
 Text Label 2150 1700 2    50   ~ 0
+SDA
+Text Label 8500 2050 2    50   ~ 0
+SCL
+Text Label 8500 2150 2    50   ~ 0
 SDA
 $EndSCHEMATC
