@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:CitationX_cockpit-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -951,15 +950,15 @@ Text GLabel 5150 6100 0    50   Input ~ 0
 OSR_LATCH
 Text GLabel 5150 5800 0    50   Input ~ 0
 CLK
-Text Label 5950 5600 0    50   ~ 0
+Text Label 6150 5600 0    50   ~ 0
 COM_1
-Text Label 5950 5700 0    50   ~ 0
+Text Label 6150 5700 0    50   ~ 0
 COM_2
-Text Label 5950 5800 0    50   ~ 0
+Text Label 6150 5800 0    50   ~ 0
 HF_1
-Text Label 5950 5900 0    50   ~ 0
+Text Label 6150 5900 0    50   ~ 0
 CABIN
-Text Label 5950 6000 0    50   ~ 0
+Text Label 6150 6000 0    50   ~ 0
 EMER
 $Bitmap
 Pos 6000 8850
@@ -5912,4 +5911,69 @@ FD 89 D3 D2 21 5B A6 65 5A A6 65 5A A6 65 5A A6 65 FA 13 A7 A5 43 B6 4C CB B4 4C
 4C CB B4 4C CB B4 4C 7F E2 F4 7F 00 D2 45 6A A6 41 12 D7 26 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Device:R_Small R?
+U 1 1 5E00FD83
+P 6050 5600
+AR Path="/5DC33C09/5E00FD83" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E00FD83" Ref="R?"  Part="1" 
+F 0 "R?" V 6000 5550 20  0000 C CNN
+F 1 "?" V 6050 5600 20  0000 C CNN
+F 2 "" H 6050 5600 50  0001 C CNN
+F 3 "~" H 6050 5600 50  0001 C CNN
+	1    6050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E012F05
+P 6050 5700
+AR Path="/5DC33C09/5E012F05" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E012F05" Ref="R?"  Part="1" 
+F 0 "R?" V 6000 5650 20  0000 C CNN
+F 1 "?" V 6050 5700 20  0000 C CNN
+F 2 "" H 6050 5700 50  0001 C CNN
+F 3 "~" H 6050 5700 50  0001 C CNN
+	1    6050 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E014C2B
+P 6050 5800
+AR Path="/5DC33C09/5E014C2B" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E014C2B" Ref="R?"  Part="1" 
+F 0 "R?" V 6000 5750 20  0000 C CNN
+F 1 "?" V 6050 5800 20  0000 C CNN
+F 2 "" H 6050 5800 50  0001 C CNN
+F 3 "~" H 6050 5800 50  0001 C CNN
+	1    6050 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E018213
+P 6050 5900
+AR Path="/5DC33C09/5E018213" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E018213" Ref="R?"  Part="1" 
+F 0 "R?" V 6000 5850 20  0000 C CNN
+F 1 "?" V 6050 5900 20  0000 C CNN
+F 2 "" H 6050 5900 50  0001 C CNN
+F 3 "~" H 6050 5900 50  0001 C CNN
+	1    6050 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E0183EA
+P 6050 6000
+AR Path="/5DC33C09/5E0183EA" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E0183EA" Ref="R?"  Part="1" 
+F 0 "R?" V 6000 5950 20  0000 C CNN
+F 1 "?" V 6050 6000 20  0000 C CNN
+F 2 "" H 6050 6000 50  0001 C CNN
+F 3 "~" H 6050 6000 50  0001 C CNN
+	1    6050 6000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

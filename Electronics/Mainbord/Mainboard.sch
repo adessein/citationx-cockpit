@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:CitationX_cockpit-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -57,35 +56,6 @@ F3 "ISR_OUT" O R 5650 5850 50
 F4 "OSR_IN" I L 3100 6100 50 
 F5 "OSR_OUT" O R 5650 6100 50 
 $EndSheet
-$Comp
-L 74xx:74HC4051 U?
-U 1 1 5DB7F6C4
-P 5800 2000
-AR Path="/5DB6029E/5DB7F6C4" Ref="U?"  Part="1" 
-AR Path="/5DB7F6C4" Ref="U6"  Part="1" 
-F 0 "U6" H 5850 2678 50  0000 C CNN
-F 1 "74HC4051" H 5850 2587 50  0000 C CNN
-F 2 "" H 5800 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 5800 1600 50  0001 C CNN
-	1    5800 2000
-	1    0    0    -1  
-$EndComp
-Text Label 6200 1700 0    50   ~ 0
-LIGHT_PILOT
-Text Label 6200 1800 0    50   ~ 0
-LIGHT_COPILOT
-Text Label 6200 1900 0    50   ~ 0
-LIGHT_AP
-Text Label 6200 2000 0    50   ~ 0
-LIGHT_CENTER
-Text Label 6200 2100 0    50   ~ 0
-LIGHT_APU
-Text Label 6200 2200 0    50   ~ 0
-LIGHT_X1
-Text Label 6200 2300 0    50   ~ 0
-LIGHT_X2
-Text Label 6200 2400 0    50   ~ 0
-LIGHT_X3
 Text Label 5500 1700 2    50   ~ 0
 LIGHT
 Wire Wire Line
@@ -106,34 +76,6 @@ $EndComp
 Connection ~ 5850 2600
 Wire Wire Line
 	5850 2600 5900 2600
-$Comp
-L Device:C_Small C?
-U 1 1 5DB7F6E0
-P 6250 1500
-AR Path="/5DB6029E/5DB7F6E0" Ref="C?"  Part="1" 
-AR Path="/5DB7F6E0" Ref="C6"  Part="1" 
-F 0 "C6" V 6479 1500 50  0000 C CNN
-F 1 "0.1u" V 6388 1500 50  0000 C CNN
-F 2 "" H 6250 1500 50  0001 C CNN
-F 3 "~" H 6250 1500 50  0001 C CNN
-	1    6250 1500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5800 1500 6150 1500
-$Comp
-L power:GND #PWR?
-U 1 1 5DB7F6E7
-P 6350 1500
-AR Path="/5DB6029E/5DB7F6E7" Ref="#PWR?"  Part="1" 
-AR Path="/5DB7F6E7" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 6350 1250 50  0001 C CNN
-F 1 "GND" V 6355 1372 50  0000 R CNN
-F 2 "" H 6350 1500 50  0001 C CNN
-F 3 "" H 6350 1500 50  0001 C CNN
-	1    6350 1500
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DB7F6ED
@@ -160,19 +102,6 @@ F 2 "" H 10100 950 50  0001 C CNN
 F 3 "~" H 10100 950 50  0001 C CNN
 	1    10100 950 
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DB854F6
-P 9500 850
-AR Path="/5DB6029E/5DB854F6" Ref="#PWR?"  Part="1" 
-AR Path="/5DB854F6" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 9500 600 50  0001 C CNN
-F 1 "GND" H 9505 677 50  0000 C CNN
-F 2 "" H 9500 850 50  0001 C CNN
-F 3 "" H 9500 850 50  0001 C CNN
-	1    9500 850 
-	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0135
@@ -205,15 +134,8 @@ Wire Wire Line
 	9850 850  9800 850 
 Wire Wire Line
 	9900 1050 9850 1050
-Connection ~ 9550 850 
-Wire Wire Line
-	9500 850  9550 850 
 Wire Wire Line
 	9900 950  9550 950 
-Wire Wire Line
-	9550 950  9550 850 
-Wire Wire Line
-	9550 850  9600 850 
 $Comp
 L Device:CP_Small C10
 U 1 1 5DB897A0
@@ -750,8 +672,6 @@ F 3 "~" H 9700 6700 50  0001 C CNN
 	1    9700 6700
 	0    1    1    0   
 $EndComp
-Text Label 9550 1050 2    50   ~ 0
-LIGHT_PILOT
 Text Label 9550 1850 2    50   ~ 0
 LIGHT_COPILOT
 Text Label 9550 2700 2    50   ~ 0
@@ -6099,4 +6019,83 @@ F6 E9 8B AD 97 11 42 A8 B3 60 48 8D 10 42 5D 42 08 85 D4 5F B2 6C 76 B6 2D A4 24
 08 21 84 10 42 19 F9 7F 01 31 2D 99 F5 B5 C0 64 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L power:GND #PWR?
+U 1 1 5DB854F6
+P 9500 850
+AR Path="/5DB6029E/5DB854F6" Ref="#PWR?"  Part="1" 
+AR Path="/5DB854F6" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 9500 600 50  0001 C CNN
+F 1 "GND" H 9505 677 50  0000 C CNN
+F 2 "" H 9500 850 50  0001 C CNN
+F 3 "" H 9500 850 50  0001 C CNN
+	1    9500 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 850  9600 850 
+Wire Wire Line
+	9500 850  9550 850 
+Connection ~ 9550 850 
+Wire Wire Line
+	9550 950  9550 850 
+Text Label 9550 1050 2    50   ~ 0
+LIGHT_PILOT
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5DB7F6C4
+P 5800 2000
+AR Path="/5DB6029E/5DB7F6C4" Ref="U?"  Part="1" 
+AR Path="/5DB7F6C4" Ref="U6"  Part="1" 
+F 0 "U6" H 5850 2678 50  0000 C CNN
+F 1 "74HC4051" H 5850 2587 50  0000 C CNN
+F 2 "" H 5800 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 5800 1600 50  0001 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7F6E7
+P 6350 1500
+AR Path="/5DB6029E/5DB7F6E7" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7F6E7" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 6350 1250 50  0001 C CNN
+F 1 "GND" V 6355 1372 50  0000 R CNN
+F 2 "" H 6350 1500 50  0001 C CNN
+F 3 "" H 6350 1500 50  0001 C CNN
+	1    6350 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 1500 6150 1500
+$Comp
+L Device:C_Small C?
+U 1 1 5DB7F6E0
+P 6250 1500
+AR Path="/5DB6029E/5DB7F6E0" Ref="C?"  Part="1" 
+AR Path="/5DB7F6E0" Ref="C6"  Part="1" 
+F 0 "C6" V 6479 1500 50  0000 C CNN
+F 1 "0.1u" V 6388 1500 50  0000 C CNN
+F 2 "" H 6250 1500 50  0001 C CNN
+F 3 "~" H 6250 1500 50  0001 C CNN
+	1    6250 1500
+	0    -1   -1   0   
+$EndComp
+Text Label 6200 2400 0    50   ~ 0
+LIGHT_X3
+Text Label 6200 2300 0    50   ~ 0
+LIGHT_X2
+Text Label 6200 2200 0    50   ~ 0
+LIGHT_X1
+Text Label 6200 2100 0    50   ~ 0
+LIGHT_APU
+Text Label 6200 2000 0    50   ~ 0
+LIGHT_CENTER
+Text Label 6200 1900 0    50   ~ 0
+LIGHT_AP
+Text Label 6200 1800 0    50   ~ 0
+LIGHT_COPILOT
+Text Label 6200 1700 0    50   ~ 0
+LIGHT_PILOT
 $EndSCHEMATC

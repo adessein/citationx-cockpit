@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:CitationX_cockpit-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:CitationX_cockpit-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 10 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -285,25 +284,25 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 3350 50  0001 C CNN
 	1    1100 3350
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 1850 0    50   ~ 0
+Text Label 6250 1850 0    50   ~ 0
 HDG_LED
-Text Label 6050 1950 0    50   ~ 0
+Text Label 6250 1950 0    50   ~ 0
 ALT_LED
-Text Label 6050 2050 0    50   ~ 0
+Text Label 6250 2050 0    50   ~ 0
 FLC_LED
 Wire Wire Line
 	900  2050 850  2050
-Text Label 6050 3350 0    50   ~ 0
+Text Label 6250 3350 0    50   ~ 0
 MAV_LED
-Text Label 6050 3450 0    50   ~ 0
+Text Label 6250 3450 0    50   ~ 0
 VNAV_LED
-Text Label 6050 3550 0    50   ~ 0
+Text Label 6250 3550 0    50   ~ 0
 CO_LED
-Text Label 6050 3650 0    50   ~ 0
+Text Label 6250 3650 0    50   ~ 0
 APP_LED
-Text Label 6050 3750 0    50   ~ 0
+Text Label 6250 3750 0    50   ~ 0
 BANK_LED
-Text Label 6050 3850 0    50   ~ 0
+Text Label 6250 3850 0    50   ~ 0
 VS_LED
 Text GLabel 1850 2250 0    50   Input ~ 0
 CLK
@@ -313,19 +312,19 @@ Text GLabel 4450 1850 0    50   Input ~ 0
 OSR_LATCH
 Text GLabel 4450 1550 0    50   Input ~ 0
 CLK
-Text Label 6050 3950 0    50   ~ 0
+Text Label 6250 3950 0    50   ~ 0
 BC_LED
-Text Label 6050 4050 0    50   ~ 0
+Text Label 6250 4050 0    50   ~ 0
 STBY_LED
-Text Label 6050 5450 0    50   ~ 0
+Text Label 6200 5450 0    50   ~ 0
 AP_A_LED
-Text Label 6050 5550 0    50   ~ 0
+Text Label 6200 5550 0    50   ~ 0
 AP_B_LED
-Text Label 6050 5650 0    50   ~ 0
+Text Label 6200 5650 0    50   ~ 0
 YD_A_LED
-Text Label 6050 5750 0    50   ~ 0
+Text Label 6200 5750 0    50   ~ 0
 YD_B_LED
-Text Label 6050 5350 0    50   ~ 0
+Text Label 6200 5350 0    50   ~ 0
 SPD_LED
 Text GLabel 1850 3950 0    50   Input ~ 0
 CLK
@@ -447,9 +446,9 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 5050 50  0001 C CNN
 	1    1100 5050
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 5850 0    50   ~ 0
+Text Label 6200 5850 0    50   ~ 0
 MT_A_LED
-Text Label 6050 5950 0    50   ~ 0
+Text Label 6200 5950 0    50   ~ 0
 MT_B_LED
 Text GLabel 1850 5650 0    50   Input ~ 0
 CLK
@@ -1412,19 +1411,19 @@ Text Label 1300 1450 0    50   ~ 0
 FIRE_L
 Text Label 1300 1550 0    50   ~ 0
 BOTTLE_L
-Text Label 6050 1350 0    50   ~ 0
+Text Label 6250 1350 0    50   ~ 0
 ARM_L_LED
-Text Label 6050 1450 0    50   ~ 0
+Text Label 6250 1450 0    50   ~ 0
 UNLOCK_L_LED
-Text Label 6050 1550 0    50   ~ 0
+Text Label 6250 1550 0    50   ~ 0
 DEPLOY_L_LED
-Text Label 6050 1650 0    50   ~ 0
+Text Label 6250 1650 0    50   ~ 0
 ENG_FIRE_L_LED
-Text Label 6050 1750 0    50   ~ 0
+Text Label 6250 1750 0    50   ~ 0
 BOTTLE_L_LED
-Text Label 6600 7250 0    50   ~ 0
+Text Label 6850 7350 0    50   ~ 0
 PFD_R_LED
-Text Label 6050 6050 0    50   ~ 0
+Text Label 6200 6050 0    50   ~ 0
 PFD_L_LED
 $Comp
 L Device:C_Small C?
@@ -1534,15 +1533,15 @@ Wire Wire Line
 	4350 6700 5250 6700
 Wire Wire Line
 	5250 6700 5250 6250
-Text Label 6600 7350 0    50   ~ 0
+Text Label 6850 7450 0    50   ~ 0
 ARM_R_LED
-Text Label 6600 7450 0    50   ~ 0
+Text Label 6850 7550 0    50   ~ 0
 UNLOCK_L_LED
-Text Label 6600 7550 0    50   ~ 0
+Text Label 6850 7650 0    50   ~ 0
 DEPLOY_R_LED
-Text Label 6600 7650 0    50   ~ 0
+Text Label 6850 7750 0    50   ~ 0
 ENG_FIRE_R_LED
-Text Label 6600 7750 0    50   ~ 0
+Text Label 6850 7850 0    50   ~ 0
 BOTTLE_R_LED
 $Comp
 L Connector:Screw_Terminal_01x10 J?
@@ -1810,4 +1809,91 @@ Wire Wire Line
 	5250 7450 5800 7450
 Wire Wire Line
 	5800 7350 5250 7350
+Text Notes 8150 3400 0    50   ~ 0
+Power the LEDs with 5V\nThe big PB do not need a resistor\nAP PB can go up to 12 mA Vd = ?\nOrange LEDs can go up to Vd = ?\nLEDs in paralell. 50% max current each (if one dies, the other take the load)
+$Comp
+L Device:R_Small R?
+U 1 1 5DF27DDD
+P 6150 1350
+F 0 "R?" V 6100 1300 20  0000 C CNN
+F 1 "270" V 6150 1350 20  0000 C CNN
+F 2 "" H 6150 1350 50  0001 C CNN
+F 3 "~" H 6150 1350 50  0001 C CNN
+	1    6150 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF2C1C9
+P 6150 1450
+F 0 "R?" V 6100 1400 20  0000 C CNN
+F 1 "270" V 6150 1450 20  0000 C CNN
+F 2 "" H 6150 1450 50  0001 C CNN
+F 3 "~" H 6150 1450 50  0001 C CNN
+	1    6150 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF2C41C
+P 6150 1550
+F 0 "R?" V 6100 1500 20  0000 C CNN
+F 1 "270" V 6150 1550 20  0000 C CNN
+F 2 "" H 6150 1550 50  0001 C CNN
+F 3 "~" H 6150 1550 50  0001 C CNN
+	1    6150 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 1650 6250 1650
+Wire Wire Line
+	6050 1750 6250 1750
+$Comp
+L Device:R_Small R?
+U 1 1 5DF3257F
+P 6150 1850
+F 0 "R?" V 6100 1800 20  0000 C CNN
+F 1 "270" V 6150 1850 20  0000 C CNN
+F 2 "" H 6150 1850 50  0001 C CNN
+F 3 "~" H 6150 1850 50  0001 C CNN
+	1    6150 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF32A59
+P 6150 1950
+F 0 "R?" V 6100 1900 20  0000 C CNN
+F 1 "270" V 6150 1950 20  0000 C CNN
+F 2 "" H 6150 1950 50  0001 C CNN
+F 3 "~" H 6150 1950 50  0001 C CNN
+	1    6150 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF32D0A
+P 6150 2050
+F 0 "R?" V 6100 2000 20  0000 C CNN
+F 1 "270" V 6150 2050 20  0000 C CNN
+F 2 "" H 6150 2050 50  0001 C CNN
+F 3 "~" H 6150 2050 50  0001 C CNN
+	1    6150 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF346A4
+P 6150 3350
+F 0 "R?" V 6150 3300 20  0000 C CNN
+F 1 "270" V 6150 3350 20  0000 C CNN
+F 2 "" H 6150 3350 50  0001 C CNN
+F 3 "~" H 6150 3350 50  0001 C CNN
+	1    6150 3350
+	0    1    1    0   
+$EndComp
+NoConn ~ 6050 5250
+NoConn ~ 6050 3250
+NoConn ~ 6050 1250
+NoConn ~ 6600 7250
 $EndSCHEMATC
