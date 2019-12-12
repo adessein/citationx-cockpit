@@ -27,9 +27,9 @@ This repository includes Kicad libraries as git sub-modules.
 Therefore, you should get the modules after cloning the repo.
 
 ```
-git clone git@github.com:adessein/citationx-cockpit.git  
-cd citationx-cockpit  
-git submodule update --init --recursive  
+git clone git@github.com:adessein/citationx-cockpit.git
+cd citationx-cockpit
+git submodule update --init --recursive
 ```
 
 # Documentation

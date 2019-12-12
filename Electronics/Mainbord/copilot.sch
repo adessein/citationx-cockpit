@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mainboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 7 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -158,34 +159,6 @@ Wire Wire Line
 	2300 4750 2500 4750
 $Comp
 L Device:C_Small C?
-U 1 1 5DC62EDD
-P 5600 1250
-AR Path="/5DB5DCD1/5DC62EDD" Ref="C?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62EDD" Ref="C56"  Part="1" 
-F 0 "C56" H 5692 1296 50  0000 L CNN
-F 1 "0.1u" H 5692 1205 50  0000 L CNN
-F 2 "" H 5600 1250 50  0001 C CNN
-F 3 "~" H 5600 1250 50  0001 C CNN
-	1    5600 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC62EE4
-P 5700 1250
-AR Path="/5DB5DCD1/5DC62EE4" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62EE4" Ref="#PWR0346"  Part="1" 
-F 0 "#PWR0346" H 5700 1000 50  0001 C CNN
-F 1 "GND" H 5705 1077 50  0000 C CNN
-F 2 "" H 5700 1250 50  0001 C CNN
-F 3 "" H 5700 1250 50  0001 C CNN
-	1    5700 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5500 1250 5500 1050
-$Comp
-L Device:C_Small C?
 U 1 1 5DC62EEB
 P 3700 3100
 AR Path="/5DB5DCD1/5DC62EEB" Ref="C?"  Part="1" 
@@ -324,63 +297,6 @@ Wire Wire Line
 Text HLabel 3700 7250 2    50   Output ~ 0
 ISR_OUT
 $Comp
-L 74xx:74HC595 U?
-U 1 1 5DC62F57
-P 5500 1850
-AR Path="/5DB5DCD1/5DC62F57" Ref="U?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62F57" Ref="U49"  Part="1" 
-F 0 "U49" H 5500 2628 50  0000 C CNN
-F 1 "74HC595" H 5500 2537 50  0000 C CNN
-F 2 "" H 5500 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5500 1850 50  0001 C CNN
-	1    5500 1850
-	1    0    0    -1  
-$EndComp
-Connection ~ 5500 1250
-$Comp
-L power:GND #PWR?
-U 1 1 5DC62F5F
-P 5500 2550
-AR Path="/5DB5DCD1/5DC62F5F" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62F5F" Ref="#PWR0352"  Part="1" 
-F 0 "#PWR0352" H 5500 2300 50  0001 C CNN
-F 1 "GND" H 5505 2377 50  0000 C CNN
-F 2 "" H 5500 2550 50  0001 C CNN
-F 3 "" H 5500 2550 50  0001 C CNN
-	1    5500 2550
-	1    0    0    -1  
-$EndComp
-Text HLabel 5100 1450 0    50   Input ~ 0
-OSR_IN
-$Comp
-L power:GND #PWR?
-U 1 1 5DC62F66
-P 5100 2050
-AR Path="/5DB5DCD1/5DC62F66" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62F66" Ref="#PWR0353"  Part="1" 
-F 0 "#PWR0353" H 5100 1800 50  0001 C CNN
-F 1 "GND" H 5105 1877 50  0000 C CNN
-F 2 "" H 5100 2050 50  0001 C CNN
-F 3 "" H 5100 2050 50  0001 C CNN
-	1    5100 2050
-	1    0    0    -1  
-$EndComp
-Text HLabel 5900 2350 2    50   Output ~ 0
-OSR_OUT
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DC62F6D
-P 5500 1050
-AR Path="/5DB5DCD1/5DC62F6D" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62F6D" Ref="#PWR0354"  Part="1" 
-F 0 "#PWR0354" H 5500 900 50  0001 C CNN
-F 1 "+3.3V" H 5515 1223 50  0000 C CNN
-F 2 "" H 5500 1050 50  0001 C CNN
-F 3 "" H 5500 1050 50  0001 C CNN
-	1    5500 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 5DC62F73
 P 3900 3000
@@ -459,19 +375,6 @@ F 2 "" H 3900 6400 50  0001 C CNN
 F 3 "" H 3900 6400 50  0001 C CNN
 	1    3900 6400
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DC62F9F
-P 5100 1750
-AR Path="/5DB5DCD1/5DC62F9F" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DC62F9F" Ref="#PWR0360"  Part="1" 
-F 0 "#PWR0360" H 5100 1600 50  0001 C CNN
-F 1 "+3.3V" V 5115 1878 50  0000 L CNN
-F 2 "" H 5100 1750 50  0001 C CNN
-F 3 "" H 5100 1750 50  0001 C CNN
-	1    5100 1750
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Network08 RN?
@@ -672,12 +575,6 @@ Text Label 2500 1950 2    50   ~ 0
 WSHLD_RH
 Text Label 2500 2050 2    50   ~ 0
 WS_AIR
-Text Label 5900 1550 0    50   ~ 0
-GEARS_LH
-Text Label 5900 1650 0    50   ~ 0
-GEARS_RH
-Text Label 5900 1750 0    50   ~ 0
-GEARS_LOCKED
 Text Label 2500 2150 2    50   ~ 0
 WING_XOVER
 Text Label 2500 3150 2    50   ~ 0
@@ -720,18 +617,6 @@ Text Label 2450 6750 2    50   ~ 0
 PAC_BLEED
 Text Label 2450 6650 2    50   ~ 0
 PRESS_MANUAL
-Text Label 5900 1450 0    50   ~ 0
-GEARS_NO
-Text Notes 5000 2850 0    50   ~ 0
-8-channel output shift register
-Wire Notes Line
-	6550 800  6550 2900
-Wire Notes Line
-	6550 2900 4600 2900
-Wire Notes Line
-	4600 2900 4600 800 
-Wire Notes Line
-	4600 800  6550 800 
 Text GLabel 2500 2350 0    50   Input ~ 0
 CLK
 Text GLabel 2500 2550 0    50   Input ~ 0
@@ -748,10 +633,6 @@ Text GLabel 2500 7450 0    50   Input ~ 0
 CLK
 Text GLabel 2500 7650 0    50   Input ~ 0
 ISR_LATCH
-Text GLabel 5100 1950 0    50   Input ~ 0
-OSR_LATCH
-Text GLabel 5100 1650 0    50   Input ~ 0
-CLK
 Wire Wire Line
 	5450 3250 4650 3250
 $Comp
@@ -907,178 +788,284 @@ GEARS_RH
 Text Label 4650 3650 0    50   ~ 0
 GEARS_LOCKED
 $Comp
-L Connector:Screw_Terminal_01x02 J36
-U 1 1 5DCF87A4
-P 5650 6250
-F 0 "J36" H 5730 6242 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 5730 6151 50  0000 L CNN
-F 2 "" H 5650 6250 50  0001 C CNN
-F 3 "~" H 5650 6250 50  0001 C CNN
-	1    5650 6250
-	1    0    0    -1  
+L Device:C_Small C?
+U 1 1 5E02571A
+P 5650 1200
+AR Path="/5DB5DCD1/5E02571A" Ref="C?"  Part="1" 
+AR Path="/5DC174D4/5E02571A" Ref="C?"  Part="1" 
+AR Path="/5DC31399/5E02571A" Ref="C?"  Part="1" 
+F 0 "C?" H 5742 1246 50  0000 L CNN
+F 1 "0.1u" H 5742 1155 50  0000 L CNN
+F 2 "" H 5650 1200 50  0001 C CNN
+F 3 "~" H 5650 1200 50  0001 C CNN
+	1    5650 1200
+	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x10 J?
-U 1 1 5DD0665B
-P 5650 6950
-AR Path="/5DB5DCD1/5DD0665B" Ref="J?"  Part="1" 
-AR Path="/5DC2EEA6/5DD0665B" Ref="J37"  Part="1" 
-F 0 "J37" H 5730 6942 50  0000 L CNN
-F 1 "Screw_Terminal_01x10" H 5730 6851 50  0000 L CNN
-F 2 "" H 5650 6950 50  0001 C CNN
-F 3 "~" H 5650 6950 50  0001 C CNN
-	1    5650 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x10 J?
-U 1 1 5DD066BF
-P 5650 7950
-AR Path="/5DB5DCD1/5DD066BF" Ref="J?"  Part="1" 
-AR Path="/5DC2EEA6/5DD066BF" Ref="J38"  Part="1" 
-F 0 "J38" H 5730 7942 50  0000 L CNN
-F 1 "Screw_Terminal_01x10" H 5730 7851 50  0000 L CNN
-F 2 "" H 5650 7950 50  0001 C CNN
-F 3 "~" H 5650 7950 50  0001 C CNN
-	1    5650 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x10 J?
-U 1 1 5DD0671B
-P 5650 8950
-AR Path="/5DB5DCD1/5DD0671B" Ref="J?"  Part="1" 
-AR Path="/5DC2EEA6/5DD0671B" Ref="J39"  Part="1" 
-F 0 "J39" H 5730 8942 50  0000 L CNN
-F 1 "Screw_Terminal_01x10" H 5730 8851 50  0000 L CNN
-F 2 "" H 5650 8950 50  0001 C CNN
-F 3 "~" H 5650 8950 50  0001 C CNN
-	1    5650 8950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 9450 5450 9350
-Wire Wire Line
-	5450 9250 5450 9350
-Connection ~ 5450 9350
-Wire Wire Line
-	5450 9250 5450 9150
-Connection ~ 5450 9250
-Wire Wire Line
-	5450 9150 5450 9050
-Connection ~ 5450 9150
-$Comp
-L Device:R R11
-U 1 1 5DD12253
-P 5450 9600
-F 0 "R11" H 5520 9646 50  0000 L CNN
-F 1 "1k" H 5520 9555 50  0000 L CNN
-F 2 "" V 5380 9600 50  0001 C CNN
-F 3 "~" H 5450 9600 50  0001 C CNN
-	1    5450 9600
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 9450
 $Comp
 L power:GND #PWR?
-U 1 1 5DD122FD
-P 5450 9750
-AR Path="/5DB5DCD1/5DD122FD" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DD122FD" Ref="#PWR0365"  Part="1" 
-F 0 "#PWR0365" H 5450 9500 50  0001 C CNN
-F 1 "GND" V 5455 9622 50  0000 R CNN
-F 2 "" H 5450 9750 50  0001 C CNN
-F 3 "" H 5450 9750 50  0001 C CNN
-	1    5450 9750
-	1    0    0    -1  
+U 1 1 5E025721
+P 5750 1200
+AR Path="/5DB5DCD1/5E025721" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E025721" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5E025721" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 950 50  0001 C CNN
+F 1 "GND" H 5755 1027 50  0000 C CNN
+F 2 "" H 5750 1200 50  0001 C CNN
+F 3 "" H 5750 1200 50  0001 C CNN
+	1    5750 1200
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5450 8950 5450 8850
-Wire Wire Line
-	5450 8850 5450 8750
-Connection ~ 5450 8850
-Wire Wire Line
-	5450 8650 5450 8750
-Connection ~ 5450 8750
-Wire Wire Line
-	5450 8650 5450 8550
-Connection ~ 5450 8650
-Wire Wire Line
-	5450 8550 5450 8450
-Connection ~ 5450 8550
-Wire Wire Line
-	5450 8450 5450 8350
-Connection ~ 5450 8450
-Wire Wire Line
-	5450 8350 5450 8250
-Connection ~ 5450 8350
-Wire Wire Line
-	5450 8250 5450 8150
-Connection ~ 5450 8250
-Wire Wire Line
-	5450 8150 5450 8050
-Connection ~ 5450 8150
-Wire Wire Line
-	5450 8050 5450 7950
-Connection ~ 5450 8050
-Wire Wire Line
-	5450 7950 5450 7850
-Connection ~ 5450 7950
-Wire Wire Line
-	5450 7850 5450 7750
-Connection ~ 5450 7850
-Wire Wire Line
-	5450 7750 5450 7650
-Connection ~ 5450 7750
-Wire Wire Line
-	5450 7650 5450 7550
-Connection ~ 5450 7650
-Wire Wire Line
-	5450 7550 5450 7450
-Connection ~ 5450 7550
-Wire Wire Line
-	5450 7450 5450 7350
-Connection ~ 5450 7450
-Wire Wire Line
-	5450 7350 5450 7250
-Connection ~ 5450 7350
-Wire Wire Line
-	5450 7250 5450 7150
-Connection ~ 5450 7250
-Wire Wire Line
-	5450 7150 5450 7050
-Connection ~ 5450 7150
-Wire Wire Line
-	5450 7050 5450 6950
-Connection ~ 5450 7050
-Wire Wire Line
-	5450 6950 5450 6850
-Connection ~ 5450 6950
-Wire Wire Line
-	5450 6850 5450 6750
-Connection ~ 5450 6850
-Wire Wire Line
-	5450 6750 5450 6650
-Connection ~ 5450 6750
-Wire Wire Line
-	5450 6650 5450 6550
-Connection ~ 5450 6650
+	5550 1200 5550 1000
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5E025728
+P 5550 1800
+AR Path="/5DB5DCD1/5E025728" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5E025728" Ref="U?"  Part="1" 
+AR Path="/5DC31399/5E025728" Ref="U?"  Part="1" 
+F 0 "U?" H 5550 2578 50  0000 C CNN
+F 1 "74HC595" H 5550 2487 50  0000 C CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 1200
 $Comp
 L power:GND #PWR?
-U 1 1 5DD62881
-P 5450 8950
-AR Path="/5DB5DCD1/5DD62881" Ref="#PWR?"  Part="1" 
-AR Path="/5DC2EEA6/5DD62881" Ref="#PWR0366"  Part="1" 
-F 0 "#PWR0366" H 5450 8700 50  0001 C CNN
-F 1 "GND" V 5455 8822 50  0000 R CNN
-F 2 "" H 5450 8950 50  0001 C CNN
-F 3 "" H 5450 8950 50  0001 C CNN
-	1    5450 8950
+U 1 1 5E025730
+P 5550 2500
+AR Path="/5DB5DCD1/5E025730" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E025730" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5E025730" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 2250 50  0001 C CNN
+F 1 "GND" H 5555 2327 50  0000 C CNN
+F 2 "" H 5550 2500 50  0001 C CNN
+F 3 "" H 5550 2500 50  0001 C CNN
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 5150 1400 0    50   Input ~ 0
+OSR_IN
+$Comp
+L power:GND #PWR?
+U 1 1 5E025737
+P 5150 2000
+AR Path="/5DB5DCD1/5E025737" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E025737" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5E025737" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 1750 50  0001 C CNN
+F 1 "GND" H 5155 1827 50  0000 C CNN
+F 2 "" H 5150 2000 50  0001 C CNN
+F 3 "" H 5150 2000 50  0001 C CNN
+	1    5150 2000
+	1    0    0    -1  
+$EndComp
+Text HLabel 5950 2300 2    50   Output ~ 0
+OSR_OUT
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E02573E
+P 5550 1000
+AR Path="/5DB5DCD1/5E02573E" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E02573E" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5E02573E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 850 50  0001 C CNN
+F 1 "+3.3V" H 5565 1173 50  0000 C CNN
+F 2 "" H 5550 1000 50  0001 C CNN
+F 3 "" H 5550 1000 50  0001 C CNN
+	1    5550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E025744
+P 5150 1700
+AR Path="/5DB5DCD1/5E025744" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E025744" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5E025744" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 1550 50  0001 C CNN
+F 1 "+3.3V" V 5165 1828 50  0000 L CNN
+F 2 "" H 5150 1700 50  0001 C CNN
+F 3 "" H 5150 1700 50  0001 C CNN
+	1    5150 1700
+	0    -1   -1   0   
+$EndComp
+Text Notes 5100 3000 0    50   ~ 0
+8-channel output shift register connected \nto Darlington transistor array for draining \ncurrent from LEDs
+Text GLabel 5150 1900 0    50   Input ~ 0
+OSR_LATCH
+Text GLabel 5150 1600 0    50   Input ~ 0
+CLK
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 5E025752
+P 6500 1600
+AR Path="/5DBF6FEB/5E025752" Ref="U?"  Part="1" 
+AR Path="/5DC33C09/5E025752" Ref="U?"  Part="1" 
+AR Path="/5DC31399/5E025752" Ref="U?"  Part="1" 
+AR Path="/5DC174D4/5E025752" Ref="U?"  Part="1" 
+F 0 "U?" H 6500 2167 50  0000 C CNN
+F 1 "ULN2803A" H 6500 2076 50  0000 C CNN
+F 2 "" H 6550 950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6600 1400 50  0001 C CNN
+	1    6500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E025759
+P 6500 2300
+AR Path="/5DB5DCD1/5E025759" Ref="#PWR?"  Part="1" 
+AR Path="/5DC174D4/5E025759" Ref="#PWR?"  Part="1" 
+AR Path="/5DC31399/5E025759" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6500 2050 50  0001 C CNN
+F 1 "GND" H 6505 2127 50  0000 C CNN
+F 2 "" H 6500 2300 50  0001 C CNN
+F 3 "" H 6500 2300 50  0001 C CNN
+	1    6500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E02575F
+P 7050 1300
+AR Path="/5DC33C09/5E02575F" Ref="R?"  Part="1" 
+AR Path="/5DC31399/5E02575F" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E02575F" Ref="R?"  Part="1" 
+F 0 "R?" V 7050 1250 50  0000 C CNN
+F 1 "R" V 7050 1350 50  0000 C CNN
+F 2 "" V 6980 1300 50  0001 C CNN
+F 3 "~" H 7050 1300 50  0001 C CNN
+	1    7050 1300
 	0    1    1    0   
 $EndComp
-Connection ~ 5450 8950
-NoConn ~ 5900 1850
-NoConn ~ 5900 1950
-NoConn ~ 5900 2050
-NoConn ~ 5900 2150
+$Comp
+L Device:R R?
+U 1 1 5E025766
+P 7050 1400
+AR Path="/5DC33C09/5E025766" Ref="R?"  Part="1" 
+AR Path="/5DC31399/5E025766" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E025766" Ref="R?"  Part="1" 
+F 0 "R?" V 7050 1350 50  0000 C CNN
+F 1 "R" V 7050 1450 50  0000 C CNN
+F 2 "" V 6980 1400 50  0001 C CNN
+F 3 "~" H 7050 1400 50  0001 C CNN
+	1    7050 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E02576D
+P 7050 1500
+AR Path="/5DC33C09/5E02576D" Ref="R?"  Part="1" 
+AR Path="/5DC31399/5E02576D" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E02576D" Ref="R?"  Part="1" 
+F 0 "R?" V 7050 1450 50  0000 C CNN
+F 1 "R" V 7050 1550 50  0000 C CNN
+F 2 "" V 6980 1500 50  0001 C CNN
+F 3 "~" H 7050 1500 50  0001 C CNN
+	1    7050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E025774
+P 7050 1600
+AR Path="/5DC33C09/5E025774" Ref="R?"  Part="1" 
+AR Path="/5DC31399/5E025774" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E025774" Ref="R?"  Part="1" 
+F 0 "R?" V 7050 1550 50  0000 C CNN
+F 1 "R" V 7050 1650 50  0000 C CNN
+F 2 "" V 6980 1600 50  0001 C CNN
+F 3 "~" H 7050 1600 50  0001 C CNN
+	1    7050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E02577B
+P 7050 1700
+AR Path="/5DC33C09/5E02577B" Ref="R?"  Part="1" 
+AR Path="/5DC31399/5E02577B" Ref="R?"  Part="1" 
+AR Path="/5DC174D4/5E02577B" Ref="R?"  Part="1" 
+F 0 "R?" V 7050 1650 50  0000 C CNN
+F 1 "R" V 7050 1750 50  0000 C CNN
+F 2 "" V 6980 1700 50  0001 C CNN
+F 3 "~" H 7050 1700 50  0001 C CNN
+	1    7050 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 1400 5950 1400
+Wire Wire Line
+	5950 1500 6100 1500
+Wire Wire Line
+	6100 1600 5950 1600
+Wire Wire Line
+	5950 1700 6100 1700
+Wire Wire Line
+	6100 1800 5950 1800
+Wire Wire Line
+	5950 1900 6100 1900
+Wire Wire Line
+	6100 2000 5950 2000
+Wire Wire Line
+	5950 2100 6100 2100
+Wire Notes Line
+	4500 750  4500 3050
+Text Label 7200 1400 0    50   ~ 0
+GEARS_LH
+Text Label 7200 1500 0    50   ~ 0
+GEARS_RH
+Text Label 7200 1600 0    50   ~ 0
+GEARS_LOCKED
+Text Label 7200 1300 0    50   ~ 0
+GEARS_NO
+Wire Notes Line
+	7800 750  7800 3050
+Wire Notes Line
+	4500 3050 7800 3050
+Wire Notes Line
+	4500 750  7800 750 
+$Comp
+L Connector:Screw_Terminal_01x10 J?
+U 1 1 5E051D92
+P 5650 6650
+AR Path="/5DB5DCD1/5E051D92" Ref="J?"  Part="1" 
+AR Path="/5DC2EEA6/5E051D92" Ref="J?"  Part="1" 
+F 0 "J?" H 5730 6642 50  0000 L CNN
+F 1 "Screw_Terminal_01x10" H 5730 6551 50  0000 L CNN
+F 2 "" H 5650 6650 50  0001 C CNN
+F 3 "~" H 5650 6650 50  0001 C CNN
+	1    5650 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E056D0F
+P 5450 6450
+AR Path="/5DB5DCD1/5E056D0F" Ref="#PWR?"  Part="1" 
+AR Path="/5DC2EEA6/5E056D0F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 6300 50  0001 C CNN
+F 1 "+3.3V" V 5465 6578 50  0000 L CNN
+F 2 "" H 5450 6450 50  0001 C CNN
+F 3 "" H 5450 6450 50  0001 C CNN
+	1    5450 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E056D7A
+P 5450 6550
+AR Path="/5DB5DCD1/5E056D7A" Ref="#PWR?"  Part="1" 
+AR Path="/5DC2EEA6/5E056D7A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 6300 50  0001 C CNN
+F 1 "GND" V 5455 6422 50  0000 R CNN
+F 2 "" H 5450 6550 50  0001 C CNN
+F 3 "" H 5450 6550 50  0001 C CNN
+	1    5450 6550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
