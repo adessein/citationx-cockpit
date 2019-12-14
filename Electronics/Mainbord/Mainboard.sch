@@ -15,25 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:ESP32-WROOM-32 U1
-U 1 1 5DB57404
-P 1700 2500
-F 0 "U1" H 1700 4078 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 1700 3987 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 1700 1000 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1400 2550 50  0001 C CNN
-	1    1700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Raspberry_Pi_2_3 J1
 U 1 1 5DB57867
-P 4000 2550
-F 0 "J1" H 4000 4028 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 4000 3937 50  0000 C CNN
-F 2 "" H 4000 2550 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 4000 2550 50  0001 C CNN
-	1    4000 2550
+P 4000 2850
+F 0 "J1" H 4000 4328 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 4000 4237 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical" H 4000 2850 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 4000 2850 50  0001 C CNN
+	1    4000 2850
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -891,36 +880,15 @@ $EndComp
 Connection ~ 7100 3550
 Wire Wire Line
 	7100 3550 7300 3550
-Text Notes 5950 4100 0    50   ~ 0
+Text Notes 6150 4250 0    50   ~ 0
 3.3V generation\ncheck if 800 mA is enough
-Text GLabel 3200 1650 0    50   Input ~ 0
+Text GLabel 3200 1950 0    50   Input ~ 0
 TX
-Text GLabel 3200 1750 0    50   Input ~ 0
+Text GLabel 3200 2050 0    50   Input ~ 0
 RX
-Text GLabel 2300 1600 2    50   Input ~ 0
-TX
-Text GLabel 2300 1400 2    50   Input ~ 0
-RX
-Text GLabel 4800 1950 2    50   Input ~ 0
+Text GLabel 4800 2250 2    50   Input ~ 0
 SDA
-Text GLabel 4800 2050 2    50   Input ~ 0
-SCL
-$Comp
-L power:GND #PWR?
-U 1 1 5DBAD619
-P 1700 3900
-AR Path="/5DB6029E/5DBAD619" Ref="#PWR?"  Part="1" 
-AR Path="/5DBAD619" Ref="#PWR0176"  Part="1" 
-F 0 "#PWR0176" H 1700 3650 50  0001 C CNN
-F 1 "GND" H 1705 3727 50  0000 C CNN
-F 2 "" H 1700 3900 50  0001 C CNN
-F 3 "" H 1700 3900 50  0001 C CNN
-	1    1700 3900
-	1    0    0    -1  
-$EndComp
-Text GLabel 1100 2500 0    50   Input ~ 0
-SDA
-Text GLabel 1100 2600 0    50   Input ~ 0
+Text GLabel 4800 2350 2    50   Input ~ 0
 SCL
 Text Label 9300 1900 2    50   ~ 0
 S2
@@ -1103,7 +1071,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 6350 6700 6350
 $Bitmap
-Pos 13700 2050
+Pos 1400 800 
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 C6 00 00 02 3E 08 02 00 00 00 F1 45 84 
@@ -6192,4 +6160,109 @@ F 3 "~" H 1400 5200 50  0001 C CNN
 	1    1200 5200
 	0    1    1    0   
 $EndComp
+$Comp
+L ESP32-DEVKITC-32D:ESP32-DEVKITC-32D U?
+U 1 1 5DF7E5CE
+P 1550 3000
+F 0 "U?" H 1550 4167 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 1550 4076 50  0000 C CNN
+F 2 "MODULE_ESP32-DEVKITC-32D" H 1550 3000 50  0001 L BNN
+F 3 "ESP32-DEVKITC-32D" H 1550 3000 50  0001 L BNN
+F 4 "None" H 1550 3000 50  0001 L BNN "Field4"
+F 5 "Espressif Systems" H 1550 3000 50  0001 L BNN "Field5"
+F 6 "None" H 1550 3000 50  0001 L BNN "Field6"
+F 7 "EVAL BOARD FOR ESP-WROOM-32" H 1550 3000 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 1550 3000 50  0001 L BNN "Field8"
+	1    1550 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 2300 2    50   Input ~ 0
+SCL
+Text GLabel 2350 2600 2    50   Input ~ 0
+SDA
+Text GLabel 2350 2400 2    50   Input ~ 0
+TX
+Text GLabel 2350 2500 2    50   Input ~ 0
+RX
+$Comp
+L power:+5V #PWR?
+U 1 1 5DF8EA94
+P 750 3900
+F 0 "#PWR?" H 750 3750 50  0001 C CNN
+F 1 "+5V" V 765 4073 50  0000 C CNN
+F 2 "" H 750 3900 50  0001 C CNN
+F 3 "" H 750 3900 50  0001 C CNN
+	1    750  3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF9235F
+P 6450 3850
+F 0 "#PWR?" H 6450 3600 50  0001 C CNN
+F 1 "GND" H 6455 3677 50  0000 C CNN
+F 2 "" H 6450 3850 50  0001 C CNN
+F 3 "" H 6450 3850 50  0001 C CNN
+	1    6450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF923C5
+P 2350 2100
+F 0 "#PWR?" H 2350 1850 50  0001 C CNN
+F 1 "GND" V 2355 1972 50  0000 R CNN
+F 2 "" H 2350 2100 50  0001 C CNN
+F 3 "" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 4150 3600 4200
+Wire Wire Line
+	3600 4200 3700 4200
+Wire Wire Line
+	3700 4200 3700 4150
+Wire Wire Line
+	3700 4200 3800 4200
+Wire Wire Line
+	3800 4200 3800 4150
+Connection ~ 3700 4200
+Wire Wire Line
+	3800 4200 3900 4200
+Wire Wire Line
+	3900 4200 3900 4150
+Connection ~ 3800 4200
+Wire Wire Line
+	3900 4200 4000 4200
+Wire Wire Line
+	4000 4200 4000 4150
+Connection ~ 3900 4200
+Wire Wire Line
+	4000 4200 4100 4200
+Wire Wire Line
+	4100 4200 4100 4150
+Connection ~ 4000 4200
+Wire Wire Line
+	4100 4200 4200 4200
+Wire Wire Line
+	4200 4200 4200 4150
+Connection ~ 4100 4200
+Wire Wire Line
+	4200 4200 4300 4200
+Wire Wire Line
+	4300 4200 4300 4150
+Connection ~ 4200 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5DFBA645
+P 3600 4200
+F 0 "#PWR?" H 3600 3950 50  0001 C CNN
+F 1 "GND" H 3605 4027 50  0000 C CNN
+F 2 "" H 3600 4200 50  0001 C CNN
+F 3 "" H 3600 4200 50  0001 C CNN
+	1    3600 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 4200
 $EndSCHEMATC
