@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM3914
+D 10 LEDs  linear dot/bar display driver
+F https://datasheet.lcsc.com/szlcsc/LM3914N-1-NOPB_C9408.pdf
+$ENDCMP
+#
+#End Doc Library

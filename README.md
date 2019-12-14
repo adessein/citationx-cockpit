@@ -9,9 +9,14 @@ The Citation X that I use is the outstanding version developped by the PAF team 
  - forum (in french) : http://equipe-flightgear.forumactif.com/  
  - repository : https://sourceforge.net/projects/pafteam/  
 
-Below are screenshots from flightgear and from a [Youtube video](https://youtu.be/rzMN0wDuVSo?t=93) showing the cockpit.  
-![Screenshot from flightgear](https://github.com/adessein/citationx-cockpit/blob/master/Mechanics/Screenshots/overview800.jpg)  
-![Screenshot from youtube video](https://github.com/adessein/citationx-cockpit/blob/master/Mechanics/Screenshots/cockpitYoutube.jpg)  
+Below are  
+ - a screenshot from a [Youtube video](https://youtu.be/rzMN0wDuVSo?t=93) showing the cockpit.  
+ - a screenshot from flightgear showing the cockpit  
+ - a picture of my cockpit on 7th December 2019  
+
+![Screenshot from youtube video](Documentation/Images/cockpitYoutube.jpg)  
+![Screenshot from flightgear](Documentation/Images/overview800.jpg)  
+![Screenshot from youtube video](Documentation/Images/07-dec-2019.jpeg)
 
 My project covers :  
  - the drawings used for cutting the MDF sheets and build the cockpit,  
@@ -19,7 +24,18 @@ My project covers :
  - the code used in the microcontrollers (ESP-32 and Arduino Leonardo/Pro Micro) for the inputs and outputs,  
  - the code used in the Raspberry Pi Zero W for displaying the canvas on the screen.  
  
- In the folder Electronics, you can find the backup files from EasyEDA.com. The project is available on https://easyeda.com/arnaud.dessein
+The KiCad projects for the 3 PCBs (mainboard, APU and Pedestral) are available.
+
+# How to clone the repository
+
+This repository includes Kicad libraries as git sub-modules.
+Therefore, you should get the modules after cloning the repo.
+
+```
+git clone git@github.com:adessein/citationx-cockpit.git
+cd citationx-cockpit
+git submodule update --init --recursive
+```
 
 # Documentation
 
@@ -28,7 +44,6 @@ My intention is to share my experience, explain my choices and show where I fail
 
 I hope that it will help you understanding the content of this repository, help you in your projects (home cockpit or others).
 
-# Contents
 [Mechanical design](Documentation/Mechanical-design.md) - How I build the cockpit from the 3D model  
 [Electric design](Documentation/Electric-design.md) - How I designed the electronics  
 [EFIS](Documentation/EFIS.md) - How I rendered the different screens of the EFIS (PFD, ND, EICAS)  
