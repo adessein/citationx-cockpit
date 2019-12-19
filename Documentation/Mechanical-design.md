@@ -14,13 +14,35 @@ In order to cut my MDF boards into panels of the Cessna Citation X cockpit, I ha
 ### STEP 1 - Open the AC3 file with Blender
 [Blender](https://www.blender.org) is a free and open-source 3D computer graphics software.  
 
-#### Install plugin AC3 in Blender
-Import-Export: AC3D (.ac) format  
-[Tutorial on Flightgeam.org wiki](http://wiki.flightgear.org/Blender_AC3D_import_and_export)  
-[AC3 plugin on Github](https://github.com/majic79/Blender-AC3D/tree/BL2.62)  
+#### Install and activate plugins
+
+Install and activate `Import-Export:AC3D (.ac) format`  
+ - [AC3 plugin on Github](https://github.com/majic79/Blender-AC3D/tree/BL2.62)  
+ - [Tutorial on Flightgeam.org wiki](http://wiki.flightgear.org/Blender_AC3D_import_and_export)  
+
+Activate plugin `Render: Freestyle SVG Exporter`  
+
+#### Open the file
+File>Import>AC3D (.ac)  
+In the folder `pafteam/Aircraft/CitationX/Models/` you can find the files:  
+ - flightdec.ac - APU  
+ - panel.ac - Font panel with autopilot  
+ - pedestral.ac - Pedestral  
 
 ### STEP 2 - Export the cockpit into an SVG file
-Export to SVG after changing the view point normal to surface  
+Change the view to normal to surface:
+ - Select a surface
+ - Press Ctrl + 7 (Num pad)
+ - Press Numpad 5 to change view to orthonormal
+ - View > Align view > Align Active camera to selected
+ - Try to align your camera https://all3dp.com/2/blender-how-to-move-the-camera/
+ - In Scene pane:
+    - In Render section, change Display for Keep UI  
+    - Activate the `Freestyle` section (Absolute mose, Line Thicknass 1.000 px)
+    - Activate the `Freestyle SVG Export` section (Frame, Mitter)
+    - In Output section, write the full path of your output file but do not add any extention
+    - In Render section, click Render
+ - 
 [How do I align the viewport to a face normal?](https://blender.stackexchange.com/questions/15045/how-do-i-align-the-viewport-to-a-face-normal)  
 [Video Youtube](https://www.youtube.com/watch?v=lOii2AZyt2k)  
 
