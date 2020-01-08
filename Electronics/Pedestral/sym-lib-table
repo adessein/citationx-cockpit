@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/../library/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
   (lib (name NXP)(type Legacy)(uri ${KIPRJMOD}/../library/kicad-schlib/library/NXP.lib)(options "")(descr ""))
+  (lib (name pkl_misc)(type Legacy)(uri ${KIPRJMOD}/../library/pretty-kicad-libs/pkl_misc.lib)(options "")(descr ""))
 )

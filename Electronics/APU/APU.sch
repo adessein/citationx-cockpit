@@ -567,7 +567,6 @@ NoConn ~ 6600 2050
 NoConn ~ 5100 1850
 NoConn ~ 5100 1950
 NoConn ~ 5100 2050
-Connection ~ 3400 3250
 NoConn ~ 5450 4050
 NoConn ~ 5450 4150
 $Comp
