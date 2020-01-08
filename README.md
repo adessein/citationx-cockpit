@@ -9,7 +9,8 @@ The Citation X that I use is the outstanding version developped by the PAF team 
  - forum (in french) : http://equipe-flightgear.forumactif.com/  
  - repository : https://sourceforge.net/projects/pafteam/  
 
-Below are  
+Below are
+
  - a screenshot from a [Youtube video](https://youtu.be/rzMN0wDuVSo?t=93) showing the cockpit.  
  - a screenshot from flightgear showing the cockpit  
  - a picture of my cockpit on 7th December 2019  
@@ -18,7 +19,8 @@ Below are
 ![Screenshot from flightgear](Documentation/Images/overview800.jpg)  
 ![Screenshot from youtube video](Documentation/Images/07-dec-2019.jpeg)
 
-My project covers :  
+My project covers :
+
  - the drawings used for cutting the MDF sheets and build the cockpit,  
  - the circuit diagrams and PCBs,  
  - the code used in the microcontrollers (ESP-32 and Arduino Leonardo/Pro Micro) for the inputs and outputs,  
@@ -48,3 +50,7 @@ I hope that it will help you understanding the content of this repository, help 
 [Electric design](Documentation/Electric-design.md) - How I designed the electronics  
 [EFIS](Documentation/EFIS.md) - How I rendered the different screens of the EFIS (PFD, ND, EICAS)  
 
+# Ressources
+
+- [Citation X Flight Deck by jerome meriweather ](http://www.meriweather.com/flightdeck/10/citation.html)
+- [Citation X client guide](http://aircraftstudyapps.com/wp-content/uploads/2019/04/Citation-X_compressed.pdf)

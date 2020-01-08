@@ -1,5 +1,8 @@
 # Mechanical design
 
+In order to design the panels I have extracted the drawings from the 3D model
+of the cockpit in flight gear.
+
 ## From flightgear model to the laser cutter / CNC machine
 In order to cut my MDF boards into panels of the Cessna Citation X cockpit, I had to follow this procedure:  
  1. Open the AC3 file with Blender  
