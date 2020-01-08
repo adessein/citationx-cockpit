@@ -6,4 +6,4 @@
 	url = https://github.com/esden/pretty-kicad-libs
 [submodule "Electronics/CitationX_cockpit/library/kicad-schlib"]
 	path = Electronics/library/kicad-schlib
-	url = git@github.com:alexisvl/kicad-schlib.git
+	url = https://github.com/alexisvl/kicad-schlib.git
