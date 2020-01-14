@@ -4,7 +4,7 @@
  - [Python interface](https://sourceforge.net/p/flightgear/flightgear/ci/next/tree/scripts/python)
 
  - To change values in property tree: `set /controls/flight/aileron -0.1`
- - NASAL code (usefull for CDU keypad): 
+ - Executing NASAL code [http://wiki.flightgear.org/Telnet_usage#nasal]
 
 
 ## Controls and properties
@@ -12,7 +12,7 @@
 
 Both audio are linked together
 
-|Control | property| Value | Indicator
+|Control | Property | Value | Indicator
 | --- | --- | --- | --- |
 |COM 1| /instrumentation/audio/com1-mike | toggled = (bool)true / false | Green led
 |COM 2| /instrumentation/audio/com2-mike | toggled = (bool)true / false | Green led
@@ -81,7 +81,7 @@ Both DC840 are linked together
 
 Both PFD are linked together
 
-|Control | property| Value |
+|Control | Property | Value |
 | --- | --- | --- |
 |Minimums| /instrumentation/pfd/minimums-radio | 0,50,...,1000 |
 |RA/BARO| /instrumentation/pfd/minimum-diff | pressed changed value -610,610 |
@@ -91,7 +91,7 @@ Both PFD are linked together
 
 ### ABOVE PFD PILOT
 
-|Control | property| Value | Indicator
+|Control | Property | Value | Indicator
 | --- | --- | --- | --- |
 |CRS1 sel|||
 |HDG sel|||
@@ -105,7 +105,7 @@ Both PFD are linked together
 
 ### MFD PILOT
 
-|Control | property| Value |
+|Control | Property | Value |
 | --- | --- | --- |
 |PB 1| /instrumentation/mfd/btn0 | pressed = (int)1 / 0 |
 |PB 2| /instrumentation/mfd/btn1 | pressed = (int)1 / 0 |
@@ -117,7 +117,7 @@ Both PFD are linked together
 
 ### EICAS
 
-|Control | property| Value |
+|Control | Property | Value |
 | --- | --- | --- |
 |PB 1| /instrumentation/eicas/btn0 | pressed = (int)1 / 0 |
 |PB 2| /instrumentation/eicas/btn1 | pressed = (int)1 / 0 |
@@ -129,7 +129,7 @@ Both PFD are linked together
 
 ### MFD COPILOT
 
-|Control | property| Value |
+|Control | Property | Value |
 | --- | --- | --- |
 |PB 1| /instrumentation/mfd[1]/btn0 | pressed = (int)1 / 0 |
 |PB 2| /instrumentation/mfd[1]/btn1 | pressed = (int)1 / 0 |
@@ -140,7 +140,81 @@ Both PFD are linked together
 |Knob| /instrumentation/mfd[1]/range-nm | 10,20,40,80,160 |
 
 ### CDU
- - The keyboard writes in the scratchpad. The content of the scratchpad is in
-`/instrumentation/cdu/input`.  
- - The page is selected by `/instrumentation/cdu/display` and `/instrumentation/cdu/nbpage`
-I will have to reprogram the logic in Nasa/CDU.nas:key()
+In the CitationX aircraft folder, the files `Models/Instruments/CDU.xml` and
+`Models/Instruments/CDU1.xml` assign the Nasal code to be executed for each 
+key pressed, for the pilot and the copilot CDU respectively.
+
+Several functions of the class `cduMain`, defined in `Nasal/CDU.nas`, are called:
+
+ - `cdu.cduMain.btn(v, x)` is called when the button `v` is pressed on the CDU `x`.
+   A button is an alphanumeric push button ('A', 'B', '1', '.', ...).
+ - `cdu.cduMain.key(v, x)` is called when the key `v` is pressed on the CDU `x`.
+   A key is a function bush button.
+ - `cdu.cduMain.delete(x)` is called when the button 'DEL' is pressed on the CDU `x`.
+ - `cdu.cduMain.previous(x)`
+ - `cdu.cduMain.next_key(x)`
+ - `cdu.cduMain.delete(x)`
+
+Few examples:
+
+ - When the top right key (close to the screen) is pressed on the pilot CDU,
+   the function `cdu.cduMain.key('B1R',0)` is called.
+ - When the button 'Z' us pressed on the copilot CDU, the function 
+   `cdu.cduMain.btn('Z',1)` is called.
+ - When the button 'DEL' us pressed on the pilot CDU, the function 
+   `cdu.cduMain.delete(0)` is called.
+
+Instead of reprogramming the entire CDU into a microcontroler, it has been 
+decided to call these function instead. It is possible to call a Nasal function
+via the telnet interface by sending for example:
+
+```
+nasal
+cdu.cduMain.btn('Z',1);
+##EOF##
+```
+
+**Running nasal commands via telnet requires the `--allow-nasal-from-sockets` option.**
+
+|Button | Code | v |
+| --- | --- | --- |
+|Left buttons| cdu.cduMain.key(v,x); | 'B1L' ... 'B4L' |
+|Right buttons| cdu.cduMain.key(v,x); | 'B1R' ... 'B4R' |
+|PERF| cdu.cduMain.key(v,x); | 'PERF' |
+|NAV| cdu.cduMain.key(v,x); | 'NAV' |
+|FPL| cdu.cduMain.key(v,x); | 'FPL' |
+|PROG| cdu.cduMain.key(v,x); | 'PROG' |
+|  |  |  |
+|A-Z| cdu.cduMain.btn(v,x); | 'A' ... 'Z' |
+|0-9| cdu.cduMain.btn(v,x); | '0' ... '9'  |
+|.| cdu.cduMain.btn(v,x); | '.' |
+|-| cdu.cduMain.btn(v,x); | '-' |
+|/| cdu.cduMain.btn(v,x); | '/' |
+|  |  |  |
+|PREV| cdu.cduMain.previous(x); |  |
+|NEXT| cdu.cduMain.next_key(x); |  |
+|DEL| cdu.cduMain.delete(x); |  |
+|  |  |  |
+|CLR| setprop("/instrumentation/cdu[x]/input",""); |  |
+
+**Button DIR** - If the property `autopilot/settings/nav-source` is equal to `FMS1` then
+`instrumentation/cdu/direct` is set to True, otherwise to False.
+
+### RMU
+For the RMU the properties are changed according to complex rules coded in XML.
+Therefore, one should refer to the file `Models/Instruments/RMU/RMU1.xml`.
+No nasal code is called.
+
+### PEDESTRAL
+
+|Control | Property | Value | Indicator
+| --- | --- | --- | --- |
+|SEC TRIM | | | |
+|SEC TRIM NOSE | | | |
+|AUTOPILOT NOSE | | | |
+|SPOILERS|
+|THRUST LEFT|
+|THRUST RIGHT|
+|REVERSE LEFT|
+|REVERSE RIGHT|
+|???|
