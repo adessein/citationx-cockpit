@@ -3,11 +3,11 @@
 # Presentation
 
 The purpose of this project is to build a 1:1 home cockpit for flying the Cessna Citation X aircraft in Flightgear.  
-Flightgear is an open-source software that you can download on http://home.flightgear.org.  
+Flightgear is an open-source software that you can download on [flightgear.org](http://home.flightgear.org).  
 
 The Citation X that I use is the outstanding version developped by the PAF team (Patrouille de France).  
- - forum (in french) : http://equipe-flightgear.forumactif.com/  
- - repository : https://sourceforge.net/projects/pafteam/  
+ - forum equipe-flightgear (in french) : [equipe-flightgear.forumactif.com](http://equipe-flightgear.forumactif.com/)  
+ - repository pafteam on [sourceforge.net](https://sourceforge.net/projects/pafteam/)  
 
 Below are  
  - a screenshot from a [Youtube video](https://youtu.be/rzMN0wDuVSo?t=93) showing the cockpit.  

@@ -1,10 +1,9 @@
 # Interaction with the game
 
- - [Tenet](http://wiki.flightgear.org/Telnet_usage) 
- - [Python interface](https://sourceforge.net/p/flightgear/flightgear/ci/next/tree/scripts/python)
-
- - To change values in property tree: `set /controls/flight/aileron -0.1`
- - Executing NASAL code [http://wiki.flightgear.org/Telnet_usage#nasal]
+ - [Tenet](http://wiki.flightgear.org/Telnet_usage)  
+ - [Python interface](https://sourceforge.net/p/flightgear/flightgear/ci/next/tree/scripts/python)  
+ - To change values in property tree: `set /controls/flight/aileron -0.1`  
+ - Executing NASAL code [http://wiki.flightgear.org/Telnet_usage#nasal]  
 
 
 ## Controls and properties
@@ -83,25 +82,24 @@ Both PFD are linked together
 
 |Control | Property | Value |
 | --- | --- | --- |
-|Minimums| /instrumentation/pfd/minimums-radio | 0,50,...,1000 |
-|RA/BARO| /instrumentation/pfd/minimum-diff | pressed changed value -610,610 |
+|Minimums| /autopilot/settings/minimums | 0,50,...,1000|
+|RA/BARO| /autopilot/settings/minimums-mode | toggle (string)'BA'/'RA' |
 |STD| /instrumentation/altimeter/std | pressed = (bool)true / false |
-|BARO| /instrumentation/altimeter/setting-ingh |(double)26,26.01,...,33|
-|BARO| /instrumentation/altimeter/setting-kpa |automatically updated|
+|BARO| /instrumentation/altimeter/setting-ingh <BR> /instrumentation/altimeter/setting-kpa|(double)26,26.01,...,33 <BR> automatically updated|
 
 ### ABOVE PFD PILOT
 
-|Control | Property | Value | Indicator
-| --- | --- | --- | --- |
-|CRS1 sel|||
-|HDG sel|||
-|Nav1 select|||
-|PREV|||
-|NAV|||
-|FMS|||
-|Nav2 select|||
-|MWR|||
-|MCR|||
+|Control | Property | Value | Nasal | Indicator
+| --- | --- | --- | --- | --- |
+|CRS1 sel|instrumentation/nav/radials/selected-deg|turn: 0,1,...,360 <br>pressed: orientation/heading-magnetic-deg|
+|HDG sel|autopilot/settings/heading-bug-deg|turn: 0,1,...,360 <br>pressed: orientation/heading-magnetic-deg|
+|Nav1 select|instrumentation/primus2000/sc840/nav1ptr|OFF,VOR1,ADF1,FMS1 = 0,1,2,3|
+|PREV|NOT CONNECTED||
+|NAV|autopilot/settings/nav-btn|pressed = (bool)true / false|citation.nav_src_set("nav")|
+|FMS|autopilot/settings/fms-btn|pressed = (bool)true / false|citation.nav_src_set("fms")|
+|Nav2 select|instrumentation/primus2000/sc840/nav2ptr|OFF,VOR1,ADF1,FMS1 = 0,1,2,3|
+|MWR|instrumentation/annunciators/ack-warning|Press set to 1||(double)instrumentation/annunciators/warning = 0/1|
+|MCR|instrumentation/annunciators/master-caution|Press set to 1||(double)instrumentation/annunciators/caution = 0/1|
 
 ### MFD PILOT
 
@@ -138,6 +136,53 @@ Both PFD are linked together
 |PB 5| /instrumentation/mfd[1]/btn4 | pressed = (int)1 / 0 |
 |PB 6| /instrumentation/mfd[1]/btn5 | pressed = (int)1 / 0 |
 |Knob| /instrumentation/mfd[1]/range-nm | 10,20,40,80,160 |
+
+### LIGHTS (PILOT)
+
+| Control | Property | Value
+| --- | --- | --- |
+| EMERG LT | controls/lighting/emer-light  | OFF/ON/NORM = 0,1,2 |
+| DAY NIGHT | controls/lighting/day-night | OFF/DIM ON = (bool)false / true |
+| FLOOD LTS | controls/lighting/flood | 0,0.05,...,1 |
+| EL | controls/lighting/instruments-norm | 0,0.05,...,1 |
+| LH | controls/lighting/lh-lights | 0,0.05,...,1 |
+| CTR | controls/lighting/ctr-lights | 0,0.05,...,1 |
+
+### FUEL
+
+| Control | Property | Value | Nasal |
+| --- | --- | --- | --- |
+| CROSSFEED | controls/engines/xfeed  | LH TANK,OFF,RH TANK = -1,0,1| citation.crossfeed() [Fuel.nas] |
+| GRVTY XFLOW | controls/fuel/gravity-xflow | OFF / LWING RWING = (bool)false / true | citation.gravity_xflow() [Fuel.nas] |
+| CTR WING XFER O'RIDE L| controls/fuel/xfer-L | NORM,ON,LH = 0,1,2| |
+| CTR WING XFER O'RIDE R| controls/fuel/xfer-R | NORM,ON,LH = 0,1,2| |
+
+
+### DC POWER
+
+### AVIONICS
+
+| Control | Property | Value
+| --- | --- | --- |
+| AVN | controls/electric/avionics-switch | OFF/EICAS/AVN = 0,1,2 |
+
+### ENGINE STARTER
+
+### IGNITION
+
+### FUEL BOOST
+
+### FADEC
+
+### STBY PWR
+
+### ANTI-ICE
+
+### HYDRAULICS
+
+### LIGHTS (COPILOT)
+
+### PRESSURISATION
 
 ### CDU
 In the CitationX aircraft folder, the files `Models/Instruments/CDU.xml` and
@@ -217,4 +262,4 @@ No nasal code is called.
 |THRUST RIGHT|
 |REVERSE LEFT|
 |REVERSE RIGHT|
-|???|
+|FRICTION|
