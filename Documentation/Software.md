@@ -1,9 +1,36 @@
 # Interaction with the game
 
  - [Tenet](http://wiki.flightgear.org/Telnet_usage)  
+ - [Serial interface] http://wiki.flightgear.org/Howto:Use_Arduino_with_FlightGear#Code
  - [Python interface](https://sourceforge.net/p/flightgear/flightgear/ci/next/tree/scripts/python)  
  - To change values in property tree: `set /controls/flight/aileron -0.1`  
  - Executing NASAL code [http://wiki.flightgear.org/Telnet_usage#nasal]  
+
+First I have tried getting and setting data using the telnet interface over Wifi
+connection to my computer hosting the game.
+I do not know it was the Wifi connection or the interface, but the communication 
+was really slow. I tried to display the fan speed on a 7 segment display but it 
+was not realistic
+
+After that, I have tried the serial communication as and it looked perfect for
+fast varying values.
+
+I think I will use both:  
+ - Serial for fast changing values (7 seg display)  
+ - Telnet for events (using subscription) 
+ - Telnet for executing NASAL code.
+
+
+|Purpose | Flag |
+| --- | --- |
+Enable bi-directional serial connection | `--generic=serial,bi,30,/dev/ttyUSB0,9600,citationx-serial` | 
+|Enable telnet inteface | `--telnet=5050` |
+|Allow Nasal command over telnet | `--allow-nasal-from-sockets` |
+
+The serial connection is done  
+ - according to the format defined in `/usr/share/games/flightgear/Protocol/citationx-serial.xml`  
+ - 30 values per second  
+ - 9600 bauds  
 
 
 ## Controls and properties
@@ -11,8 +38,8 @@
 
 Both audio are linked together
 
-|Control | Property | Value | Indicator
-| --- | --- | --- | --- |
+|Control | Property | Value | Indicator| serial name |
+| --- | --- | --- | --- | --- |
 |COM 1| /instrumentation/audio/com1-mike | toggled = (bool)true / false | Green led
 |COM 2| /instrumentation/audio/com2-mike | toggled = (bool)true / false | Green led
 |HF 1 | /instrumentation/audio/hf1-mike | toggled = (bool)true / false | Green led
@@ -136,6 +163,19 @@ Both PFD are linked together
 |PB 5| /instrumentation/mfd[1]/btn4 | pressed = (int)1 / 0 |
 |PB 6| /instrumentation/mfd[1]/btn5 | pressed = (int)1 / 0 |
 |Knob| /instrumentation/mfd[1]/range-nm | 10,20,40,80,160 |
+
+### Engine indicator
+`Models/Instruments/Engines/ENG.nas`
+
+| Control | Property                    | Value      |
+| ------- | --------------------------- | ---------- |
+| N1% LE  | /engines/engine[0]/n1       | %.1f       |
+| N1% RE  | /engines/engine[1]/n1       | %.1f       |
+| ITT LE  | /engines/engine[0]/itt-norm | %.1f * 740 |
+| ITT RE  | /engines/engine[1]/itt-norm | %.1f * 740 |
+| N2% LE  | /engines/engine[0]/n2       | %.1f       |
+| N2% RE  | /engines/engine[1]/n2       | %.1f       |
+
 
 ### LIGHTS (PILOT)
 
